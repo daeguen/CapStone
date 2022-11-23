@@ -1,0 +1,716 @@
+{% load static %}
+{% load humanize %}
+{% load mathfilters %}
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta http-equiv="Expires" content="0"/>
+	<meta http-equiv="Pragma" content="no-cache"/>
+    <title>핏블리</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/logoicon.png' %}" />
+    
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/LineIcons.3.0.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/tiny-slider.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/glightbox.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+    
+    <!-- 실시간 검색어 -->
+    <style type="text/css">
+        #block {
+            border: 2px solid #0167F3;
+            padding: 0 5px;
+            height: 20px;
+            overflow: hidden;
+            background: #fff;
+            width: 250px;
+            font-family: Gulim;
+            font-size: 12px;
+        }
+        #block li,
+        #block ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #block li a {
+            display: block;
+            height: 20px;
+            line-height: 20px;
+            color: #555;
+            text-decoration: none;
+        }
+        #block li span {
+            padding: 2px 5px;
+            background: #0167F3;
+            color: #fff;
+            font-weight: bold;
+            margin-right: 3px;
+        }
+        
+        </style>
+</head>
+<body>
+{% block title %}
+<!-- 타이틀부분 시작 이부분이 로그인 있는 부분임 -->
+    <header class="header navbar-area">
+        <!-- Start Topbar -->
+        <div class="topbar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="top-left">
+                            <ul class="menu-top-link">
+                                <li>
+                                    <div>
+
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="top-middle">
+                            <ul class="useful-links">
+                            </ul>
+                        </div>
+                    </div>
+                    {% if memid %}
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="top-end">
+                            <div class="user">
+                                <i class="lni lni-user"></i>
+                                <span>{{memid}}</span>님 안녕하세요
+                            </div>
+                            <ul class="user-login">
+                                <li>
+                                    <a href="{% url 'member:logout' %}">Logout</a>
+                                </li>
+                                <li>
+                                    <a href="{% url 'member:mypage' %}">마이페이지</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    {% else %}
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <div class="top-end">
+                            <div class="user">
+                                <i class="lni lni-user"></i>
+                                로그인 후 이용해 주세요
+                            </div>
+                            <ul class="user-login">
+                                <li>
+                                    <a href="{% url 'member:login' %}">Login</a>
+                                </li>
+                                <li>
+                                    <a href="{% url 'member:signup' %}">Sign up</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+    <br>
+    {% block header %}
+        <!-- End Topbar -->
+        <!-- Start Header Middle -->
+        <div class="header-middle">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-3 col-7">
+                        <!-- Start Header Logo -->
+                        <!-- 로고이미지 -->
+                        <a class="navbar-brand" href="{% url 'member:index' %}">
+                            <img src="{% static 'images/fitlogo.jpg' %}" alt="Logo">
+                        </a>
+                        <!-- End Header Logo -->
+                    </div>
+                    <div class="col-lg-5 col-md-7 d-xs-none">
+                    <form class="search-input" name="searchnone" action="{% url 'search_product:searchResult' %}" method="get" onsubmit="return searchcheck()">
+                        <!-- Start Main Menu Search -->
+                        <div class="main-menu-search">
+                            <!-- navbar search start -->
+                            <div class="navbar-search search-style-5">
+                                <div class="search-select">
+                                </div>
+                                <div class="search-input">
+                                    <input type="text" placeholder="Search" name="product">
+                                </div>
+                                <div class="search-btn">
+                                    <button><i class="lni lni-search-alt"></i></button>
+                                </div>
+                            </div>
+                            <!-- navbar search Ends -->
+                        </div>
+                        <!-- End Main Menu Search -->
+                    </form>
+                    </div>
+                    <div class="col-lg-4 col-md-2 col-5">
+                        <div class="middle-right-area">
+                            <div class="nav-hotline">
+                                <div class="search-input">
+                                    <span>실시간 검색어</span>
+                                    <div class="mega-category-manu">
+                                        <div id="block">
+                                            <ul id="ticker" class="inner-sub-category" style="margin-top:-3px">
+                                                <!-- 이부분 필요하면 추가 할것 -->
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.0}}"><span>1</span>{{slr.title.0}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.1}}"><span>2</span>{{slr.title.1}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.2}}"><span>3</span>{{slr.title.2}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.3}}"><span>4</span>{{slr.title.3}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.4}}"><span>5</span>{{slr.title.4}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.5}}"><span>6</span>{{slr.title.5}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.6}}"><span>7</span>{{slr.title.6}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.7}}"><span>8</span>{{slr.title.7}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.8}}"><span>9</span>{{slr.title.8}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.9}}"><span>10</span>{{slr.title.9}}</a></li>                 
+                                            </ul>
+                                            <ul class="sub-category" style="margin-top: -25px; height: 320px; padding: 10px;">
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.0}}"><span>1</span>{{slr.title.0}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.1}}"><span>2</span>{{slr.title.1}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.2}}"><span>3</span>{{slr.title.2}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.3}}"><span>4</span>{{slr.title.3}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.4}}"><span>5</span>{{slr.title.4}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.5}}"><span>6</span>{{slr.title.5}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.6}}"><span>7</span>{{slr.title.6}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.7}}"><span>8</span>{{slr.title.7}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.8}}"><span>9</span>{{slr.title.8}}</a></li>
+                                                	<li style="margin-bottom: 8px;"><a href="{% url 'search_product:searchResult' %}?product={{slr.title.9}}"><span>10</span>{{slr.title.9}}</a></li>   
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- 이부분은 로그인 시 보이도록 하면 될듯 -->
+                            {% if memid %}
+		                            <div class="navbar-cart">
+		                                <div class="cart-items">
+		                                    <a href="javascript:void(0)" class="main-btn">
+		                                        <i class="lni lni-cart"></i>
+		                                        <!-- 장바구니에 몇개 있는지 -->
+		                                        <span class="total-items">{{cartcount}}</span>
+		                                    </a>
+		                                    	<!-- 장바구니  -->
+			                                    <div class="shopping-item">
+			                                        <div class="dropdown-cart-header">
+			                                            <span>{{cartcount}}개</span>
+			                                            <a onclick="location='../shopcart/prodcart'">장바구니</a>
+			                                        </div>
+			                                        {% for cart in cartlist %}
+			                                        <ul class="shopping-list">
+			                                            <li>
+			                                                <!-- 누르면 해당 물품으로 이동하도록 -->
+			                                                <a onclick="location='../shopcart/basecartdelete?cartnum={{cart.cartnum}}'" class="remove" title="Remove this item"><i class="lni lni-close"></i></a>
+			                                                        <!-- 상품 이미지 -->
+			                                                <div class="cart-img-head">
+			                                                    <a class="cart-img" onclick="location='../shopproduct/prodcontent?prodnum={{cart.prodnum.prodnum}}'"><img
+			                                                            src="{{cart.prodnum.prodmainimg.url}}" alt="#"></a>
+			                                                </div>
+			                                                <!-- 상품이름 -->
+			                                                <div class="content">
+			                                                    <h4><a href="product-details.html">
+			                                                           {{cart.prodname}}</a></h4>
+			                                                    <p class="quantity">{{cart.prodcount}}개 - <span class="amount">{{cart.prodnum.prodprice|mul:cart.prodcount|intcomma}}원</span></p>
+			                                                </div>
+			                                            </li>
+			                                        </ul>
+			                                       {% endfor %}
+			                                        <div class="bottom">
+			                                            <div class="total">
+			                                                <span>Total</span>
+			                                                <span class="total-amount">{{totalprice|intcomma}}원</span>
+			                                            </div>
+			                                            <div class="button">
+			                                                <a href="../shopcart/prodcart" class="btn animate">장바구니 이동</a>
+			                                            </div>
+			                                        </div>
+			                                    </div>
+		                                    	<!-- End Shopping Item -->
+		                                </div>
+		                            </div>
+                            {% endif %}
+                            <!-- 이부분 까지임 -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Middle -->
+        <!-- Start Header Bottom -->
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-6 col-12">
+                    <div class="nav-inner">
+                        <!-- Start Mega Category Menu -->
+                        <div class="mega-category-menu" style="z-index: 3;">
+                            <span class="cat-button"><i class="lni lni-menu"></i>카테고리</span>
+                            <ul class="sub-category">
+                                <!-- 규호 -->
+                                <li><a href="{% url 'product:northface' %}">노스페이스<i class="lni lni-chevron-right"></i></a>
+                                    <ul class="inner-sub-category">
+                                        <li><a href="{% url 'product:northfacec' %}?prodbrand=노스페이스&proditems=반팔티">반팔티</a></li>
+                                        <li><a href="{% url 'product:northfacec' %}?prodbrand=노스페이스&proditems=긴팔티">긴팔티</a></li>
+                                        <li><a href="{% url 'product:northfacec' %}?prodbrand=노스페이스&proditems=아우터">아우터</a></li>
+                                        <li><a href="{% url 'product:northfacec' %}?prodbrand=노스페이스&proditems=반바지">반바지</a></li>
+                                        <li><a href="{% url 'product:northfacec' %}?prodbrand=노스페이스&proditems=긴바지">긴바지</a></li>
+                                        <li><a href="{% url 'product:northfacec' %}?prodbrand=노스페이스&proditems=치마">치마</a></li>
+                                        <li><a href="{% url 'product:northfacec' %}?prodbrand=노스페이스&proditems=한벌옷">한벌옷</a></li>
+                                        <li><a href="{% url 'product:northfacec' %}?prodbrand=노스페이스&proditems=신발">신발</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="{% url 'product:kang' %}">캉골<i class="lni lni-chevron-right"></i></a>
+                                    <ul class="inner-sub-category">
+                                        <li><a href="{% url 'product:kangc' %}?prodbrand=캉골&proditems=반팔티">반팔티</a></li>
+                                        <li><a href="{% url 'product:kangc' %}?prodbrand=캉골&proditems=긴팔티">긴팔티</a></li>
+                                        <li><a href="{% url 'product:kangc' %}?prodbrand=캉골&proditems=아우터">아우터</a></li>
+                                        <li><a href="{% url 'product:kangc' %}?prodbrand=캉골&proditems=반바지">반바지</a></li>
+                                        <li><a href="{% url 'product:kangc' %}?prodbrand=캉골&proditems=긴바지">긴바지</a></li>
+                                        <li><a href="{% url 'product:kangc' %}?prodbrand=캉골&proditems=치마">치마</a></li>
+                                        <li><a href="{% url 'product:kangc' %}?prodbrand=캉골&proditems=한벌옷">한벌옷</a></li>
+                                        <li><a href="{% url 'product:kangc' %}?prodbrand=캉골&proditems=신발">신발</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="{% url 'product:spao' %}">스파오<i class="lni lni-chevron-right"></i></a>
+                                    <ul class="inner-sub-category">
+                                        <li><a href="{% url 'product:spaoc' %}?prodbrand=스파오&proditems=반팔티">반팔티</a></li>
+                                        <li><a href="{% url 'product:spaoc' %}?prodbrand=스파오&proditems=긴팔티">긴팔티</a></li>
+                                        <li><a href="{% url 'product:spaoc' %}?prodbrand=스파오&proditems=아우터">아우터</a></li>
+                                        <li><a href="{% url 'product:spaoc' %}?prodbrand=스파오&proditems=반바지">반바지</a></li>
+                                        <li><a href="{% url 'product:spaoc' %}?prodbrand=스파오&proditems=긴바지">긴바지</a></li>
+                                        <li><a href="{% url 'product:spaoc' %}?prodbrand=스파오&proditems=치마">치마</a></li>
+                                        <li><a href="{% url 'product:spaoc' %}?prodbrand=스파오&proditems=한벌옷">한벌옷</a></li>
+                                        <li><a href="{% url 'product:spaoc' %}?prodbrand=스파오&proditems=신발">신발</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="{% url 'product:hm' %}">H&M<i class="lni lni-chevron-right"></i></a>
+                                    <ul class="inner-sub-category">
+                                        <li><a href="{% url 'product:hmc' %}?prodbrand=HnM&proditems=반팔티">반팔티</a></li>
+                                        <li><a href="{% url 'product:hmc' %}?prodbrand=HnM&proditems=긴팔티">긴팔티</a></li>
+                                        <li><a href="{% url 'product:hmc' %}?prodbrand=HnM&proditems=아우터">아우터</a></li>
+                                        <li><a href="{% url 'product:hmc' %}?prodbrand=HnM&proditems=반바지">반바지</a></li>
+                                        <li><a href="{% url 'product:hmc' %}?prodbrand=HnM&proditems=긴바지">긴바지</a></li>
+                                        <li><a href="{% url 'product:hmc' %}?prodbrand=HnM&proditems=치마">치마</a></li>
+                                        <li><a href="{% url 'product:hmc' %}?prodbrand=HnM&proditems=한벌옷">한벌옷</a></li>
+                                        <li><a href="{% url 'product:hmc' %}?prodbrand=HnM&proditems=신발">신발</a></li>
+                                    </ul>
+                                </li>
+                                
+                                <!-- 정국 -->
+                                <li><a href="{% url 'product:nike' %}">나이키<i class="lni lni-chevron-right"></i></a>
+                                    <ul class="inner-sub-category">
+                                        <li><a href="{% url 'product:nikec' %}?prodbrand=나이키&proditems=반팔티">반팔티</a></li>
+                                        <li><a href="{% url 'product:nikec' %}?prodbrand=나이키&proditems=긴팔티">긴팔티</a></li>
+                                        <li><a href="{% url 'product:nikec' %}?prodbrand=나이키&proditems=아우터">아우터</a></li>
+                                        <li><a href="{% url 'product:nikec' %}?prodbrand=나이키&proditems=반바지">반바지</a></li>
+                                        <li><a href="{% url 'product:nikec' %}?prodbrand=나이키&proditems=긴바지">긴바지</a></li>
+                                        <li><a href="{% url 'product:nikec' %}?prodbrand=나이키&proditems=치마">치마</a></li>
+                                        <li><a href="{% url 'product:nikec' %}?prodbrand=나이키&proditems=한벌옷">한벌옷</a></li>
+                                        <li><a href="{% url 'product:nikec' %}?prodbrand=나이키&proditems=신발">신발</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="{% url 'product:adidas' %}">아디다스<i class="lni lni-chevron-right"></i></a>
+                                    <ul class="inner-sub-category">
+                                        <li><a href="{% url 'product:adidasc' %}?prodbrand=아디다스&proditems=반팔티">반팔티</a></li>
+                                        <li><a href="{% url 'product:adidasc' %}?prodbrand=아디다스&proditems=긴팔티">긴팔티</a></li>
+                                        <li><a href="{% url 'product:adidasc' %}?prodbrand=아디다스&proditems=아우터">아우터</a></li>
+                                        <li><a href="{% url 'product:adidasc' %}?prodbrand=아디다스&proditems=반바지">반바지</a></li>
+                                        <li><a href="{% url 'product:adidasc' %}?prodbrand=아디다스&proditems=긴바지">긴바지</a></li>
+                                        <li><a href="{% url 'product:adidasc' %}?prodbrand=아디다스&proditems=치마">치마</a></li>
+                                        <li><a href="{% url 'product:adidasc' %}?prodbrand=아디다스&proditems=한벌옷">한벌옷</a></li>
+                                        <li><a href="{% url 'product:adidasc' %}?prodbrand=아디다스&proditems=신발">신발</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="{% url 'product:nb' %}">뉴발란스<i class="lni lni-chevron-right"></i></a>
+                                    <ul class="inner-sub-category">
+                                        <li><a href="{% url 'product:nbc' %}?prodbrand=뉴발란스&proditems=반팔티">반팔티</a></li>
+                                        <li><a href="{% url 'product:nbc' %}?prodbrand=뉴발란스&proditems=긴팔티">긴팔티</a></li>
+                                        <li><a href="{% url 'product:nbc' %}?prodbrand=뉴발란스&proditems=아우터">아우터</a></li>
+                                        <li><a href="{% url 'product:nbc' %}?prodbrand=뉴발란스&proditems=반바지">반바지</a></li>
+                                        <li><a href="{% url 'product:nbc' %}?prodbrand=뉴발란스&proditems=긴바지">긴바지</a></li>
+                                        <li><a href="{% url 'product:nbc' %}?prodbrand=뉴발란스&proditems=치마">치마</a></li>
+                                        <li><a href="{% url 'product:nbc' %}?prodbrand=뉴발란스&proditems=한벌옷">한벌옷</a></li>
+                                        <li><a href="{% url 'product:nbc' %}?prodbrand=뉴발란스&proditems=신발">신발</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="{% url 'product:muji' %}">무지<i class="lni lni-chevron-right"></i></a>
+                                    <ul class="inner-sub-category">
+                                        <li><a href="{% url 'product:mujic' %}?prodbrand=무지&proditems=반팔티">반팔티</a></li>
+                                        <li><a href="{% url 'product:mujic' %}?prodbrand=무지&proditems=긴팔티">긴팔티</a></li>
+                                        <li><a href="{% url 'product:mujic' %}?prodbrand=무지&proditems=아우터">아우터</a></li>
+                                        <li><a href="{% url 'product:mujic' %}?prodbrand=무지&proditems=반바지">반바지</a></li>
+                                        <li><a href="{% url 'product:mujic' %}?prodbrand=무지&proditems=긴바지">긴바지</a></li>
+                                        <li><a href="{% url 'product:mujic' %}?prodbrand=무지&proditems=치마">치마</a></li>
+                                        <li><a href="{% url 'product:mujic' %}?prodbrand=무지&proditems=한벌옷">한벌옷</a></li>
+                                        <li><a href="{% url 'product:mujic' %}?prodbrand=무지&proditems=신발">신발</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Mega Category Menu -->
+                        <!-- Start Navbar -->
+                        <!-- 카테고리 옆 배너임 -->
+                        <nav class="navbar navbar-expand-lg">
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="{% url 'qnaboard:qnalist' %}" class="active" aria-label="Toggle navigation">qna</a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="{% url 'notice:noticelist' %}" class="active" aria-label="Toggle navigation">공지사항</a>
+                                    </li>
+                                    <!-- 필요시 이부분 추가 1-2 이부분 1-3 이런식으로 작성하여 추가해야함 -->
+                                    <!-- 여기까지 -->
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav>
+                        <!-- End Navbar -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Nav Social -->
+                    <div class="nav-social">
+                    </div>
+                    <!-- End Nav Social -->
+                </div>
+            </div>
+        </div>
+        
+      {% block locationbar %}
+        <!-- 최근본 상품 -->
+        {% if memid %}
+		      <div style="margin-left:90%;">
+			     <div class="productmain" style="text-align:center; background-color:#081828">
+			     	<span style="color:white;">최근 본 상품</span>
+			        <div class="productbardis" style="background-color:white;">
+					    <!--@css(/css/module/layout/productRecent.css)-->
+					    <ul>
+					    {% for recentProduct in recentProducts %}
+					        <li class="productbar">
+					            <a href="../shopproduct/prodcontent?prodnum={{recentProduct.prodnum}}"><img src="{{recentProduct.prodmainimg.url}}" alt="" /><span>&nbsp;</span></a>
+					            <div class="prodtext">
+							      <h2><a href="../shopproduct/prodcontent?prodnum={{recentProduct.prodnum}}">{{recentProduct.prodname}}</a></h2>
+							      <p>{{recentProduct.prodprice|intcomma}}원</p>
+							    </div>
+					        </li>
+					    {% endfor %}
+					    </ul>
+					     <button class="prev" style="border:none; margin-right:20px;" onclick="slider(-1)">&lt;</button>
+		            	 <span id="now">1</span>/<span id="total">1</span>
+		        		 <button class="next" style="border:none; margin-left:20px;" onclick="slider(1)">&gt;</button>
+					</div>
+				</div>
+			</div>
+			
+	{% endif %}
+	<!-- 여기까지 -->
+	{% endblock %}
+        <!-- End Header Bottom -->
+    </header>
+{% endblock %}
+
+<!-- 헤더 끝 -->
+
+
+
+
+{% block contents %}
+
+{% endblock %}
+
+
+
+{% block footer %}
+<!-- 하단 배너부분임 -->
+<!-- 이부분도 수정하면 될듯 -->
+<footer class="footer">
+    <!-- Start Footer Top -->
+    <div class="footer-top">
+        <div class="container">
+            <div class="inner-content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-12">
+                        <div class="footer-logo">
+                            <a href="{% url 'member:index' %}">
+                                <img src="{% static 'images/fitlogo.jpg' %}" alt="#">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8 col-12">
+                        <div class="footer-newsletter">
+                            <h4 class="title">
+                                핏블리 온라인 쇼핑몰
+                                <span>(주)Just Do </span>
+                            </h4>
+                            <div class="newsletter-form-head">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Top -->
+    <!-- Start Footer Middle -->
+    <div class="footer-middle">
+        <div class="container">
+            <div class="bottom-inner">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Single Widget --> 
+                        <div class="single-footer f-contact">
+                            <h3>상호명</h3>
+                            <p class="phone">사업자 등록번호 : 111-11-1111</p>
+                            <ul>
+                                <li><span>고객센터 운영시간: </span> 오전 09:00 - 오후 8:00</li>
+                                <li><span>주말 및 공휴일: </span> </li>
+                            </ul>
+                            <p class="mail">
+                                <a href="mailto:support@shopgrids.com">Fitvely@fitvely.com</a>
+                            </p>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer our-app">
+                            <h3>다운로드</h3>
+                            <ul class="app-btn">
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="lni lni-apple"></i>
+                                        <span class="small-title">다운로드</span>
+                                        <span class="big-title">App Store</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">
+                                        <i class="lni lni-play-store"></i>
+                                        <span class="small-title">다운로드</span>
+                                        <span class="big-title">Google Play</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <h3>정보</h3>
+                            <ul>
+                                <li><a href="javascript:void(0)">개인정보 처리방침</a></li>
+                                <li><a href="javascript:void(0)">안전거래센터</a></li>
+                                <li><a href="javascript:void(0)">사이버 범죄 신고</a></li>
+                                <li><a href="javascript:void(0)">안전거래센터</a></li>
+                                <li><a href="javascript:void(0)">저작권 침해 신고</a></li>
+                            </ul>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <h3>협업 브랜드</h3>
+                            <ul>                            
+                                <li><a href="javascript:void(0)">브랜드 의류 상품</a></li>
+                                <li><a href="javascript:void(0)">브랜드 신발</a></li>
+                            </ul>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Middle -->
+</footer>
+{% endblock %}
+<!-- 스크립트 부분 건드리지 말것 -->
+ <!-- ========================= scroll-top ========================= -->
+<a href="#" class="scroll-top" style="z-index:100">
+    <i class="lni lni-chevron-up"></i>
+</a>
+<!-- ========================= JS here ========================= -->
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/tiny-slider.js' %}"></script>
+<script src="{% static 'js/glightbox.min.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+<script src="{% static 'js/script.js' %}"></script>
+<script src="{% static 'js/jquery-3.6.0.js' %}"></script>
+<script src="{% static 'js/10-11.js' %}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<!-- 팝업창 -->  
+<script>
+$(document).ready(
+		function() {
+    $("input[name=user_repasswd]").on(
+			"keyup",
+			function(event){
+				var user_passwd = $("input[name=user_passwd").val(); // passwd의 값
+				var user_repasswd = $("input[name=user_repasswd").val(); // repasswd의 값
+				if(user_passwd == user_repasswd){
+					$("#passwdcheck").html("비밀번호가 같습니다").css("color","green");
+				}else {
+					$("#passwdcheck").html("비밀번호가 다릅니다").css("color","red");
+				}
+			}
+		);
+			}
+		);
+	</script>
+<!-- 별점 -->
+<script type="text/javascript">
+    //별점 마킹 모듈 프로토타입으로 생성
+    function Rating(){};
+    Rating.prototype.rate = 0;
+    Rating.prototype.setRate = function(newrate){
+        //별점 마킹 - 클릭한 별 이하 모든 별 체크 처리
+        this.rate = newrate;
+        let items = document.querySelectorAll('.rate_radio');
+        items.forEach(function(item, idx){
+            if(idx < newrate){
+                item.checked = true;
+            }else{
+                item.checked = false;
+            }
+        });
+    }
+    let rating = new Rating();//별점 인스턴스 생성
+</script>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+    //별점선택 이벤트 리스너
+    document.querySelector('.rating').addEventListener('click',function(e){
+        let elem = e.target;
+        if(elem.classList.contains('rate_radio')){
+            rating.setRate(parseInt(elem.value));
+        }
+    })
+});
+</script>
+<script type="text/javascript">
+        document.querySelector('#save').addEventListener('click', function(e){
+        //별점 선택 안했으면 메시지 표시
+    });
+</script>
+<!-- 여기까지가 별점 -->
+
+<!-- 상품 보기 페이지 상품이미지 클릭시 확대 -->
+<script type="text/javascript">
+    const current = document.getElementById("current");
+    const opacity = 0.6;
+    const imgs = document.querySelectorAll(".img");
+    imgs.forEach(img => {
+        img.addEventListener("click", (e) => {
+            //reset opacity
+            imgs.forEach(img => {
+                img.style.opacity = 1;
+            });
+            current.src = e.target.src;
+            //adding class 
+            //current.classList.add("fade-in");
+            //opacity
+            e.target.style.opacity = opacity;
+        });
+    });
+</script>
+
+<!-- 주소찾기 -->
+<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+<script type="text/javascript">
+    function kakaoaddress() {
+        new daum.Postcode({
+            oncomplete: function(data) {
+                document.querySelector("#address").value = data.address
+            }
+        }).open();
+    }
+</script>
+
+<!-- 실시간 검색어 슬라이드 부분 -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function()
+    {
+        var ticker = function()
+        {
+            setTimeout(function(){
+                $('#ticker li:first').animate( {marginTop: '-20px'}, 400, function()
+                {
+                    $(this).detach().appendTo('ul#ticker').removeAttr('style');
+                });
+                ticker();
+            }, 3000);
+        };
+        ticker();
+    });
+    </script>
+
+<script type="text/javascript">
+    //========= Hero Slider 
+    tns({
+        container: '.hero-slider',
+        slideBy: 'page',
+        autoplay: true,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        gutter: 0,
+        items: 1,
+        nav: false,
+        controls: true,
+        controlsText: ['<i class="lni lni-chevron-left"></i>', '<i class="lni lni-chevron-right"></i>'],
+    });
+
+    //======== Brand Slider
+    tns({
+        container: '.brands-logo-carousel',
+        autoplay: true,
+        autoplayButtonOutput: false,
+        mouseDrag: true,
+        gutter: 15,
+        nav: false,
+        controls: false,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            540: {
+                items: 3,
+            },
+            768: {
+                items: 5,
+            },
+            992: {
+                items: 6,
+            }
+        }
+    });
+</script>
+</body>
+</html>

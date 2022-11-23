@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+
+{% block title %}{% endblock %}
+{% block header %} {% endblock %}
+
+{% block contents %}
+{% csrf_token %}
+<script>
+	// 자동으로 창이 닫히게 하는 함수
+	function popupClose(form) {
+		// target은 부모로 설정
+		form.target = opener.name;
+		form.submit();
+		if(opener != null) {
+			opener.userdeleteForm = null;
+			self.close();
+		}
+	}
+</script>
+<header class="header navbar-area" style="position:absolute;">
+        <section class="hero-area">
+            <div class="container">
+                <div class="col-12">
+                    <div class="section-title">
+                        <div class="main-menu-search" style="margin-left:200px;">
+                            <form method="post" name="deleteform" action="delete" target="{% url 'member:mypage' %}" onsubmit="return deletecheck()">
+                                <table>
+                                    <tr>
+                                        <div>
+                                            <th><h3>비밀번호를 입력해 주세요<br><br></h3></th>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <th>
+	                                        <div class="navbar-search search-style-5">
+	                                            <div class="search-input">
+	                                                <input type="password" placeholder="비밀번호" name="user_passwd" autofocus style="width:400px"><!-- name 추가 할것 -->
+	                                                <br>
+	                                                {% if message %}
+	                                                	<span style="color:red">{{message}}</span>
+	                                                {% endif %}
+	                                            </div>
+	                                        </div>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <br>
+                                            <div class="search-input" style="display:flex" style="width:1400px;">
+                                                <input type="submit" value="탈퇴하기" style="background-color:lightblue" onclick="window.close()">
+                                                <input type="button" value="취소" style="background-color:lightblue" onclick="window.close()">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

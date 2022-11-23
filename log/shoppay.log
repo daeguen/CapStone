@@ -1,0 +1,241 @@
+[2022-10-07 15:16:14,868] INFO [shoppay:95] paymentsuccess user_id:aaa gender:남자 paydetailnum:9 prodnum:407 prodname:브라이튼 II prodoption:240/아이보리 prodcount:1 date:2022-10-07 15:16:14
+[2022-10-12 08:16:22,104] INFO [shoppay:95] paymentsuccess user_id:aaa gender:남자 paydetailnum:1 prodnum:409 prodname:브릴리언트 prodoption:240/아이보리 prodcount:1 date:2022-10-12 08:16:22
+[2022-10-12 08:20:35,545] INFO [shoppay:95] paymentsuccess user_id:bbb gender:남자 paydetailnum:2 prodnum:409 prodname:브릴리언트 prodoption:240/아이보리 prodcount:1 date:2022-10-12 08:20:35
+[2022-10-12 08:27:04,024] INFO [shoppay:95] paymentsuccess user_id:aaa gender:남자 paydetailnum:3 prodnum:407 prodname:브라이튼 II prodoption:240/아이보리 prodcount:1 date:2022-10-12 08:27:04
+[2022-10-12 08:31:32,558] INFO [shoppay:95] paymentsuccess user_id:aaa gender:남자 paydetailnum:4 prodnum:231 prodname:롱 레드와인  스커트 prodoption:XS/아이보리 prodcount:1 date:2022-10-12 08:31:32
+[2022-10-12 09:17:52,090] INFO [shoppay:95] paymentsuccess user_id:bbb gender:남자 paydetailnum:5 prodnum:400 prodname:옥스포드 셔츠 prodoption:XS/아이보리 prodcount:1 date:2022-10-12 09:17:52
+[2022-10-12 14:18:47,498] INFO [shoppay:95] paymentsuccess user_id:ccc gender:남자 paydetailnum:6 prodnum:409 prodname:브릴리언트 prodoption:240/아이보리 prodcount:1 date:2022-10-12 14:18:47
+[2022-10-12 17:33:56,237] INFO [shoppay:183] cartpaysuccess user_id:ham paydetailnum:Noneprodnum:23 prodname:루브 prodoption:XS/아이보리 prodprice:59800 date:2022-10-12 17:33:56
+[2022-10-12 17:33:56,247] INFO [shoppay:183] cartpaysuccess user_id:ham paydetailnum:Noneprodnum:356 prodname:사탄들렸어 팬츠 prodoption:XS/아이보리 prodprice:200000 date:2022-10-12 17:33:56
+[2022-10-12 17:33:56,256] INFO [shoppay:183] cartpaysuccess user_id:ham paydetailnum:Noneprodnum:912 prodname:나이키 맨투맨 prodoption:XS/아이보리 prodprice:16000 date:2022-10-12 17:33:56
+[2022-10-12 17:36:32,972] INFO [shoppay:95] paymentsuccess user_id:you gender:남자 paydetailnum:10 prodnum:912 prodname:나이키 맨투맨 prodoption:XS/아이보리 prodcount:1 date:2022-10-12 17:36:32
+[2022-10-12 17:51:33,746] INFO [shoppay:95] paymentsuccess user_id:aaa gender:남자 paydetailnum:11 prodnum:112 prodname:블랙메이플티 prodoption:XS/아이보리 prodcount:1 date:2022-10-12 17:51:33
+[2022-10-12 19:27:19,717] INFO [shoppay:95] paymentsuccess user_id:aaa gender:남자 paydetailnum:12 prodnum:356 prodname:사탄들렸어 팬츠 prodoption:XS/아이보리 prodcount:1 date:2022-10-12 19:27:19
+[2022-10-13 10:46:13,605] INFO [shoppay:95] paymentsuccess user_id:aaa gender:남자 paydetailnum:13 prodnum:158 prodname:서니 하이킹 prodoption:M/블랙 prodcount:10 date:2022-10-13 10:46:13
+[2022-10-13 10:50:56,734] INFO [shoppay:95] paymentsuccess user_id:aaa gender:남자 paydetailnum:14 prodnum:407 prodname:브라이튼 II prodoption:270/차콜 prodcount:5 date:2022-10-13 10:50:56
+[2022-10-18 10:30:07,932] INFO [shoppay:96] paymentsuccess user_id:www gender:남자 paydetailnum:15 prodnum:407 prodname:브라이튼 II prodoption:240/아이보리 prodcount:1 date:2022-10-18 10:30:07
+[2022-10-18 13:14:36,819] INFO [shoppay:96] paymentsuccess user_id:www gender:남자 paydetailnum:16 prodnum:129 prodname:css tee prodoption:XS/아이보리 prodcount:1 date:2022-10-18 13:14:36
+[2022-10-18 13:34:21,946] INFO [shoppay:96] paymentsuccess user_id:qqq gender:남자 paydetailnum:17 prodnum:201 prodname:폴 유키 아이즈 prodoption:L/아이보리 prodcount:1 date:2022-10-18 13:34:21
+[2022-10-19 09:05:07,569] INFO [shoppay:96] paymentsuccess user_id:aaa gender:남자 paydetailnum:18 prodnum:412 prodname:404에러티 prodoption:L/화이트 prodcount:3 date:2022-10-19 09:05:07
+[2022-10-19 09:06:20,212] INFO [shoppay:96] paymentsuccess user_id:aaa gender:남자 paydetailnum:19 prodnum:355 prodname:구름이 구르미 LV2 prodoption:L/블랙 prodcount:2 date:2022-10-19 09:06:20
+[2022-10-19 09:07:09,570] INFO [shoppay:200] cartpaysuccess user_id:aaa paydetailnum:Noneprodnum:807 prodname:그레이 셔츠 prodoption:L/아이보리 prodprice:16000 date:2022-10-19 09:07:09
+[2022-10-19 09:07:09,577] INFO [shoppay:200] cartpaysuccess user_id:aaa paydetailnum:Noneprodnum:197 prodname:폴 레빗 prodoption:L/아이보리 prodprice:145000 date:2022-10-19 09:07:09
+[2022-10-19 09:07:09,585] INFO [shoppay:200] cartpaysuccess user_id:aaa paydetailnum:Noneprodnum:912 prodname:나이키 맨투맨 prodoption:L/아이보리 prodprice:16000 date:2022-10-19 09:07:09
+[2022-10-19 09:08:49,917] INFO [shoppay:96] paymentsuccess user_id:sex1 gender:남자 paydetailnum:23 prodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodcount:1 date:2022-10-19 09:08:49
+[2022-10-19 09:10:02,069] INFO [shoppay:96] paymentsuccess user_id:ham gender:남자 paydetailnum:24 prodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodcount:1 date:2022-10-19 09:10:02
+[2022-10-19 09:10:41,333] INFO [shoppay:96] paymentsuccess user_id:ham gender:남자 paydetailnum:25 prodnum:231 prodname:롱 레드와인  스커트 prodoption:XS/아이보리 prodcount:1 date:2022-10-19 09:10:41
+[2022-10-19 09:11:04,578] INFO [shoppay:96] paymentsuccess user_id:jk gender:여자 paydetailnum:26 prodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodcount:1 date:2022-10-19 09:11:04
+[2022-10-19 09:11:24,228] INFO [shoppay:200] cartpaysuccess user_id:ham paydetailnum:Noneprodnum:146 prodname:그린라 prodoption:XS/아이보리 prodprice:11000 date:2022-10-19 09:11:24
+[2022-10-19 09:11:24,235] INFO [shoppay:200] cartpaysuccess user_id:ham paydetailnum:Noneprodnum:914 prodname:나이키 히트텍 prodoption:XS/아이보리 prodprice:43000 date:2022-10-19 09:11:24
+[2022-10-19 09:11:24,244] INFO [shoppay:200] cartpaysuccess user_id:ham paydetailnum:Noneprodnum:92 prodname:아디다스 맨인블랙티2 prodoption:XS/아이보리 prodprice:44000 date:2022-10-19 09:11:24
+[2022-10-19 09:11:24,253] INFO [shoppay:200] cartpaysuccess user_id:ham paydetailnum:Noneprodnum:474 prodname:IU PICK OUTER 청첨 prodoption:XS/아이보리 prodprice:5950000 date:2022-10-19 09:11:24
+[2022-10-19 09:11:24,260] INFO [shoppay:200] cartpaysuccess user_id:ham paydetailnum:Noneprodnum:701 prodname:테크 플리스 후드 집업 prodoption:XS/아이보리 prodprice:555000 date:2022-10-19 09:11:24
+[2022-10-19 09:12:38,221] INFO [shoppay:96] paymentsuccess user_id:jk gender:여자 paydetailnum:32 prodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodoption:XS/아이보리 prodcount:1 date:2022-10-19 09:12:38
+[2022-10-19 09:12:49,992] INFO [shoppay:200] cartpaysuccess user_id:bbb paydetailnum:Noneprodnum:584 prodname:퍼플 맨투맨 prodoption:L/아이보리 prodprice:19000 date:2022-10-19 09:12:49
+[2022-10-19 09:12:49,999] INFO [shoppay:200] cartpaysuccess user_id:bbb paydetailnum:Noneprodnum:503 prodname:바이더 헤이즈 100A prodoption:L/아이보리 prodprice:198000 date:2022-10-19 09:12:49
+[2022-10-19 09:12:50,008] INFO [shoppay:200] cartpaysuccess user_id:bbb paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:L/아이보리 prodprice:16000 date:2022-10-19 09:12:50
+[2022-10-19 09:12:50,016] INFO [shoppay:200] cartpaysuccess user_id:bbb paydetailnum:Noneprodnum:327 prodname:호그와트 기숙사 잠옷 prodoption:L/아이보리 prodprice:11000 date:2022-10-19 09:12:50
+[2022-10-19 09:12:50,026] INFO [shoppay:200] cartpaysuccess user_id:bbb paydetailnum:Noneprodnum:800 prodname:화이트 리본 아우터 prodoption:L/아이보리 prodprice:12000 date:2022-10-19 09:12:50
+[2022-10-19 09:14:03,729] INFO [shoppay:200] cartpaysuccess user_id:jk paydetailnum:Noneprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodoption:XS/아이보리 prodprice:33000 date:2022-10-19 09:14:03
+[2022-10-19 09:14:03,736] INFO [shoppay:200] cartpaysuccess user_id:jk paydetailnum:Noneprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodoption:XS/아이보리 prodprice:33000 date:2022-10-19 09:14:03
+[2022-10-19 09:14:03,742] INFO [shoppay:200] cartpaysuccess user_id:jk paydetailnum:Noneprodnum:915 prodname:나이키 기모티 prodoption:XS/아이보리 prodprice:46000 date:2022-10-19 09:14:03
+[2022-10-19 09:14:03,749] INFO [shoppay:200] cartpaysuccess user_id:jk paydetailnum:Noneprodnum:358 prodname:골든 할렘 팬츠 prodoption:XS/아이보리 prodprice:89000 date:2022-10-19 09:14:03
+[2022-10-19 09:14:03,759] INFO [shoppay:200] cartpaysuccess user_id:jk paydetailnum:Noneprodnum:846 prodname:콘벤츠 티 prodoption:XS/아이보리 prodprice:1990 date:2022-10-19 09:14:03
+[2022-10-19 09:14:03,769] INFO [shoppay:200] cartpaysuccess user_id:jk paydetailnum:Noneprodnum:394 prodname:루즈핏 시어 서커 스트라이프 셔츠 prodoption:XS/아이보리 prodprice:33000 date:2022-10-19 09:14:03
+[2022-10-19 09:17:03,957] INFO [shoppay:96] paymentsuccess user_id:jk gender:여자 paydetailnum:44 prodnum:368 prodname:케이블 스웨터 prodoption:XS/아이보리 prodcount:1 date:2022-10-19 09:17:03
+[2022-10-19 09:18:36,419] INFO [shoppay:200] cartpaysuccess user_id:ccc paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:L/아이보리 prodprice:16000 date:2022-10-19 09:18:36
+[2022-10-19 09:18:36,427] INFO [shoppay:200] cartpaysuccess user_id:ccc paydetailnum:Noneprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodoption:L/아이보리 prodprice:33000 date:2022-10-19 09:18:36
+[2022-10-19 09:18:36,435] INFO [shoppay:200] cartpaysuccess user_id:ccc paydetailnum:Noneprodnum:627 prodname:엉클 캔버스 prodoption:270/아이보리 prodprice:48000 date:2022-10-19 09:18:36
+[2022-10-19 09:18:36,442] INFO [shoppay:200] cartpaysuccess user_id:ccc paydetailnum:Noneprodnum:503 prodname:바이더 헤이즈 100A prodoption:L/아이보리 prodprice:198000 date:2022-10-19 09:18:36
+[2022-10-19 09:18:36,451] INFO [shoppay:200] cartpaysuccess user_id:ccc paydetailnum:Noneprodnum:329 prodname:와이드 데님 팬츠 prodoption:L/아이보리 prodprice:50000 date:2022-10-19 09:18:36
+[2022-10-19 09:19:19,806] INFO [shoppay:200] cartpaysuccess user_id:k paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:19:19
+[2022-10-19 09:19:19,813] INFO [shoppay:200] cartpaysuccess user_id:k paydetailnum:Noneprodnum:233 prodname:브라운 롱 스커트 prodoption:XS/아이보리 prodprice:78492 date:2022-10-19 09:19:19
+[2022-10-19 09:19:19,820] INFO [shoppay:200] cartpaysuccess user_id:k paydetailnum:Noneprodnum:848 prodname:백색 무지 쿨티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:19:19
+[2022-10-19 09:19:19,829] INFO [shoppay:200] cartpaysuccess user_id:k paydetailnum:Noneprodnum:798 prodname:푸른색 셔츠 prodoption:XS/아이보리 prodprice:11000 date:2022-10-19 09:19:19
+[2022-10-19 09:19:19,836] INFO [shoppay:200] cartpaysuccess user_id:k paydetailnum:Noneprodnum:394 prodname:루즈핏 시어 서커 스트라이프 셔츠 prodoption:XS/아이보리 prodprice:33000 date:2022-10-19 09:19:19
+[2022-10-19 09:19:19,844] INFO [shoppay:200] cartpaysuccess user_id:k paydetailnum:Noneprodnum:389 prodname:이지 스웨트 팬츠 prodoption:XS/아이보리 prodprice:108000 date:2022-10-19 09:19:19
+[2022-10-19 09:19:19,851] INFO [shoppay:200] cartpaysuccess user_id:k paydetailnum:Noneprodnum:593 prodname:아리 핫팬츠 prodoption:XS/아이보리 prodprice:38000 date:2022-10-19 09:19:19
+[2022-10-19 09:21:04,227] INFO [shoppay:200] cartpaysuccess user_id:ruru paydetailnum:Noneprodnum:528 prodname:하남자 에디션 10X prodoption:240/아이보리 prodprice:10000 date:2022-10-19 09:21:04
+[2022-10-19 09:21:04,236] INFO [shoppay:200] cartpaysuccess user_id:ruru paydetailnum:Noneprodnum:221 prodname:화이트 메이플스토리 한정 슈퍼스타 콜라보 prodoption:240/아이보리 prodprice:171717 date:2022-10-19 09:21:04
+[2022-10-19 09:21:04,244] INFO [shoppay:200] cartpaysuccess user_id:ruru paydetailnum:Noneprodnum:848 prodname:백색 무지 쿨티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:21:04
+[2022-10-19 09:21:04,252] INFO [shoppay:200] cartpaysuccess user_id:ruru paydetailnum:Noneprodnum:589 prodname:호가든 숏팬츠 prodoption:XS/아이보리 prodprice:39800 date:2022-10-19 09:21:04
+[2022-10-19 09:21:04,259] INFO [shoppay:200] cartpaysuccess user_id:ruru paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:21:04
+[2022-10-19 09:24:56,499] INFO [shoppay:200] cartpaysuccess user_id:ddd paydetailnum:Noneprodnum:214 prodname:다운 ㅣㅇ너 베스트 prodoption:XL/아이보리 prodprice:103600 date:2022-10-19 09:24:56
+[2022-10-19 09:24:56,508] INFO [shoppay:200] cartpaysuccess user_id:ddd paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XL/아이보리 prodprice:16000 date:2022-10-19 09:24:56
+[2022-10-19 09:24:56,516] INFO [shoppay:200] cartpaysuccess user_id:ddd paydetailnum:Noneprodnum:340 prodname:유틸리티 슬림 카고 조거팬츠 prodoption:XL/아이보리 prodprice:119000 date:2022-10-19 09:24:56
+[2022-10-19 09:24:56,525] INFO [shoppay:200] cartpaysuccess user_id:ddd paydetailnum:Noneprodnum:846 prodname:콘벤츠 티 prodoption:XL/아이보리 prodprice:1990 date:2022-10-19 09:24:56
+[2022-10-19 09:24:56,532] INFO [shoppay:200] cartpaysuccess user_id:ddd paydetailnum:Noneprodnum:408 prodname:코벤트2009 prodoption:270/아이보리 prodprice:78000 date:2022-10-19 09:24:56
+[2022-10-19 09:26:22,516] INFO [shoppay:200] cartpaysuccess user_id:www paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:26:22
+[2022-10-19 09:26:22,524] INFO [shoppay:200] cartpaysuccess user_id:www paydetailnum:Noneprodnum:393 prodname:트래블러 스웨트 팬츠 prodoption:XS/아이보리 prodprice:68000 date:2022-10-19 09:26:22
+[2022-10-19 09:26:22,532] INFO [shoppay:200] cartpaysuccess user_id:www paydetailnum:Noneprodnum:224 prodname:그린다크그레이 슈퍼스타 prodoption:240/아이보리 prodprice:194894 date:2022-10-19 09:26:22
+[2022-10-19 09:26:22,539] INFO [shoppay:200] cartpaysuccess user_id:www paydetailnum:Noneprodnum:378 prodname:심볼 스웨트 쇼츠 prodoption:XS/아이보리 prodprice:72000 date:2022-10-19 09:26:22
+[2022-10-19 09:26:22,546] INFO [shoppay:200] cartpaysuccess user_id:www paydetailnum:Noneprodnum:219 prodname:슈퍼스타 no.98 prodoption:240/아이보리 prodprice:17700 date:2022-10-19 09:26:22
+[2022-10-19 09:26:22,553] INFO [shoppay:200] cartpaysuccess user_id:www paydetailnum:Noneprodnum:843 prodname:검은고양이티 prodoption:XS/아이보리 prodprice:7000 date:2022-10-19 09:26:22
+[2022-10-19 09:27:31,949] INFO [shoppay:200] cartpaysuccess user_id:dodo paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:27:31
+[2022-10-19 09:27:31,957] INFO [shoppay:200] cartpaysuccess user_id:dodo paydetailnum:Noneprodnum:913 prodname:나이키 언더아머 no.8 prodoption:XS/아이보리 prodprice:16600 date:2022-10-19 09:27:31
+[2022-10-19 09:27:31,964] INFO [shoppay:200] cartpaysuccess user_id:dodo paydetailnum:Noneprodnum:196 prodname:화이트 입는 저지 prodoption:XS/아이보리 prodprice:67000 date:2022-10-19 09:27:31
+[2022-10-19 09:27:31,972] INFO [shoppay:200] cartpaysuccess user_id:dodo paydetailnum:Noneprodnum:436 prodname:스킷진 prodoption:XS/아이보리 prodprice:22000 date:2022-10-19 09:27:31
+[2022-10-19 09:27:31,980] INFO [shoppay:200] cartpaysuccess user_id:dodo paydetailnum:Noneprodnum:407 prodname:브라이튼 II prodoption:240/아이보리 prodprice:78000 date:2022-10-19 09:27:31
+[2022-10-19 09:30:52,770] INFO [shoppay:200] cartpaysuccess user_id:wo1 paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:30:52
+[2022-10-19 09:30:52,778] INFO [shoppay:200] cartpaysuccess user_id:wo1 paydetailnum:Noneprodnum:389 prodname:이지 스웨트 팬츠 prodoption:XS/아이보리 prodprice:108000 date:2022-10-19 09:30:52
+[2022-10-19 09:30:52,785] INFO [shoppay:200] cartpaysuccess user_id:wo1 paydetailnum:Noneprodnum:406 prodname:브라이튼HI prodoption:240/아이보리 prodprice:85000 date:2022-10-19 09:30:52
+[2022-10-19 09:30:52,792] INFO [shoppay:200] cartpaysuccess user_id:wo1 paydetailnum:Noneprodnum:229 prodname:고등학교 핏 롱스커트 prodoption:XS/아이보리 prodprice:485915 date:2022-10-19 09:30:52
+[2022-10-19 09:30:52,799] INFO [shoppay:200] cartpaysuccess user_id:wo1 paydetailnum:Noneprodnum:835 prodname:에일 반팔 prodoption:XS/아이보리 prodprice:40000 date:2022-10-19 09:30:52
+[2022-10-19 09:30:52,807] INFO [shoppay:200] cartpaysuccess user_id:wo1 paydetailnum:Noneprodnum:290 prodname:블랙 심플 원피스 prodoption:XS/아이보리 prodprice:595995 date:2022-10-19 09:30:52
+[2022-10-19 09:34:14,315] INFO [shoppay:200] cartpaysuccess user_id:eee paydetailnum:Noneprodnum:411 prodname:어? 금지티 prodoption:L/아이보리 prodprice:16000 date:2022-10-19 09:34:14
+[2022-10-19 09:34:14,323] INFO [shoppay:200] cartpaysuccess user_id:eee paydetailnum:Noneprodnum:581 prodname:블랙 로고 맨투맨 prodoption:L/아이보리 prodprice:48000 date:2022-10-19 09:34:14
+[2022-10-19 09:34:14,330] INFO [shoppay:200] cartpaysuccess user_id:eee paydetailnum:Noneprodnum:201 prodname:폴 유키 아이즈 prodoption:L/아이보리 prodprice:298000 date:2022-10-19 09:34:14
+[2022-10-19 09:34:14,338] INFO [shoppay:200] cartpaysuccess user_id:eee paydetailnum:Noneprodnum:659 prodname:크록스 시리즈.no10 prodoption:260/아이보리 prodprice:19000 date:2022-10-19 09:34:14
+[2022-10-19 09:34:14,346] INFO [shoppay:200] cartpaysuccess user_id:eee paydetailnum:Noneprodnum:213 prodname:케니 네이드 prodoption:L/아이보리 prodprice:169800 date:2022-10-19 09:34:14
+[2022-10-19 09:35:16,609] INFO [shoppay:200] cartpaysuccess user_id:wo1 paydetailnum:Noneprodnum:411 prodname:어? 금지티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:35:16
+[2022-10-19 09:35:28,356] INFO [shoppay:200] cartpaysuccess user_id:bye paydetailnum:Noneprodnum:411 prodname:어? 금지티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:35:28
+[2022-10-19 09:35:28,365] INFO [shoppay:200] cartpaysuccess user_id:bye paydetailnum:Noneprodnum:108 prodname:메이플 형광티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:35:28
+[2022-10-19 09:35:28,371] INFO [shoppay:200] cartpaysuccess user_id:bye paydetailnum:Noneprodnum:155 prodname:리다 prodoption:XS/아이보리 prodprice:33000 date:2022-10-19 09:35:28
+[2022-10-19 09:35:28,379] INFO [shoppay:200] cartpaysuccess user_id:bye paydetailnum:Noneprodnum:885 prodname:인피니티1 prodoption:240/아이보리 prodprice:134000 date:2022-10-19 09:35:28
+[2022-10-19 09:35:28,386] INFO [shoppay:200] cartpaysuccess user_id:bye paydetailnum:Noneprodnum:5 prodname:커버낫 prodoption:XS/아이보리 prodprice:39800 date:2022-10-19 09:35:28
+[2022-10-19 09:40:34,626] INFO [shoppay:200] cartpaysuccess user_id:fff paydetailnum:Noneprodnum:411 prodname:어? 금지티 prodoption:XL/아이보리 prodprice:16000 date:2022-10-19 09:40:34
+[2022-10-19 09:40:34,632] INFO [shoppay:200] cartpaysuccess user_id:fff paydetailnum:Noneprodnum:203 prodname:usa  다크 블루 저지 prodoption:XL/아이보리 prodprice:797979 date:2022-10-19 09:40:34
+[2022-10-19 09:40:34,644] INFO [shoppay:200] cartpaysuccess user_id:fff paydetailnum:Noneprodnum:805 prodname:화이트 오버핏 셔츠 prodoption:L/아이보리 prodprice:15000 date:2022-10-19 09:40:34
+[2022-10-19 09:40:34,651] INFO [shoppay:200] cartpaysuccess user_id:fff paydetailnum:Noneprodnum:659 prodname:크록스 시리즈.no10 prodoption:280/아이보리 prodprice:19000 date:2022-10-19 09:40:34
+[2022-10-19 09:40:34,664] INFO [shoppay:200] cartpaysuccess user_id:fff paydetailnum:Noneprodnum:355 prodname:구름이 구르미 LV2 prodoption:XL/블랙 prodprice:69900 date:2022-10-19 09:40:34
+[2022-10-19 09:41:16,548] INFO [shoppay:200] cartpaysuccess user_id:q paydetailnum:Noneprodnum:411 prodname:어? 금지티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:41:16
+[2022-10-19 09:41:16,556] INFO [shoppay:200] cartpaysuccess user_id:q paydetailnum:Noneprodnum:324 prodname:새근새근 치크 잠옷 prodoption:XS/아이보리 prodprice:11000 date:2022-10-19 09:41:16
+[2022-10-19 09:41:16,563] INFO [shoppay:200] cartpaysuccess user_id:q paydetailnum:Noneprodnum:836 prodname:2pacek 반팔 prodoption:XS/아이보리 prodprice:15000 date:2022-10-19 09:41:16
+[2022-10-19 09:41:16,571] INFO [shoppay:200] cartpaysuccess user_id:q paydetailnum:Noneprodnum:389 prodname:이지 스웨트 팬츠 prodoption:XS/아이보리 prodprice:108000 date:2022-10-19 09:41:16
+[2022-10-19 09:41:16,579] INFO [shoppay:200] cartpaysuccess user_id:q paydetailnum:Noneprodnum:784 prodname:베이지 노로고 아우터 prodoption:XS/아이보리 prodprice:20000 date:2022-10-19 09:41:16
+[2022-10-19 09:41:16,587] INFO [shoppay:200] cartpaysuccess user_id:q paydetailnum:Noneprodnum:891 prodname:사카이 prodoption:240/아이보리 prodprice:214000 date:2022-10-19 09:41:16
+[2022-10-19 09:43:22,857] INFO [shoppay:200] cartpaysuccess user_id:gion paydetailnum:Noneprodnum:411 prodname:어? 금지티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:43:22
+[2022-10-19 09:43:22,865] INFO [shoppay:200] cartpaysuccess user_id:gion paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:43:22
+[2022-10-19 09:43:22,877] INFO [shoppay:200] cartpaysuccess user_id:gion paydetailnum:Noneprodnum:70 prodname:뉴레인스 prodoption:XS/아이보리 prodprice:39000 date:2022-10-19 09:43:22
+[2022-10-19 09:43:22,885] INFO [shoppay:200] cartpaysuccess user_id:gion paydetailnum:Noneprodnum:148 prodname:민트색 아우터 prodoption:XS/아이보리 prodprice:11900 date:2022-10-19 09:43:22
+[2022-10-19 09:43:22,895] INFO [shoppay:200] cartpaysuccess user_id:gion paydetailnum:Noneprodnum:913 prodname:나이키 언더아머 no.8 prodoption:XS/아이보리 prodprice:16600 date:2022-10-19 09:43:22
+[2022-10-19 09:47:27,041] INFO [shoppay:200] cartpaysuccess user_id:qw paydetailnum:Noneprodnum:200 prodname:트리플 블랙 저지 prodoption:XS/아이보리 prodprice:49000 date:2022-10-19 09:47:27
+[2022-10-19 09:47:27,050] INFO [shoppay:200] cartpaysuccess user_id:qw paydetailnum:Noneprodnum:537 prodname:숏블랙 셔츠 prodoption:XS/아이보리 prodprice:22000 date:2022-10-19 09:47:27
+[2022-10-19 09:47:27,058] INFO [shoppay:200] cartpaysuccess user_id:qw paydetailnum:Noneprodnum:401 prodname:베이직 우먼스 스커트 prodoption:XS/아이보리 prodprice:98000 date:2022-10-19 09:47:27
+[2022-10-19 09:47:27,066] INFO [shoppay:200] cartpaysuccess user_id:qw paydetailnum:Noneprodnum:513 prodname:실크 블랙 조거 팬츠 prodoption:XS/아이보리 prodprice:19000 date:2022-10-19 09:47:27
+[2022-10-19 09:47:27,074] INFO [shoppay:200] cartpaysuccess user_id:qw paydetailnum:Noneprodnum:212 prodname:라잇진 prodoption:XS/아이보리 prodprice:55000 date:2022-10-19 09:47:27
+[2022-10-19 09:47:27,081] INFO [shoppay:200] cartpaysuccess user_id:qw paydetailnum:Noneprodnum:570 prodname:후잉 린넨 팬츠 prodoption:XS/아이보리 prodprice:40000 date:2022-10-19 09:47:27
+[2022-10-19 09:47:27,089] INFO [shoppay:200] cartpaysuccess user_id:qw paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:47:27
+[2022-10-19 09:48:12,663] INFO [shoppay:200] cartpaysuccess user_id:ggg paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:48:12
+[2022-10-19 09:48:12,670] INFO [shoppay:200] cartpaysuccess user_id:ggg paydetailnum:Noneprodnum:411 prodname:어? 금지티 prodoption:L/아이보리 prodprice:16000 date:2022-10-19 09:48:12
+[2022-10-19 09:48:12,679] INFO [shoppay:200] cartpaysuccess user_id:ggg paydetailnum:Noneprodnum:302 prodname:사파리 티셔츠 prodoption:L/아이보리 prodprice:55000 date:2022-10-19 09:48:12
+[2022-10-19 09:48:12,688] INFO [shoppay:200] cartpaysuccess user_id:ggg paydetailnum:Noneprodnum:33 prodname:청축 prodoption:L/아이보리 prodprice:40000 date:2022-10-19 09:48:12
+[2022-10-19 09:48:12,697] INFO [shoppay:200] cartpaysuccess user_id:ggg paydetailnum:Noneprodnum:735 prodname:클럼 후드티 그레이 prodoption:L/아이보리 prodprice:39000 date:2022-10-19 09:48:12
+[2022-10-19 09:51:38,326] INFO [shoppay:200] cartpaysuccess user_id:ondo paydetailnum:Noneprodnum:411 prodname:어? 금지티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:51:38
+[2022-10-19 09:51:38,335] INFO [shoppay:200] cartpaysuccess user_id:ondo paydetailnum:Noneprodnum:469 prodname:ZEBRA 119 prodoption:XS/아이보리 prodprice:38900 date:2022-10-19 09:51:38
+[2022-10-19 09:51:38,343] INFO [shoppay:200] cartpaysuccess user_id:ondo paydetailnum:Noneprodnum:74 prodname:샤이 레인보우 prodoption:XS/아이보리 prodprice:68900 date:2022-10-19 09:51:38
+[2022-10-19 09:51:38,351] INFO [shoppay:200] cartpaysuccess user_id:ondo paydetailnum:Noneprodnum:140 prodname:블랙슬라인 prodoption:XS/아이보리 prodprice:33000 date:2022-10-19 09:51:38
+[2022-10-19 09:51:38,359] INFO [shoppay:200] cartpaysuccess user_id:ondo paydetailnum:Noneprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodoption:XS/아이보리 prodprice:33000 date:2022-10-19 09:51:38
+[2022-10-19 09:53:19,422] INFO [shoppay:96] paymentsuccess user_id:qw gender:남자 paydetailnum:128 prodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodcount:1 date:2022-10-19 09:53:19
+[2022-10-19 09:55:15,164] INFO [shoppay:200] cartpaysuccess user_id:hhh paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:L/아이보리 prodprice:16000 date:2022-10-19 09:55:15
+[2022-10-19 09:55:15,185] INFO [shoppay:200] cartpaysuccess user_id:hhh paydetailnum:Noneprodnum:411 prodname:어? 금지티 prodoption:L/아이보리 prodprice:16000 date:2022-10-19 09:55:15
+[2022-10-19 09:55:15,201] INFO [shoppay:200] cartpaysuccess user_id:hhh paydetailnum:Noneprodnum:406 prodname:브라이튼HI prodoption:270/아이보리 prodprice:85000 date:2022-10-19 09:55:15
+[2022-10-19 09:55:15,209] INFO [shoppay:200] cartpaysuccess user_id:hhh paydetailnum:Noneprodnum:688 prodname:365저스트두잇 후드 집업 prodoption:L/아이보리 prodprice:444000 date:2022-10-19 09:55:15
+[2022-10-19 09:55:15,217] INFO [shoppay:200] cartpaysuccess user_id:hhh paydetailnum:Noneprodnum:257 prodname:더블 포켓 코듀로이 셔츠 prodoption:L/아이보리 prodprice:138000 date:2022-10-19 09:55:15
+[2022-10-19 09:55:32,280] INFO [shoppay:200] cartpaysuccess user_id:qwer paydetailnum:Noneprodnum:354 prodname:와이드 스트라이프 티셔츠 prodoption:XS/아이보리 prodprice:55000 date:2022-10-19 09:55:32
+[2022-10-19 09:55:32,290] INFO [shoppay:200] cartpaysuccess user_id:qwer paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:55:32
+[2022-10-19 09:55:32,298] INFO [shoppay:200] cartpaysuccess user_id:qwer paydetailnum:Noneprodnum:910 prodname:에어 윈플로 9 prodoption:240/아이보리 prodprice:65000 date:2022-10-19 09:55:32
+[2022-10-19 09:55:32,308] INFO [shoppay:200] cartpaysuccess user_id:qwer paydetailnum:Noneprodnum:910 prodname:에어 윈플로 9 prodoption:240/아이보리 prodprice:65000 date:2022-10-19 09:55:32
+[2022-10-19 09:55:32,317] INFO [shoppay:200] cartpaysuccess user_id:qwer paydetailnum:Noneprodnum:509 prodname:에어헤븐 슈즈 prodoption:240/아이보리 prodprice:69000 date:2022-10-19 09:55:32
+[2022-10-19 09:55:32,328] INFO [shoppay:200] cartpaysuccess user_id:qwer paydetailnum:Noneprodnum:665 prodname:스위스 힐 prodoption:240/아이보리 prodprice:19000 date:2022-10-19 09:55:32
+[2022-10-19 09:55:32,336] INFO [shoppay:200] cartpaysuccess user_id:qwer paydetailnum:Noneprodnum:659 prodname:크록스 시리즈.no10 prodoption:240/아이보리 prodprice:19000 date:2022-10-19 09:55:32
+[2022-10-19 09:58:08,644] INFO [shoppay:200] cartpaysuccess user_id:toto paydetailnum:Noneprodnum:54 prodname:핑크올 후드 prodoption:XS/아이보리 prodprice:54000 date:2022-10-19 09:58:08
+[2022-10-19 09:58:08,653] INFO [shoppay:200] cartpaysuccess user_id:toto paydetailnum:Noneprodnum:555 prodname:블랙* 화이트 면티셋 prodoption:XS/아이보리 prodprice:23000 date:2022-10-19 09:58:08
+[2022-10-19 09:58:08,663] INFO [shoppay:200] cartpaysuccess user_id:toto paydetailnum:Noneprodnum:649 prodname:크록스 시리즈.no4 prodoption:240/아이보리 prodprice:11200 date:2022-10-19 09:58:08
+[2022-10-19 09:58:08,670] INFO [shoppay:200] cartpaysuccess user_id:toto paydetailnum:Noneprodnum:411 prodname:어? 금지티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:58:08
+[2022-10-19 09:58:08,679] INFO [shoppay:200] cartpaysuccess user_id:toto paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 09:58:08
+[2022-10-19 10:00:49,125] INFO [shoppay:200] cartpaysuccess user_id:qwe paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 10:00:49
+[2022-10-19 10:00:49,135] INFO [shoppay:200] cartpaysuccess user_id:qwe paydetailnum:Noneprodnum:864 prodname:나이키 2022 신상 화이트 prodoption:XS/아이보리 prodprice:78000 date:2022-10-19 10:00:49
+[2022-10-19 10:00:49,142] INFO [shoppay:200] cartpaysuccess user_id:qwe paydetailnum:Noneprodnum:459 prodname:기능성 루디 반팔티 prodoption:XS/아이보리 prodprice:39000 date:2022-10-19 10:00:49
+[2022-10-19 10:00:49,149] INFO [shoppay:200] cartpaysuccess user_id:qwe paydetailnum:Noneprodnum:41 prodname:샤이워크 prodoption:XS/아이보리 prodprice:35900 date:2022-10-19 10:00:49
+[2022-10-19 10:00:49,157] INFO [shoppay:200] cartpaysuccess user_id:qwe paydetailnum:Noneprodnum:146 prodname:그린라 prodoption:XS/아이보리 prodprice:11000 date:2022-10-19 10:00:49
+[2022-10-19 10:00:49,164] INFO [shoppay:200] cartpaysuccess user_id:qwe paydetailnum:Noneprodnum:469 prodname:ZEBRA 119 prodoption:XS/아이보리 prodprice:38900 date:2022-10-19 10:00:49
+[2022-10-19 10:00:49,172] INFO [shoppay:200] cartpaysuccess user_id:qwe paydetailnum:Noneprodnum:202 prodname:아이언 다운 베스트 prodoption:XS/아이보리 prodprice:168000 date:2022-10-19 10:00:49
+[2022-10-19 10:01:58,767] INFO [shoppay:200] cartpaysuccess user_id:iii paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:L/아이보리 prodprice:16000 date:2022-10-19 10:01:58
+[2022-10-19 10:01:58,773] INFO [shoppay:200] cartpaysuccess user_id:iii paydetailnum:Noneprodnum:411 prodname:어? 금지티 prodoption:L/아이보리 prodprice:16000 date:2022-10-19 10:01:58
+[2022-10-19 10:01:58,781] INFO [shoppay:200] cartpaysuccess user_id:iii paydetailnum:Noneprodnum:301 prodname:화셤롱스커트 prodoption:L/아이보리 prodprice:33000 date:2022-10-19 10:01:58
+[2022-10-19 10:01:58,789] INFO [shoppay:200] cartpaysuccess user_id:iii paydetailnum:Noneprodnum:673 prodname:블랙 쉐도우 힐 prodoption:250/아이보리 prodprice:15900 date:2022-10-19 10:01:58
+[2022-10-19 10:01:58,798] INFO [shoppay:200] cartpaysuccess user_id:iii paydetailnum:Noneprodnum:669 prodname:스코틀랜드 힐 prodoption:250/아이보리 prodprice:16000 date:2022-10-19 10:01:58
+[2022-10-19 10:06:11,962] INFO [shoppay:200] cartpaysuccess user_id:wer paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 10:06:11
+[2022-10-19 10:06:11,969] INFO [shoppay:200] cartpaysuccess user_id:wer paydetailnum:Noneprodnum:11 prodname:어빗트 prodoption:XS/아이보리 prodprice:56000 date:2022-10-19 10:06:11
+[2022-10-19 10:06:11,977] INFO [shoppay:200] cartpaysuccess user_id:wer paydetailnum:Noneprodnum:598 prodname:미니잡 핫팬츠 prodoption:XS/아이보리 prodprice:29900 date:2022-10-19 10:06:11
+[2022-10-19 10:06:11,986] INFO [shoppay:200] cartpaysuccess user_id:wer paydetailnum:Noneprodnum:389 prodname:이지 스웨트 팬츠 prodoption:XS/아이보리 prodprice:108000 date:2022-10-19 10:06:11
+[2022-10-19 10:06:11,995] INFO [shoppay:200] cartpaysuccess user_id:wer paydetailnum:Noneprodnum:848 prodname:백색 무지 쿨티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 10:06:11
+[2022-10-19 10:06:12,002] INFO [shoppay:200] cartpaysuccess user_id:wer paydetailnum:Noneprodnum:414 prodname:기도문티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 10:06:12
+[2022-10-19 10:22:39,878] INFO [shoppay:96] paymentsuccess user_id:yang gender:남자 paydetailnum:164 prodnum:411 prodname:어? 금지티 prodoption:XXL/아이보리 prodcount:10 date:2022-10-19 10:22:39
+[2022-10-19 10:25:47,582] INFO [shoppay:96] paymentsuccess user_id:yang gender:남자 paydetailnum:165 prodnum:635 prodname:트러커 캔버스 prodoption:280/차콜 prodcount:10 date:2022-10-19 10:25:47
+[2022-10-19 11:14:28,284] INFO [shoppay:200] cartpaysuccess user_id:aaaa paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 11:14:28
+[2022-10-19 11:14:28,292] INFO [shoppay:200] cartpaysuccess user_id:aaaa paydetailnum:Noneprodnum:170 prodname:no.9 한정판 바람막이 prodoption:XS/아이보리 prodprice:90000 date:2022-10-19 11:14:28
+[2022-10-19 11:14:28,300] INFO [shoppay:200] cartpaysuccess user_id:aaaa paydetailnum:Noneprodnum:292 prodname:이지 와이드 데님 팬츠 prodoption:XS/아이보리 prodprice:49800 date:2022-10-19 11:14:28
+[2022-10-19 11:14:28,308] INFO [shoppay:200] cartpaysuccess user_id:aaaa paydetailnum:Noneprodnum:902 prodname:나이키 더블팩 prodoption:XS/아이보리 prodprice:48000 date:2022-10-19 11:14:28
+[2022-10-19 11:14:28,315] INFO [shoppay:200] cartpaysuccess user_id:aaaa paydetailnum:Noneprodnum:386 prodname:우븐 패치 스웨트 팬츠 prodoption:XS/아이보리 prodprice:108000 date:2022-10-19 11:14:28
+[2022-10-19 11:14:28,323] INFO [shoppay:200] cartpaysuccess user_id:aaaa paydetailnum:Noneprodnum:768 prodname:나이키 시리즈no.16 prodoption:XS/아이보리 prodprice:15000 date:2022-10-19 11:14:28
+[2022-10-19 11:17:53,172] INFO [shoppay:200] cartpaysuccess user_id:asd paydetailnum:Noneprodnum:105 prodname:브라운치니 prodoption:XS/아이보리 prodprice:11100 date:2022-10-19 11:17:53
+[2022-10-19 11:17:53,182] INFO [shoppay:200] cartpaysuccess user_id:asd paydetailnum:Noneprodnum:310 prodname:코튼미니스커트 E prodoption:XS/아이보리 prodprice:33000 date:2022-10-19 11:17:53
+[2022-10-19 11:17:53,189] INFO [shoppay:200] cartpaysuccess user_id:asd paydetailnum:Noneprodnum:276 prodname:폴리츠미디 prodoption:XS/아이보리 prodprice:33000 date:2022-10-19 11:17:53
+[2022-10-19 11:17:53,198] INFO [shoppay:200] cartpaysuccess user_id:asd paydetailnum:Noneprodnum:418 prodname:코튼 롱 스커트 prodoption:XS/아이보리 prodprice:22000 date:2022-10-19 11:17:53
+[2022-10-19 11:17:53,206] INFO [shoppay:200] cartpaysuccess user_id:asd paydetailnum:Noneprodnum:557 prodname:하이테크 스커트 prodoption:XS/아이보리 prodprice:69000 date:2022-10-19 11:17:53
+[2022-10-19 11:17:53,215] INFO [shoppay:200] cartpaysuccess user_id:asd paydetailnum:Noneprodnum:225 prodname:테니스 스커트 prodoption:XS/아이보리 prodprice:50000 date:2022-10-19 11:17:53
+[2022-10-19 11:28:44,951] INFO [shoppay:200] cartpaysuccess user_id:zxc paydetailnum:Noneprodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodprice:16000 date:2022-10-19 11:28:44
+[2022-10-19 11:28:44,959] INFO [shoppay:200] cartpaysuccess user_id:zxc paydetailnum:Noneprodnum:60 prodname:올썸화이트 prodoption:XS/아이보리 prodprice:23000 date:2022-10-19 11:28:44
+[2022-10-19 11:28:44,968] INFO [shoppay:200] cartpaysuccess user_id:zxc paydetailnum:Noneprodnum:150 prodname:레바볼 prodoption:XS/아이보리 prodprice:33000 date:2022-10-19 11:28:44
+[2022-10-19 11:28:44,976] INFO [shoppay:200] cartpaysuccess user_id:zxc paydetailnum:Noneprodnum:129 prodname:css tee prodoption:XS/아이보리 prodprice:19000 date:2022-10-19 11:28:44
+[2022-10-19 11:28:44,984] INFO [shoppay:200] cartpaysuccess user_id:zxc paydetailnum:Noneprodnum:66 prodname:기븐 티셔츠 prodoption:XS/아이보리 prodprice:19800 date:2022-10-19 11:28:44
+[2022-10-19 11:28:44,993] INFO [shoppay:200] cartpaysuccess user_id:zxc paydetailnum:Noneprodnum:502 prodname:블랙싯 prodoption:XS/아이보리 prodprice:22000 date:2022-10-19 11:28:44
+[2022-10-19 11:28:45,002] INFO [shoppay:200] cartpaysuccess user_id:zxc paydetailnum:Noneprodnum:507 prodname:할야드 prodoption:XS/아이보리 prodprice:11000 date:2022-10-19 11:28:45
+[2022-10-19 11:35:05,915] INFO [shoppay:200] cartpaysuccess user_id:dsd paydetailnum:Noneprodnum:712 prodname:베이스 집업 후드 prodoption:XS/아이보리 prodprice:38000 date:2022-10-19 11:35:05
+[2022-10-19 11:35:05,924] INFO [shoppay:200] cartpaysuccess user_id:dsd paydetailnum:Noneprodnum:160 prodname:클래식 데님 트레커 prodoption:XS/아이보리 prodprice:103600 date:2022-10-19 11:35:05
+[2022-10-19 11:35:05,932] INFO [shoppay:200] cartpaysuccess user_id:dsd paydetailnum:Noneprodnum:715 prodname:나이키 집업 prodoption:XS/아이보리 prodprice:333000 date:2022-10-19 11:35:05
+[2022-10-19 11:35:05,941] INFO [shoppay:200] cartpaysuccess user_id:dsd paydetailnum:Noneprodnum:448 prodname:피스메이커 윈브XA prodoption:XS/아이보리 prodprice:229800 date:2022-10-19 11:35:05
+[2022-10-19 11:35:05,950] INFO [shoppay:200] cartpaysuccess user_id:dsd paydetailnum:Noneprodnum:88 prodname:패디드 자켓 prodoption:XS/아이보리 prodprice:188000 date:2022-10-19 11:35:05
+[2022-10-19 11:35:05,959] INFO [shoppay:200] cartpaysuccess user_id:dsd paydetailnum:Noneprodnum:786 prodname:그린피스 아우터 prodoption:XS/아이보리 prodprice:23000 date:2022-10-19 11:35:05
+[2022-10-19 11:45:17,540] INFO [shoppay:200] cartpaysuccess user_id:poi paydetailnum:Noneprodnum:755 prodname:언더 스텍 집업 후드 prodoption:XS/아이보리 prodprice:69000 date:2022-10-19 11:45:17
+[2022-10-19 11:45:17,549] INFO [shoppay:200] cartpaysuccess user_id:poi paydetailnum:Noneprodnum:687 prodname:화이트 집업 후드 prodoption:XS/아이보리 prodprice:333000 date:2022-10-19 11:45:17
+[2022-10-19 11:45:17,557] INFO [shoppay:200] cartpaysuccess user_id:poi paydetailnum:Noneprodnum:741 prodname:터틀 러너 집업 prodoption:XS/아이보리 prodprice:399000 date:2022-10-19 11:45:17
+[2022-10-19 11:45:17,565] INFO [shoppay:200] cartpaysuccess user_id:poi paydetailnum:Noneprodnum:474 prodname:IU PICK OUTER 청첨 prodoption:XS/아이보리 prodprice:5950000 date:2022-10-19 11:45:17
+[2022-10-19 11:45:17,573] INFO [shoppay:200] cartpaysuccess user_id:poi paydetailnum:Noneprodnum:84 prodname:윈드브레이크 빈후 prodoption:XS/아이보리 prodprice:89000 date:2022-10-19 11:45:17
+[2022-10-19 11:45:17,581] INFO [shoppay:200] cartpaysuccess user_id:poi paydetailnum:Noneprodnum:725 prodname:윈드러너 커빙 자켓 prodoption:XS/아이보리 prodprice:89000 date:2022-10-19 11:45:17
+[2022-10-20 15:23:29,968] INFO [shoppay:96] paymentsuccess user_id:aaa gender:남자 paydetailnum:197 prodnum:222 prodname:메이플스토리 27 주년 기념 아디다스 콜라보 슈즈 prodoption:240/아이보리 prodcount:1 date:2022-10-20 15:23:29
+[2022-10-22 10:33:38,655] INFO [shoppay:96] paymentsuccess user_id:qwe123 gender:남자 paydetailnum:198 prodnum:182 prodname:딥라진 prodoption:XS/아이보리 prodcount:1 date:2022-10-22 10:33:38
+[2022-10-22 15:01:51,629] INFO [shoppay:96] paymentsuccess user_id:qwe124 gender:남자 paydetailnum:199 prodnum:593 prodname:아리 핫팬츠 prodoption:L/아이보리 prodcount:1 date:2022-10-22 15:01:51
+[2022-10-27 09:22:21,753] INFO [shoppay:200] cartpaysuccess user_id:asdfgh1094 paydetailnum:Noneprodnum:350 prodname:구름이 구르미 LV1 prodoption:XS/아이보리 prodprice:69800 date:2022-10-27 09:22:21
+[2022-10-27 09:22:21,761] INFO [shoppay:200] cartpaysuccess user_id:asdfgh1094 paydetailnum:Noneprodnum:406 prodname:브라이튼HI prodoption:240/아이보리 prodprice:85000 date:2022-10-27 09:22:21
+[2022-10-27 09:22:58,953] INFO [shoppay:96] paymentsuccess user_id:ham gender:남자 paydetailnum:202 prodnum:136 prodname:브람 무진 prodoption:XS/아이보리 prodcount:1 date:2022-10-27 09:22:58
+[2022-10-27 09:23:42,747] INFO [shoppay:96] paymentsuccess user_id:asdfgh1094 gender:남자 paydetailnum:203 prodnum:356 prodname:사탄들렸어 팬츠 prodoption:XS/아이보리 prodcount:1 date:2022-10-27 09:23:42
+[2022-10-27 09:25:36,073] INFO [shoppay:96] paymentsuccess user_id:asdfgh1094 gender:남자 paydetailnum:204 prodnum:389 prodname:이지 스웨트 팬츠 prodoption:XS/아이보리 prodcount:1 date:2022-10-27 09:25:36
+[2022-10-27 09:25:49,962] INFO [shoppay:96] paymentsuccess user_id:asdfgh1094 gender:남자 paydetailnum:205 prodnum:33 prodname:청축 prodoption:XS/아이보리 prodcount:1 date:2022-10-27 09:25:49
+[2022-10-27 09:28:20,767] INFO [shoppay:200] cartpaysuccess user_id:yaham paydetailnum:Noneprodnum:844 prodname:페가수스22 prodoption:240/아이보리 prodprice:87000 date:2022-10-27 09:28:20
+[2022-10-27 09:28:20,774] INFO [shoppay:200] cartpaysuccess user_id:yaham paydetailnum:Noneprodnum:109 prodname:스냅 셔켓 prodoption:XS/아이보리 prodprice:138000 date:2022-10-27 09:28:20
+[2022-10-27 09:28:20,782] INFO [shoppay:200] cartpaysuccess user_id:yaham paydetailnum:Noneprodnum:651 prodname:우먼 에션셜 세르파 자켓 prodoption:XS/아이보리 prodprice:33000 date:2022-10-27 09:28:20
+[2022-10-27 09:28:20,790] INFO [shoppay:200] cartpaysuccess user_id:yaham paydetailnum:Noneprodnum:369 prodname:파자마 style.no6 prodoption:XS/아이보리 prodprice:8000 date:2022-10-27 09:28:20
+[2022-10-27 09:29:47,307] INFO [shoppay:96] paymentsuccess user_id:see gender:남자 paydetailnum:210 prodnum:271 prodname:포켓롯 스커트 prodoption:XS/아이보리 prodcount:1 date:2022-10-27 09:29:47
+[2022-10-27 09:32:01,586] INFO [shoppay:200] cartpaysuccess user_id:see paydetailnum:Noneprodnum:232 prodname:화이트&베이식 무릅치마 prodoption:XS/아이보리 prodprice:18749 date:2022-10-27 09:32:01
+[2022-10-27 09:32:01,596] INFO [shoppay:200] cartpaysuccess user_id:see paydetailnum:Noneprodnum:230 prodname:화이트 숏 스커트 prodoption:XS/아이보리 prodprice:56700 date:2022-10-27 09:32:01
+[2022-10-27 09:32:01,604] INFO [shoppay:200] cartpaysuccess user_id:see paydetailnum:Noneprodnum:845 prodname:convent 반팔티 prodoption:XS/아이보리 prodprice:20000 date:2022-10-27 09:32:01
+[2022-10-27 09:32:01,612] INFO [shoppay:200] cartpaysuccess user_id:see paydetailnum:Noneprodnum:406 prodname:브라이튼HI prodoption:240/아이보리 prodprice:85000 date:2022-10-27 09:32:01
+[2022-10-27 09:32:01,620] INFO [shoppay:200] cartpaysuccess user_id:see paydetailnum:Noneprodnum:394 prodname:루즈핏 시어 서커 스트라이프 셔츠 prodoption:XS/아이보리 prodprice:33000 date:2022-10-27 09:32:01
+[2022-10-27 09:39:31,430] INFO [shoppay:96] paymentsuccess user_id:yaham gender:남자 paydetailnum:216 prodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodcount:1 date:2022-10-27 09:39:31
+[2022-10-27 09:40:00,691] INFO [shoppay:96] paymentsuccess user_id:see gender:남자 paydetailnum:217 prodnum:406 prodname:브라이튼HI prodoption:240/아이보리 prodcount:1 date:2022-10-27 09:40:00
+[2022-10-27 09:40:23,949] INFO [shoppay:96] paymentsuccess user_id:see gender:남자 paydetailnum:218 prodnum:11 prodname:어빗트 prodoption:XS/아이보리 prodcount:1 date:2022-10-27 09:40:23
+[2022-10-27 09:40:32,544] INFO [shoppay:96] paymentsuccess user_id:see gender:남자 paydetailnum:219 prodnum:412 prodname:404에러티 prodoption:XS/아이보리 prodcount:1 date:2022-10-27 09:40:32
+[2022-10-27 10:28:04,691] INFO [shoppay:96] paymentsuccess user_id:sixman gender:여자 paydetailnum:220 prodnum:356 prodname:사탄들렸어 팬츠 prodoption:XS/아이보리 prodcount:1 date:2022-10-27 10:28:04
+[2022-10-27 10:30:31,747] INFO [shoppay:96] paymentsuccess user_id:aaa gender:남자 paydetailnum:221 prodnum:356 prodname:사탄들렸어 팬츠 prodoption:XS/아이보리 prodcount:1 date:2022-10-27 10:30:31
+[2022-10-27 10:34:25,011] INFO [shoppay:200] cartpaysuccess user_id:sixman paydetailnum:Noneprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodoption:XS/아이보리 prodprice:33000 date:2022-10-27 10:34:25
+[2022-10-27 10:34:25,021] INFO [shoppay:200] cartpaysuccess user_id:sixman paydetailnum:Noneprodnum:400 prodname:옥스포드 셔츠 prodoption:XS/아이보리 prodprice:33000 date:2022-10-27 10:34:25
+[2022-10-27 10:34:25,031] INFO [shoppay:200] cartpaysuccess user_id:sixman paydetailnum:Noneprodnum:575 prodname:세르니아 립 팬츠 prodoption:XS/아이보리 prodprice:50000 date:2022-10-27 10:34:25
+[2022-10-27 10:34:25,040] INFO [shoppay:200] cartpaysuccess user_id:sixman paydetailnum:Noneprodnum:406 prodname:브라이튼HI prodoption:240/아이보리 prodprice:85000 date:2022-10-27 10:34:25
+[2022-10-27 10:34:25,047] INFO [shoppay:200] cartpaysuccess user_id:sixman paydetailnum:Noneprodnum:380 prodname:심볼 쇼츠 prodoption:M/그레이 prodprice:43000 date:2022-10-27 10:34:25
+[2022-10-27 11:08:30,681] INFO [shoppay:96] paymentsuccess user_id:asdasd gender:여자 paydetailnum:227 prodnum:358 prodname:골든 할렘 팬츠 prodoption:XS/아이보리 prodcount:1 date:2022-10-27 11:08:30
+[2022-11-22 15:37:26,825] INFO [shoppay:200] cartpaysuccess user_id:eorms paydetailnum:Noneprodnum:149 prodname:다운 점퍼 prodoption:XS/아이보리 prodprice:166000 date:2022-11-22 15:37:26
+[2022-11-23 01:16:44,134] INFO [shoppay:96] paymentsuccess user_id:dbtnghd1234 gender:남자 paydetailnum:2 prodnum:137 prodname:스라인 prodoption:XS/아이보리 prodcount:1 date:2022-11-23 01:16:44
+[2022-11-23 02:41:53,313] INFO [shoppay:96] paymentsuccess user_id:dbtnghd123 gender:남자 paydetailnum:3 prodnum:590 prodname:레이니 핫팬츠 prodoption:XS/아이보리 prodcount:1 date:2022-11-23 02:41:53
+[2022-11-23 03:09:56,333] INFO [shoppay:96] paymentsuccess user_id:dbtnghd123 gender:남자 paydetailnum:4 prodnum:779 prodname:나이키 시리즈no.77 prodoption:XS/아이보리 prodcount:1 date:2022-11-23 03:09:56
+[2022-11-23 03:16:13,770] INFO [shoppay:96] paymentsuccess user_id:dbtnghd1234 gender:남자 paydetailnum:5 prodnum:450 prodname:코르니우스 17S prodoption:XS/아이보리 prodcount:1 date:2022-11-23 03:16:13
+[2022-11-23 03:21:23,966] INFO [shoppay:96] paymentsuccess user_id:dbtnghd1234 gender:남자 paydetailnum:6 prodnum:391 prodname:우디 자수 데님 셔츠 prodoption:XS/아이보리 prodcount:1 date:2022-11-23 03:21:23
+[2022-11-23 03:34:30,374] INFO [shoppay:96] paymentsuccess user_id:dbtnghd12 gender:남자 paydetailnum:7 prodnum:57 prodname:니스라 실프 prodoption:XS/아이보리 prodcount:1 date:2022-11-23 03:34:30
+[2022-11-23 03:43:13,586] INFO [shoppay:96] paymentsuccess user_id:dbtnghd1234 gender:남자 paydetailnum:8 prodnum:535 prodname:샤를 셔츠 prodoption:XS/아이보리 prodcount:1 date:2022-11-23 03:43:13
+[2022-11-23 03:50:05,311] INFO [shoppay:96] paymentsuccess user_id:dbtnghd1234 gender:남자 paydetailnum:9 prodnum:911 prodname:나이키 언더아머 no.6 prodoption:XS/아이보리 prodcount:1 date:2022-11-23 03:50:05
+[2022-11-23 04:05:00,073] INFO [shoppay:96] paymentsuccess user_id:dbtnghd1234 gender:남자 paydetailnum:10 prodnum:69 prodname:아디다스 맨투맨 화이트 prodoption:XS/아이보리 prodcount:1 date:2022-11-23 04:05:00
+[2022-11-23 04:06:11,170] INFO [shoppay:200] cartpaysuccess user_id:dbtnghd1234 paydetailnum:Noneprodnum:391 prodname:우디 자수 데님 셔츠 prodoption:XS/아이보리 prodprice:33000 date:2022-11-23 04:06:11
+[2022-11-23 04:06:11,179] INFO [shoppay:200] cartpaysuccess user_id:dbtnghd1234 paydetailnum:Noneprodnum:37 prodname:아디다스 긴팔 검정 prodoption:XS/아이보리 prodprice:50000 date:2022-11-23 04:06:11
+[2022-11-23 04:06:11,187] INFO [shoppay:200] cartpaysuccess user_id:dbtnghd1234 paydetailnum:Noneprodnum:23 prodname:루브 prodoption:XS/아이보리 prodprice:59800 date:2022-11-23 04:06:11

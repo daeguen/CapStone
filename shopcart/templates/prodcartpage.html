@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% load static %}
+{% load humanize %}
+{% load mathfilters %}
+<!-- 장바구니 시작 -->
+{% block locationbar %}
+{% endblock %}
+{% block contents %}
+<br><br>
+<form method="post" action="prodcart">
+    <header class="header navbar-area" style="z-index: 2;">
+        <section class="hero-area">
+            <div class="container" style="border: 1px solid lightgray; padding: 30px; width: 1400px;">
+                <div style="text-align: center;">
+                    <div style="font-size: 40px;">
+                        <span>장바구니</span>
+                    </div>
+                </div>
+                <hr>
+                <div style="text-align: center;">
+                    <table class="carttable">
+                        <colgroup>
+                            <col style="width: 120px;">
+                            <col style="width: 120px;">
+                            <col style="width: 350px;">
+                            <col style="width: 120px;">
+                            <col style="width: 120px;">
+                            <col style="width: 120px;">
+                            <col style="width: 100px;">
+                            <col style="width: 100px;">
+                        </colgroup>
+                        <thead>
+                            <th></th>
+                            <th>상품 사진</th>
+                            <th>상품이름</th>
+                            <th>상품옵션</th>
+                            <th>상품가격</th>
+                            <th>상품개수</th>
+                            <th>상품 총가격</th>
+                            <th></th>
+                        </thead>
+                        <tbody>
+                            <!-- 이 쪽이 상품 출력부분 -->
+                            {% for cart in cartlist %}
+	                            <div>
+	                                <tr>
+	                                <input type="hidden" name="prodnum" value="{{cart.prodnum.prodnum}}">
+	                                    <td></td>
+	                                    <td><img src="{{cart.prodnum.prodmainimg.url}}"></td>
+	                                    <td>{{cart.prodnum.prodname}} <input type="hidden"name="prodname" value="{{cart.pridnum.prodname}}"></td>
+	                                    <td>{{cart.prodcolor}} / {{cart.prodsize}} <input type="hidden"name="prodcolor" value="{{cart.prodcolor}}"> <input type="hidden"name="prodsize" value="{{cart.prodsize}}"></td>
+	                                    <td>{{cart.prodnum.prodprice|intcomma}}원 <input type="hidden"name="prodprice" value="{{cart.prodnum.prodprice}}"></td>
+	                                    <td>
+	                                    	<select name="prodcount"  onchange="cartupdate(this.value, {{cart.cartnum}})">
+	                                    		<option>{{cart.prodcount}}</option>
+	                                    		<option name="prodcount" value="1">1</option>
+	                                    		<option name="prodcount" value="2">2</option>
+	                                    		<option name="prodcount" value="3">3</option>
+	                                    		<option name="prodcount" value="4">4</option>
+	                                    		<option name="prodcount" value="5">5</option>
+	                                    		<option name="prodcount" value="6">6</option>
+	                                    		<option name="prodcount" value="7">7</option>
+	                                    		<option name="prodcount" value="8">8</option>
+	                                    		<option name="prodcount" value="9">9</option>
+	                                    	</select>
+	                                    	<script>
+												function cartupdate(prodcount, cartnum) {
+													location.href =  "{% url 'prodcart:cartupdate' %}" + "?cartnum=" + cartnum + "&prodcount=" + prodcount;
+												}
+											</script>
+	                                    	<!-- <input type="number" value="{{cart.prodcount}}" name="prodcount" onclick="updatecart()"> -->
+	                                    </td>
+	                                    
+	                                    <td>{{cart.prodnum.prodprice|mul:cart.prodcount|intcomma}}원</td>
+	                                    <div class="search-input">
+	                                        <td>
+	                                            <input class="btn" type="button" onclick="location='cartdelete?cartnum={{cart.cartnum}}'"value="삭제" style="width:200px; margin:5px; background-color:lightblue">
+	                                            <input class="btn" type="button" onclick="location='../shopproduct/prodcontent?prodnum={{cart.prodnum.prodnum}}'" value="상품보기" style="width:200px; margin:5px; background-color:lightblue">
+	                                        </td>
+	                                    </div>
+	                                </tr>
+	                            </div>
+                            <!-- 여기 까지 -->
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div style="text-align:center;">
+                    <div class="newsletter-form-head" style="font-size:30px;">
+                        <span>총 상품 가격&nbsp;&nbsp;&nbsp;</span><span>{{totalprice|intcomma}}원</span>
+                        <div class="search-input">
+                        <br>
+                            <input class="btn" type="button" onclick="location='cartpaydeleteall'" value="상품 전체 삭제" style="width:300px; margin:5px; background-color:lightblue">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div style="text-align:center;">
+                    <div class="search-input">
+                        <td style="flex-wrap:wrap;">
+                        	{% if cartcount > 0 %}
+                            	<input class="btn" type="submit" value="구매하기" style="width:300px; margin:5px; background-color:lightblue">
+                            	<input class="btn" type="button" value="계속 쇼핑하기" onclick="location='../shopmember/index'" style="margin:5px; width:300px; background-color:lightblue">
+                            {% else %}
+                            	<input class="btn" type="button" value="계속 쇼핑하기" onclick="location='../shopmember/index'" style="margin:5px; width:300px; background-color:lightblue">
+                            {% endif %}
+                        </td>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+</form>
+<br><br><br><br>
+{% endblock %}
+<!-- 장바구니 끝 -->

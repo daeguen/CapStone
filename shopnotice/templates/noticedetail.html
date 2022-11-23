@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% load static %}
+{% block locationbar %}
+{% endblock %}
+{% block contents %}
+<br>
+<div>
+    <header class="header navbar-area" style="z-index: 2;">
+        <section class="hero-area">
+            <div class="container" style="border: 1px solid lightgray; padding: 30px; border-radius: 8px; width: 1000px;">
+                <div>
+                    <h4><span>공지사항</span></h4>
+                    <hr>
+                    <div class="col-12">
+                        <div class="main-menu-search">
+                            <div class="newsletter-form-head">
+                                <form method="post" action="#">
+                                    <div class="search-input">
+                                        <table>
+                                            <colgroup>
+                                                <col style="width: 200px;">
+                                                <col style="width: 300px;">
+                                                <col style="width: 200px;">
+                                                <col style="width: 300px;">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th colspan="4">
+                                                        <div class="input_field">
+                                                            <span style="font-size: 30px;">{{dto.noticetitle}}</span>
+                                                        </div>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">글번호</th>
+                                                    <td class="input_field" style="border:1px solid #2c59b4; text-align:center;">{{number}}</td>
+                                                    <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">작성자</th>
+                                                    <td class="input_field" style="border:1px solid #2c59b4; text-align:center;">{{dto.adminname}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">작성 일</th>
+                                                    <td class="input_field" style="border:1px solid #2c59b4; text-align:center;">{{dto.noticeregdate|date:"Y-m-d H:i"}}</td>
+                                                    <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">조회수</th>
+                                                    <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">{{dto.noticereadcount}}</th>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="4">
+                                                    <br>
+                                                        <div class="board_text" style="height:600px; border:1px solid #2c59b4; border-radius: 4px;">
+                                                            <div style="margin:5px; overflow:hidden; font-size: 20px;">
+                                                                <pre style="font-size:20px;">{{dto.noticecontent}}</pre>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <br>
+                                        <div class="search-input" style="display:flex;">
+                                            <input type="button" value="글목록" onclick="location='noticelist?pagenum={{pagenum}}'" style="width:150px; background-color:lightblue">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br>
+        </section>
+    </header>
+</div>
+{% endblock %}

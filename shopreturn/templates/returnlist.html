@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{% load mathfilters %}
+
+{% block locationbar %}
+{% endblock %}
+{% block contents %}
+<br>
+<br>
+<div>
+    <header class="header navbar-area" style="z-index: 2;">
+        <section class="hero-area">
+            <div class="container">
+                <div>
+                    <h3>나의 반품 현황</h3>
+                    <div class="col-12">
+                        <div class="main-menu-search" style="width: 1400px;">
+                            <table>
+                                <colgroup>
+                                    
+                                    <col style="width: 900px;">
+                                    <col style="width: 150px;">
+                                    <col style="width: 150px;">
+                                    <col style="width: 200px;">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        
+                                        <th>&nbsp;반품 제목</th>
+                                        <th>&nbsp;&nbsp;&nbsp;아이디</th>
+                                        <th>&nbsp;&nbsp;&nbsp;작성일</th>
+                                        <th>&nbsp;&nbsp;&nbsp;반품승인여부</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                {% if returmcount == 0 %}
+	                                <tr>
+	                                	
+	                                	<td>작성된 글이 없습니다</td>
+	                                	<td></td>
+	                                	<td></td>
+	                                	<td></td>
+	                                </tr>
+                                {% else %}
+                                    <!-- 이 부분부터 반복문 돌리면됨 -->
+                                    
+                                  {% for dto in dtos %}
+                                  {% if dto.user_id == memid %}
+                                    <tr>
+                                        
+                                        <td><a href="returncontent?returnnum={{dto.returnnum}}&pagenum={{pagenum}}&number={{number|sub:forloop.counter0}}">{{dto.return_title}}</a></td>
+                                        <td>{{dto.user_id}}</td>
+                                        <td>{{dto.return_regdate|date:"Y-m-d H:i"}}</td>
+                                        <td>{{dto.return_status}}</td>
+                                    </tr>
+                                    <!-- 여기까지 -->
+                                    {% endif %}
+                                 {% endfor %}
+                                 {% endif%}
+                                
+                                </tbody>
+                                <hr>
+                               {% if memid %}
+                                
+                               {% else %}
+                               <br><br><br><br><br>
+                               {% endif %}
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <!-- 페이지 버튼 -->
+            <div class="page_wrap">
+                <div class="page_nation">
+                {% if startpage > pageblock %}
+                    <a class="arrow prev" href="noticelist?pagenum={{startpage|sub:pageblock}}"></a>
+                {% endif %}
+                {% for page in pages %}
+                	{% if pagenum == page %}
+           		   		<a class="active">{{page}}</a>
+           		   	{% else %}
+           		   		<a href="noticelist?pagenum={{page}}">{{page}}</a>
+           		   	{% endif %}
+           		{% endfor %}
+                {% if endpage < pagecount %}
+                    <a class="arrow next" href="noticelist?pagenum={{startpage|add:pageblock}}"></a>
+                {% endif %}
+                </div>
+            </div>
+        </section>
+    </header>
+</div>
+<br><br><br><br>
+{% endblock %}

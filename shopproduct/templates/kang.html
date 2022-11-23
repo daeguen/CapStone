@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% load static %}
+{% load humanize %}
+{% load mathfilters %}
+{% block contents %}
+<div>
+    <header class="header navbar-area" style="z-index: 2;">
+        <section class="hero-area">
+            <div class="container" style="width: 1700px;">
+                <div>
+                    <img src="{% static 'images/kang.jpg' %}" style="width: 100%; height: 250px;">
+                </div>
+                <br>
+                <table>
+                	<tr>
+                		<th>
+	                		<input class="btn1" type="button" onclick="location='kang?sort=minprice'" value="낮은가격순">
+	                		<input class="btn1" type="button" onclick="location='kang?sort=maxprice'" value="높은가격순">
+	                		<input class="btn1" type="button" onclick="location='kang?sort=name'" value="이름순">
+	                		<input class="btn1" type="button" onclick="location='kang'" value="최신순">
+                		<th>
+                	<tr>
+                </table>
+                <div class="row">
+					{% for dto in dtos %}
+                    <!-- 상품 정렬 시작 -->
+                    
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <a href="prodcontent?prodnum={{dto.prodnum}}">
+                        <div class="single-product">
+                            <div class="product-image">
+                                <!-- 상품 이미지-->
+                                <img class="prodimgsed" src="{{dto.prodmainimg.url}}" alt="#">
+                                <div class="button">
+                                    <!-- 상품 해당 페이지로 -->
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <span class="category">{{dto.proditems}}</span>
+                                <h4 class="title">
+                                    <!-- 위의 부분과 링크를 동일하게 -->
+                                    <a href="prodcontent?prodnum={{dto.prodnum}}">{{dto.prodname}}</a>
+                                </h4>
+                                <ul class="review">
+
+                                </ul>
+                                <div class="price">
+                                    <span>{{dto.prodprice|intcomma}}원</span>
+                                </div>
+                            </div>
+                        </div> 
+                        </a>
+                    </div>
+                    
+                    <!-- 상품 정렬 끝 -->
+                    {% endfor %}
+
+                </div>
+            </div>
+            <br><br>
+            <div class="page_wrap">
+				<div class="page_nation">
+					{% if startpage > pageblock %}
+						{% if sort %}
+								{% if sort == "minprice" %}
+									<a class="arrow prev" href="kang?pagenum={{startpage|sub:pageblock}}&sort=minprice"></a>
+								{% elif sort == "maxprice" %}
+									<a class="arrow prev" href="kang?pagenum={{startpage|sub:pageblock}}&sort=maxprice"></a>
+								{% else %}
+									<a class="arrow prev" href="kang?pagenum={{startpage|sub:pageblock}}&sort=name"></a>
+								{% endif %}
+						{% else %}
+							<a class="arrow prev" href="kang?pagenum={{startpage|sub:pageblock}}"></a>
+						{% endif %}	
+					{% endif %}
+					{% for page in pages %}
+						{% if pagenum == page %}
+							<a class="active">{{page}}</a>
+						{% else %}
+							{% if sort %}
+								{% if sort == "minprice" %}
+									<a href="kang?pagenum={{page}}&sort=minprice">{{page}}</a>
+								{% elif sort == "maxprice" %}
+									<a href="kang?pagenum={{page}}&sort=maxprice">{{page}}</a>
+								{% else %}
+									<a href="kang?pagenum={{page}}&sort=name">{{page}}</a>
+								{% endif %}
+							{% else %}
+								<a href="kang?pagenum={{page}}">{{page}}</a>
+							{% endif %}
+						{% endif %}
+					{% endfor %}	
+					{% if endpage < pagecount %}
+						{% if sort %}
+								{% if sort == "minprice" %}
+									<a class="arrow next" href="kang?pagenum={{startpage|add:pageblock}}&sort=minprice"></a>
+								{% elif sort == "maxprice" %}
+									<a class="arrow next" href="kang?pagenum={{startpage|add:pageblock}}&sort=maxprice"></a>
+								{% else %}
+									<a class="arrow next" href="kang?pagenum={{startpage|add:pageblock}}&sort=name"></a>
+								{% endif %}
+						{% else %}
+							<a class="arrow next" href="kang?pagenum={{startpage|add:pageblock}}"></a>
+						{% endif %}	
+					{% endif %}
+				</div>
+			</div>
+			<br><br><br><br>
+        </section>
+    </header>
+</div>
+{% endblock %}

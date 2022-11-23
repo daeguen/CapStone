@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block locationbar %}
+{% endblock %}
+{% block contents %}
+{% csrf_token %}
+<br><br>
+<div>
+    <header class="header navbar-area" style="z-index: 2;">
+        <section class="hero-area">
+            <div class="container" style="border: 1px solid lightgray; padding: 30px; border-radius: 8px; width: 1000px;">
+                <div>
+                    <h4><span>반품 게시판</span></h4>
+                    <div class="col-12">
+                        <div class="main-menu-search">
+                            <div class="newsletter-form-head">
+                                <form method="post" name="returnform" action="returnwrite" enctype="multipart/form-data" onsubmit="return returncheck()">
+                                	<input type="hidden" name="returnnum" value="{{returnnum}}">
+                                	<input type="hidden" name="prodnum" value="{{dto.prodnum}}">
+                                	<input type="hidden" name="paydetailnum" value="{{dto.paydetailnum}}">
+                                    <div class="search-input">
+                                        <input class="input_field" type="text" name="user_id" value="{{memid}}" style="font-size:15px;" readonly>
+                                        <input class="input_field" type="text" name="prodname" value="{{dto.prodname}}" readonly="readonly">
+                                        <input class="input_field" type="text" name="return_title" placeholder="제목을 입력해주세요.(최대 50글자)" maxlength="50" autofocus style="font-size:15px;"><br>
+                                        <textarea id="txtArea" name="return_content" placeholder="내용을 입력해주세요.(최대 500글자)" maxlength="500" rows="2" cols="20" wrap=on style="resize:none; width:100%; height:500px; font-size:20px; padding-left: 10px;">{{dto.return_content}}</textarea>
+                                        <input class="input_field" type="file" name="return_img">
+                                        <div class="search-input" style="display:flex;">
+                                            <input type="submit" value="글작성" style="width:150px; background-color:lightblue">
+                                            <input type="button" value="나의 반품목록" style="width:150px; background-color:lightblue" onclick="location='returnlist?pagenum={{pagenum}}'">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+</div>
+<br><br><br><br>
+{% endblock %}
+<br>

@@ -1,0 +1,158 @@
+{% extends "base.html" %}
+
+{% block title %} {% endblock %}
+{% block header %} {% endblock %}
+
+{% block contents %}
+<body>
+    <div>
+        <header class="header navbar-area" style="margin-top:50px">
+            <section class="hero-area" style="height:100%">
+                <div class="container" style="width:1000px;">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <div>
+                                <h2><span>회원가입</span></h2>
+                            </div>
+                            <br>
+                            <div class="main-menu-search">
+                            		{% csrf_token %}
+                                    <form method="post" action="signup" name="signform" onsubmit="return signcheck()">
+                                    	<input type="hidden" name="userconfirm" value="0"> <!-- 중복확인 체크 부분 -->
+                                        <div class="navbar-search search-style-5">
+                                            <div class="search-input">
+                                                <h6 style="text-align:left"><span>&nbsp;아이디<em style="color:red;">*</em></span></h6>
+                                                <div>
+                                                    <input style="width:100%" class="input_id" type="text" id="user_id" name="user_id" placeholder="아이디" 
+                                                    oninput="this.value = this.value.replace(/[^a-zA-Z0-9]/g, '').replace(/(\..*)\./g, '$1');" 
+                                                    autofocus onkeyup="useridconfirm()"> <!-- name 추가 할것 -->
+                                                    <!-- <input type="button" id="idcheck" value="중복확인" style="background-color:lightblue"> -->    
+                                                    <div id="confirmcheck"> 아이디를 입력해 주세요 </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <br>
+                                        <br>
+                                        <div class="search-input">
+                                            <h6 style="text-align:left"><span>&nbsp;비밀번호<em style="color:red;">*</em></span></h6>
+                                            <input type="password" name="user_passwd" placeholder="비밀번호 입력"> <!-- name 추가 할것 -->
+                                        </div>
+                                        <div class="search-input">
+                                            <input type="password" name="user_repasswd" placeholder="비밀번호 재입력"> <!-- name 추가 할것 -->
+                                            <div id="passwdcheck" style="font-weight:bold;"> 비밀번호를 입력해 주세요 </div>
+                                        </div>
+                                    <br>
+                                    <br>
+                                        <div class="search-input">
+                                            <h6 style="text-align:left"><span>&nbsp;이름<em style="color:red;">*</em></span></h6>
+                                            <input type="text" name="user_name" id="user_name" placeholder="이름" style="ime-mode:disabled;">
+                                            <script type="text/javascript">
+                                            onlyKorFunc(document.getElementById("user_name"));
+                                            function onlyKorFunc(t){
+                                            	  var regexp = /[a-z0-9]|[ \[\]{}()<>?|`~!@#＃＆＊＠§※☆★○●◎◇◆□■△$%^&*-_+=,.;:\u4E00-\u9FD5"'\\]/g;
+                                            	  t.onkeyup = function(e){
+                                            	    var v = this.value;
+                                            	    this.value = v.replace(regexp,'');
+                                            	  }
+                                            	}
+                                            </script><!-- name 추가 할것 -->
+                                        </div>
+                                    
+                                    <br>
+                                    <br>               
+                                        <h6 style="text-align:left"><span>&nbsp;전화번호<em style="color:red;">*</em></span></h6>
+                                        <div class="search-input" style="display:flex;">
+                                            <input type="text" name="user_tel1" value="010"  maxlength="3" onkeyup="nexttel1()" style="width:100px;" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" readonly> <!-- name 추가 할것 -->
+                                            <input type="text" name="user_tel2" placeholder="0000" maxlength="4" onkeyup="nexttel2()" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                                            <input type="text" name="user_tel3" placeholder="0000" maxlength="4" onkeyup="nexttel3()" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                                        </div>
+                                    <br>
+                                    	<h6 style="text-align:left"><span>&nbsp;이메일<em style="color:red;">*</em></span></h6>
+                                    	<div class="select-position">
+	                                        <div class="search-input" style="display:flex;">
+	                                            <input type="text" name="user_email1"><p style="font-size:20px; margin:auto;">@</p>
+	                                            <select class="search-input" id="user_email2" name="user_email2"> <!-- name 추가 할것 -->
+	                                            	<option value="">이메일</option>
+	                                                <option value="naver.com">네이버</option>
+	                                                <option value="daum.net">다음</option>
+	                                                <option value="gmail.com">구글</option>
+	                                            </select>
+	                                        </div>  
+                                        </div>
+                                    <br>          
+                                        <div class="search-input">
+                                            <h6 style="text-align:left"><span>&nbsp;성별<em style="color:red;">*</em></span></h6>
+                                        </div>
+                                        <div class="select-position">
+                                            <select class="search-input" name="user_gender"> <!-- name 추가 할것 -->
+                                            	<option value="">성별</option>
+                                                <option value="남자">남자</option>
+                                                <option value="여자">여자</option>
+                                            </select>
+                                        </div>              
+                                    <br>
+                                        <h6 style="text-align:left"><span>&nbsp;주소<em style="color:red;">*</em></span></h6>
+                                        <div class="search-input" style="display:flex;">
+                                            <input type="text" id="address" style="width:1400px;" name="user_addr" placeholder="주소" readonly> <!-- name 추가 할것 -->
+                                            <input type="button" value="주소찾기" onclick="kakaoaddress()" style="background-color:lightblue">
+                                        </div>                                                                     
+                                        <div class="search-input">
+                                            <input type="text" name="user_addrt" placeholder="상세주소"> <!-- name 추가 할것 -->
+                                        </div>
+                                    <br>
+                                    <h6 style="text-align:left"><span>&nbsp;선호 브랜드 (선택)</span></h6>
+                                    <div class="brandcontainer">
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest1" name="user_brand[]" style="display: none;" value="아디다스">
+                                            <label for="cbtest1" class="cb1"></label>아디다스
+                                        </label>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest2" name="user_brand[]" style="display: none;" value="뉴발란스">
+                                            <label for="cbtest2" class="cb1"></label>뉴발란스
+                                        </lable>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest3" name="user_brand[]" style="display: none;" value="나이키">
+                                            <label for="cbtest3" class="cb1"></label>나이키
+                                        </label>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest4" name="user_brand[]" style="display: none;" value="노스페이스">
+                                            <label for="cbtest4" class="cb1"></label>노스페이스
+                                        </label>
+                                    </div>
+                                    <div class="brandcontainer">
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest5" name="user_brand[]" style="display: none;" value="스파오">
+                                            <label for="cbtest5" class="cb1"></label>스파오
+                                        </label>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest6" name="user_brand[]" style="display: none;" value="H&M">
+                                            <label for="cbtest6" class="cb1"></label>H&M
+                                        </lable>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest7" name="user_brand[]" style="display: none;" value="캉골">
+                                            <label for="cbtest7" class="cb1"></label>캉골
+                                        </label>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest8" name="user_brand[]" style="display: none;" value="무지">
+                                            <label for="cbtest8" class="cb1"></label>무지
+                                        </label>
+                                    </div>
+                                    <br>
+                                    <div class="search-input" style="display:flex">
+                                        <input type="submit" value="가입" style="background-color:lightblue">
+                                        <input type="button" value="가입취소"
+                                            onclick="location='index'" style="background-color:lightblue">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+    </div>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

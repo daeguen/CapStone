@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load static %}
+{% load humanize %}
+{% block locationbar %}{% endblock %}
+{% block contents %}
+<div>
+<br>
+    <header class="header navbar-area" style="z-index: 2;">
+        <section class="hero-area">
+            <div class="container" style="border: 1px solid lightgray; padding: 30px; border-radius: 8px; width: 800px;">
+            	<div class="reviewList" id="reviewList" style="width:1400px;">
+					<div id="review_wrote_list">
+					{% if dtocount == 0 %}
+						<span style="text-align: center;">작성하신 리뷰가 없습니다.</span>
+					{% else %}
+						<ul>
+						{% for dto in dtos %}												
+							<li class="my-review__wrote__list">
+			
+						        <div class="my-review__wrote__top-wrap js_reviewWroteListProductImage">
+						        	<img class="my-review__wrote__image" src="/media/{{dto.prodmainimg}}">
+						            <span class="my-review__wrote__item_name js_reviewWroteListProductTitle" data-vendor-item-package-id="0" data-is-deal-product="false">
+						            	<a href="../shopproduct/prodcontent?prodnum={{dto.prodnum}}">{{dto.prodname}}</a></span>
+						            <span class="my-review__wrote__btn-wrap">
+						                
+						            </span>
+						        </div>
+						        <div class="my-review__wrote__main-wrap">
+						            <div class="my-review__wrote__second-wrap" data-product-review-id="362683602" data-page="1">
+						                
+						            </div>
+						            <div class="my-review__wrote__attachments" data-page="1">
+						                <a style="font-size:20px; color:yellow;">{% for i in ""|ljust:dto.reviewrating %} ★ {% endfor %}</a>
+						                {% if dto.reviewrating == 1 %}
+										☆☆☆☆
+										{% elif dto.reviewrating == 2 %}
+										☆☆☆
+										{% elif dto.reviewrating == 3 %}
+										☆☆
+										{% elif dto.reviewrating == 4 %}
+										☆
+										{% endif %}
+															<span class="my-review__wrote__date">{{dto.reviewregdate|date:"Y-m-d"}}</span>
+						            </div>
+						            {{dto.prodoption}}
+						            <div class="my-review__wrote__content__title">
+						                <span>{{dto.reviewtitle}}</span>
+						            </div>
+						            <div>
+						            	<img src="{{dto.reviewimg.url}}" style="width:100px; height:100px;">
+						            </div>
+						            <div class="my-review__wrote__content">
+						                <pre>{{dto.reviewcontent}}</pre>
+						            </div>
+						        </div>
+						    </li>
+						   	{% endfor %}
+						</ul>
+						{% endif %}   		<!-- 여기까지 -->
+					</div>
+				</div>
+            </div>
+            <br><br><br><br>
+        </section>
+    </header>
+</div>
+{% endblock %}

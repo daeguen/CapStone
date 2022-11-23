@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block locationbar %}
+{% endblock %}
+{% block contents %}
+{% csrf_token %}
+    <!-- Review Modal -->
+    <form method="post" name="reviewmodifyform" action="shopreviewmodifypro" enctype="multipart/form-data" onsubmit="return reviewmodifycheck()">
+    	<input type="hidden" name="prodnum" value="{{prodnum}}">
+        <input type="hidden" name="reviewnum" value="{{reviewnum}}">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">리뷰 수정</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="form-group">
+                            <label for="review-name">아이디</label>
+                            <input class="form-control" name="user_id" value="{{dto.user_id}}" type="text" id="review-name" readonly required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group">
+                        	<br>
+                            <label for="review-subject">리뷰 제목</label>
+                            <input class="form-control" name="reviewtitle" value="{{dto.reviewtitle}}" type="text" id="review-subject" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <br>
+	                    <label for="review-rating">별점</label>
+	                    <div class="rating">
+	                    	<input type="hidden" name="rate" id="rate" value="0"/>
+	                        <!-- 해당 별점을 클릭하면 해당 별과 그 왼쪽의 모든 별의 체크박스에 checked 적용 -->
+	                        <input type="checkbox" name="reviewrating" id="rating1" value="1" class="rate_radio" title="1점">
+	                        <label for="rating1"></label>
+	                        <input type="checkbox" name="reviewrating" id="rating2" value="2" class="rate_radio" title="2점">
+	                        <label for="rating2"></label>
+	                        <input type="checkbox" name="reviewrating" id="rating3" value="3" class="rate_radio" title="3점" >
+	                        <label for="rating3"></label>
+	                        <input type="checkbox" name="reviewrating" id="rating4" value="4" class="rate_radio" title="4점">
+	                        <label for="rating4"></label>
+	                        <input type="checkbox" name="reviewrating" id="rating5" value="5" class="rate_radio" title="5점">
+	                        <label for="rating5"></label>
+	                    </div>
+	                </div>
+                    <div class="form-group">
+                        <br>
+                        <label for="review-message">사진첨부</label>
+                        <input class="form-control" name="reviewimg" type="file">
+                    </div>
+                    <div class="form-group">
+                        <label for="review-message">리뷰 글작성</label>
+                        <textarea class="form-control" name="reviewcontent" id="review-message" rows="8" cols="20" wrap=on style="resize: none;" required>{{dto.reviewcontent}}</textarea>
+                    </div>
+                </div>
+                <div class="modal-footer button">
+                    <input type="submit" class="btn" value="수정완료">
+                </div>
+            </div>
+        </div>    
+	</form>
+    <!-- End Review Modal -->
+{% endblock %}

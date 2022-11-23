@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% load mathfilters %}
+{% load static %}
+{% block locationbar %}
+{% endblock %}
+{% block contents %}
+<br>
+<div>
+    <header class="header navbar-area" style="z-index: 2;">
+        <section class="hero-area">
+            <div class="container">
+                <div>
+                    <h3><span>공지사항</span></h3>
+                    <div class="col-12" style="width: 1400px;">
+                            <table style="width: 1400px;">
+                                <colgroup>
+                                    <col style="width: 100px">
+                                    <col style="width: 900px;">
+                                    <col style="width: 150px;">
+                                    <col style="width: 150px">
+                                    <col style="width: 150px">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>&nbsp;글번호</th>
+                                        <th>&nbsp;글 제목</th>
+                                        <th>&nbsp;&nbsp;&nbsp;아이디</th>
+                                        <th>&nbsp;&nbsp;&nbsp;작성일</th>
+                                        <th>&nbsp;&nbsp;&nbsp;조회수</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                
+                                {% if noticecount == 0 %}
+	                                <tr>
+	                                	<td></td>
+	                                	<td>작성된 글이 없습니다</td>
+	                                	<td></td>
+	                                	<td></td>
+	                                	<td></td>
+	                                </tr>
+                                {% else %}
+                                	{% for dto in dtos %}
+                                    <tr>
+                                        <td>{{number|sub:forloop.counter0}}</td>
+                                        <td><a href="noticedetail?noticenum={{dto.noticenum}}&pagenum={{pagenum}}&number={{number|sub:forloop.counter0}}">{{dto.noticetitle}}</a></td>
+                                        <td>{{dto.adminname}}</td>
+                                        <td>{{dto.noticeregdate|date:"Y-m-d H:i"}}</td>
+                                        <td>{{dto.noticereadcount}}</td>
+                                    </tr>
+                                    {% endfor %}
+                                {% endif %}
+                                    <hr>
+                                </tbody>
+                                <br><br><br><br><br>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            
+            <!-- 페이지 버튼 -->
+            <div class="page_wrap">
+                <div class="page_nation">
+                {% if startpage > pageblock %}
+                    <a class="arrow prev" href="noticelist?pagenum={{startpage|sub:pageblock}}"></a>
+                {% endif %}
+                {% for page in pages %}
+                	{% if pagenum == page %}
+           		   		<a class="active">{{page}}</a>
+           		   	{% else %}
+           		   		<a href="noticelist?pagenum={{page}}">{{page}}</a>
+           		   	{% endif %}
+           		{% endfor %}
+                {% if endpage < pagecount %}
+                    <a class="arrow next" href="noticelist?pagenum={{startpage|add:pageblock}}"></a>
+                {% endif %}
+                </div>
+            </div>
+            <br><br><br><br>
+        </section>
+    </header>
+</div>
+{% endblock %}
+<br><br><br>

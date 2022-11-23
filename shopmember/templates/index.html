@@ -1,0 +1,296 @@
+{% extends "base.html" %}
+{% load static %}
+<!-- 콘텐츠 시작 -->
+{% block contents %}
+{% load humanize %}
+<!-- 이부분에 게시물들 들어가면됨 -->
+<!-- 정렬 하면 될듯 -->
+<!-- 자동 스크롤 베너 시작 -->
+<section class="hero-area">
+<script>
+   function showpap() {    
+   	window.open("{% url 'member:pappap' %}","showpap","width=515,height=530,history=no,resizable=no,status=no,scrollbars=yes,menubar=no" )
+   }
+</script>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-12 custom-padding-right">
+                <div class="slider-head">
+                    <!-- Start Hero Slider -->
+                    <div class="hero-slider">
+                        <!-- Start Single Slider -->
+                        <div class="single-slider"
+                            style="background-image: url(/static/images/hero/coding.jpg);">
+                            <div class="content">
+                                <h2><span><!-- 아무거나 --></span>
+                                    <!-- 상품설명 -->
+                                </h2>
+                                <p><!-- 상품 설명 --></p>
+                                <h3><span><!-- 이름이나 --></span><!-- 가격이나 --></h3>
+                                <div class="button">
+                                        <!-- 클릭시 해당 페이지 이동 -->
+                                    <!-- <a href="product-grids.html" class="btn">지금보기</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Slider -->
+                        <!-- 이미지 하나 끝 -->
+                        <!-- 두번째 이미지 시작 -->
+                        <!-- Start Single Slider -->
+                        <div class="single-slider"
+                            style="background-image: url(/static/images/hero/winter.jpg);">
+                            <div class="content">
+                                <h2><span><!-- 아무거나 --></span>
+                                    <!-- 상품설명 -->
+                                </h2>
+                                <p><!-- 상품 설명 --></p>
+                                <h3><span><!-- 이름이나 --></span><!-- 가격이나 --></h3>
+                                <div class="button">
+                                        <!-- 클릭시 해당 페이지 이동 -->
+                                    <!-- <a href="product-grids.html" class="btn">지금보기</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Slider -->
+                    </div>
+                    <!-- End Hero Slider -->
+                </div>
+            </div>
+            <!-- 우측 아이폰 -->
+            <div class="col-lg-4 col-12">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 col-12 md-custom-padding">
+                        <!-- Start Small Banner -->
+                        <div class="hero-small-banner"
+                            style="background-image: url(/static/images/hero/bag.png);">
+                            <div class="content">
+                                <h2>
+                                    <span><!-- 어쩌구 --></span>
+                                    <!-- 저쩌구 -->
+                                </h2>
+                                <h3><!-- 어쩔 가격 --></h3>
+                            </div>
+                        </div>
+                        <!-- End Small Banner -->
+                    </div>
+                    <div class="col-lg-12 col-md-6 col-12">
+                        <!-- Start Small Banner -->
+                        <div class="hero-small-banner style2">
+                            <div class="content">
+                                <h2>팀장의 깃허브</h2>
+                                <p>팀장의 깃허브에 다 있다.</p>
+                                <div class="button">
+                                    <a class="btn" href="https://github.com/daeguen">지금보기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start Small Banner -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 스크롤 베너 끝 -->
+
+<section class="trending-product section" style="margin-top: 12px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">
+                    <span><h2> 회원님을 위한 추천 상품 </h2></span>
+                    <p>회원님의 최근 본 상품과 유사한 상품을 추천해 드립니다.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        {% for item in random_id %}
+        <!-- 상품 정렬 시작 -->
+            <div class="col-lg-3 col-md-6 col-12">
+            <a href="../shopproduct/prodcontent?prodnum={{item.prodnum}}">
+                <div class="single-product">
+                    <div class="product-image">
+                        <!-- 상품 이미지-->
+                        <img class="prodimgsed" src="{{item.prodmainimg.url}}" alt="#">
+                        <div class="button">
+                            <!-- 상품 해당 페이지로 -->
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <span class="category">{{item.prodbrand}} / {{item.proditems}}</span>
+                        <h4 class="title">
+                            <!-- 위의 부분과 링크를 동일하게 -->
+                            <a href="../shopproduct/prodcontent?prodnum={{item.prodnum}}">{{item.prodname}}</a>
+                        </h4>
+                        <ul class="review">
+
+                        </ul>
+                        <div class="price">
+                            <span>{{item.prodprice|intcomma}}원</span>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <!-- 상품 정렬 끝 -->
+            {% endfor %}
+        </div>
+    </div>
+    
+    <br><br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">
+                    <span><h2> 날씨 / 기온 별 추천 상품<br>현 최저 기온 {{maxgion}}도</h2></span>
+                    <p>이번주 날씨</p>
+					<p>{{relines10}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        	{% if 24 < maxgion %}
+        		{% for sitem in srandom_prod %}
+		        <!-- 상품 정렬 시작 -->
+		            <div class="col-lg-3 col-md-6 col-12">
+		            <a href="../shopproduct/prodcontent?prodnum={{sitem.prodnum}}">
+		                <div class="single-product">
+		                    <div class="product-image">
+		                        <!-- 상품 이미지-->
+		                        <img class="prodimgsed" src="{{sitem.prodmainimg.url}}" alt="#">
+		                        <div class="button">
+		                            <!-- 상품 해당 페이지로 -->
+		                        </div>
+		                    </div>
+		                    <div class="product-info">
+		                        <span class="category">{{sitem.prodbrand}} / {{sitem.proditems}}</span>
+		                        <h4 class="title">
+		                            <!-- 위의 부분과 링크를 동일하게 -->
+		                            <a href="../shopproduct/prodcontent?prodnum={{sitem.prodnum}}">{{sitem.prodname}}</a>
+		                        </h4>
+		                        <ul class="review">
+
+		                        </ul>
+		                        <div class="price">
+		                            <span>{{sitem.prodprice|intcomma}}원</span>
+		                        </div>
+		                    </div>
+		                </div>
+		                </a>
+		            </div>
+		            <!-- 상품 정렬 끝 -->
+		        {% endfor %}
+		    {% else %}
+		    	{% for witem in random_prod %}
+		        <!-- 상품 정렬 시작 -->
+		            <div class="col-lg-3 col-md-6 col-12">
+		            <a href="../shopproduct/prodcontent?prodnum={{witem.prodnum}}">
+		                <div class="single-product">
+		                    <div class="product-image">
+		                        <!-- 상품 이미지-->
+		                        <img class="prodimgsed" src="{{witem.prodmainimg.url}}" alt="#">
+		                        <div class="button">
+		                            <!-- 상품 해당 페이지로 -->
+		                        </div>
+		                    </div>
+		                    <div class="product-info">
+		                        <span class="category">{{witem.prodbrand}} / {{witem.proditems}}</span>
+		                        <h4 class="title">
+		                            <!-- 위의 부분과 링크를 동일하게 -->
+		                            <a href="../shopproduct/prodcontent?prodnum={{witem.prodnum}}">{{witem.prodname}}</a>
+		                        </h4>
+		                        <ul class="review">
+
+		                        </ul>
+		                        <div class="price">
+		                            <span>{{witem.prodprice|intcomma}}원</span>
+		                        </div>
+		                    </div>
+		                </div>
+		                </a>
+		            </div>
+		            <!-- 상품 정렬 끝 -->
+		            {% endfor %}
+		    {% endif %}
+        </div>
+    </div>
+
+	<br><br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">
+                    <span><h2> 이런 상품은 어떠신가요? </h2></span>
+                    <p>회원님을 위한 추천상품 입니다.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        {% if memid %}
+	        {% for count in recomelist %}
+	        <!-- 상품 정렬 시작 -->
+	            <div class="col-lg-3 col-md-6 col-12">
+	            <a href="../shopproduct/prodcontent?prodnum={{count.prodnum.prodnum}}">
+	                <div class="single-product">
+	                    <div class="product-image">
+	                        <!-- 상품 이미지-->
+	                        <img class="prodimgsed" src="{{count.prodnum.prodmainimg.url}}" alt="#">
+	                        <div class="button">
+	                            <!-- 상품 해당 페이지로 -->
+	                        </div>
+	                    </div>
+	                    <div class="product-info">
+	                        <span class="category">{{count.prodnum.prodbrand}} / {{count.prodnum.proditems}}</span>
+	                        <h4 class="title">
+	                            <!-- 위의 부분과 링크를 동일하게 -->
+	                            <a href="../shopproduct/prodcontent?prodnum={{count.prodnum.prodnum}}">{{count.prodnum.prodname}}</a>
+	                        </h4>
+	                        <ul class="review">
+
+	                        </ul>
+	                        <div class="price">
+	                            <span>{{count.prodnum.prodprice|intcomma}}원</span>
+	                        </div>
+	                    </div>
+	                </div>
+	                </a>
+	            </div>
+	            <!-- 상품 정렬 끝 -->
+	            {% endfor %}
+	        {% else %}
+	        	{% for count in randum_id %}
+	        <!-- 상품 정렬 시작 -->
+	            <div class="col-lg-3 col-md-6 col-12">
+	            <a href="../shopproduct/prodcontent?prodnum={{count.prodnum}}">
+	                <div class="single-product">
+	                    <div class="product-image">
+	                        <!-- 상품 이미지-->
+	                        <img class="prodimgsed" src="{{count.prodmainimg.url}}" alt="#">
+	                        <div class="button">
+	                            <!-- 상품 해당 페이지로 -->
+	                        </div>
+	                    </div>
+	                    <div class="product-info">
+	                        <span class="category">{{count.prodbrand}} / {{count.proditems}}</span>
+	                        <h4 class="title">
+	                            <!-- 위의 부분과 링크를 동일하게 -->
+	                            <a href="../shopproduct/prodcontent?prodnum={{count.prodnum}}">{{count.prodname}}</a>
+	                        </h4>
+	                        <ul class="review">
+
+	                        </ul>
+	                        <div class="price">
+	                            <span>{{count.prodprice|intcomma}}원</span>
+	                        </div>
+	                    </div>
+	                </div>
+	                </a>
+	            </div>
+	            <!-- 상품 정렬 끝 -->
+	            {% endfor %}
+	        {% endif %}
+        </div>
+    </div>
+</section>
+
+{% endblock %}

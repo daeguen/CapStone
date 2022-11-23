@@ -1,0 +1,391 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% load mathfilters %}
+{% load static %}
+{% block locationbar %}{% endblock %}
+{% block contents %}
+    <!-- Start Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="breadcrumbs-content">
+                        <h1 class="page-title">{{dto.prodbrand}} / {{dto.proditems}}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+
+    <!-- Start Item Details -->
+    <section class="item-details section">
+        <div class="container">
+            <div class="top-area">
+                <div class="row align-items-center">
+                	{% csrf_token %}
+                	<form action="prodcontent" method="post" style="display:flex;">
+                		<input type="hidden" name="prodnum" value="{{prodnum}}">
+	                    <div class="col-lg-6 col-md-12 col-12">
+	                        <div class="product-images">
+	                            <main id="gallery">
+	                                <div class="main-img">
+	                                    <!-- 메인이미지 -->
+	                                    <img src="{{dto.prodmainimg.url}}" onclick="window.open(this.src)" id="current" alt="#">
+	                                </div>
+	                                <div class="images">
+	                                    <!-- 메인이미지 + 서브이미지 -->
+	                                    <img src="{{dto.prodmainimg.url}}" class="img" alt="#">
+	                                    <img src="{{dto.prodsubimg1.url}}" class="img" alt="#">
+	                                    <img src="{{dto.prodsubimg2.url}}" class="img" alt="#">
+	                                </div>
+	                            </main>
+	                        </div>
+	                    </div>
+	                    <div class="col-lg-6 col-md-12 col-12">
+	                        <div class="product-info">
+	                            <h2 class="title">{{dto.prodname}}</h2>
+	                            <!-- 상품 테그 넣고싶다면 이곳에 -->
+	                            <input type="hidden" value="{{dto.prodbrand}}">
+	                            <p class="category"><i class="lni lni-tag"></i> 카테고리:<a href="javascript:void(0)">{{dto.proditems}}</a></p>
+	                            <h3 class="price">{{dto.prodprice|intcomma}}원</h3>
+	                            {% if reviewcount %} 
+	                            <p class="info-text">
+	                            	<a style="font-size:20px; color:yellow;">{% for i in ""|ljust:ratingavg %} ★ {% endfor %}</a>
+	                            											<a style="font-size:20px;">{% for i in ""|rjust:ratchar %} ☆ {% endfor %}</a><br>
+	                            	{{ratingavg}}/5.0 ({{reviewcount}})
+	                            </p>
+	                            {% else %}
+	                            <p class="info-text">
+	                            	작성된 리뷰가 없습니다<br>
+	                            	0.0/5.0 ({{reviewcount}})
+	                            </p>
+	                            {% endif %}
+	                            <div class="row">
+	                                <div class="col-lg-4 col-md-4 col-12">
+	                                    <div class="form-group color-option">
+	                                        <!-- 상품 색상인데 이부분은 option으로 바꿀듯? -->
+	                                        <label class="title-label" for="size">상품 색상</label>
+	                                        <select class="form-control" name="prodcolor" id="color">
+	                                            <option value="아이보리">아이보리</option>
+	                                            <option value="화이트">화이트</option>
+	                                            <option value="블랙">블랙</option>
+	                                            <option value="그레이">그레이</option>
+	                                            <option value="차콜">차콜</option>
+	                                            <option value="브라운">브라운</option>
+	                                            <option value="레드">레드</option>
+	                                            <option value="그린">그린</option>
+	                                        </select>
+	                                    </div>
+	                                </div>
+	                                {% if dto.proditems == "신발" %}
+	                                <div class="col-lg-4 col-md-4 col-12">
+	                                    <div class="form-group">
+	                                        <label for="color">상품 사이즈</label>
+	                                        <select class="form-control" name="prodsize" id="color">
+	                                        	<option value="240">240</option>
+	                                            <option value="245">245</option>
+	                                            <option value="250">250</option>
+	                                            <option value="255">255</option>
+	                                            <option value="260">260</option>
+	                                            <option value="265">265</option>
+	                                            <option value="270">270</option>
+	                                            <option value="275">275</option>
+	                                            <option value="280">280</option>
+	                                        </select>
+	                                    </div>
+	                                </div>
+	                                {% else %}
+	                                <div class="col-lg-4 col-md-4 col-12">
+	                                    <div class="form-group">
+	                                        <label for="color">상품 사이즈</label>
+	                                        <select class="form-control" name="prodsize" id="color">
+	                                        	<option value="XS">XS</option>
+	                                            <option value="S">S</option>
+	                                            <option value="M">M</option>
+	                                            <option value="L">L</option>
+	                                            <option value="XL">XL</option>
+	                                            <option value="XXL">XXL</option>
+	                                        </select>
+	                                    </div>
+	                                </div>
+	                                {% endif %}
+	                                <div class="col-lg-4 col-md-4 col-12">
+	                                    <div class="form-group quantity">
+	                                        <label for="color">구매 갯수</label>
+	                                        <select class="form-control" name="prodcount">
+	                                            <option value=1>1</option>
+	                                            <option value=2>2</option>
+	                                            <option value=3>3</option>
+	                                            <option value=4>4</option>
+	                                            <option value=5>5</option>
+	                                            <option value=6>6</option>
+	                                            <option value=7>7</option>
+	                                            <option value=8>8</option>
+	                                            <option value=9>9</option>
+	                                            <option value=10>10</option>
+	                                        </select>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                            <div class="bottom-content">
+	                            {% if memid %}
+	                            	{% if dto.prodstatus == "품절" %}
+                                      <div class="row align-items-end">
+                                        <div class="button cart-button">
+                                            <input type="button" class="btn" value="품절">
+                                        </div>              
+	                                </div>
+                                  	{% else %}
+	                                <div class="row align-items-end">
+	                                    <div class="col-lg-4 col-md-4 col-12">
+	                                        <div class="button cart-button">
+	                                            <input type="submit" name="pay" class="btn" style="width: 100%;" value="바로구매">
+	                                        </div>
+	                                    </div>
+	                                    <div class="col-lg-4 col-md-4 col-12">
+	                                        <div class="wish-button">
+	                                            <button class="btn" name="add_cart"><i class="lni lni-cart"></i>장바구니 담기</button>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            {% endif %}
+	                            {% else %}
+	                            	<div class="row align-items-end">
+	                                    <div class="col-lg-4 col-md-4 col-12">
+	                                        <div class="button cart-button">
+	                                        	<span>로그인 후 이용해 주세요</span>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            {% endif %}
+	                            </div>
+	                        </div>
+	                    </div>
+                    </form>
+                    
+                    <div class="product-details-info">
+                        <div class="single-block">
+                            <div class="row">
+                                <div class="tabs">
+                                    <input id="all" type="radio" name="tab_item" checked>
+                                    <label class="tab_item" for="all">상품 설명</label>
+                                    <input id="programming" type="radio" name="tab_item">
+                                    <label class="tab_item" for="programming">리뷰</label>
+                                <div class="tab_content" id="all_content">
+                                    <!-- 여기에 상품 설명 이미지 -->
+                                    <img src="{{dto.prodcontentimg.url}}">
+                                    
+                                </div>
+                                <div class="tab_content" id="programming_content">
+                                {% if memid %}
+                                	{% if paycount %}
+                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        리뷰작성하기
+                                    </button>
+                                    {% else %}
+                                    {% endif %}
+                                  {% else %}
+                                    	로그인 후 이용해주세요
+                                  {% endif %}
+                                    <br><br>
+                                    
+                                    {% if reviewcount %}
+										<!--여기부터 리뷰출력 -->  
+										<input type="hidden" name="prodnum" value="{{dto.prodnum}}">
+	                					<input type="hidden" name="reviewnum" value="{{dto.reviewnum}}">                                  	
+									<div class="reviewList" id="reviewList">
+										<ul>
+										{% for dto in reviewdto %}												
+											<li class="reviewItem"  data-seq="" style="width:300px;">
+												<div class="reviewHeader">
+													<div class="headerLeft">
+														<span>{{dto.reviewtitle}}</span>
+													</div>
+													<div class="headerLeft">
+														<span class="starRateWrap"> <span class="starRate"
+															style="width: 100%; color:yellow; font-size:20px;">{% for i in ""|ljust:dto.reviewrating %} ★ {% endfor %}
+															{% if dto.reviewrating == 1 %}
+															☆☆☆☆
+															{% elif dto.reviewrating == 2 %}
+															☆☆☆
+															{% elif dto.reviewrating == 3 %}
+															☆☆
+															{% elif dto.reviewrating == 4 %}
+															☆
+															{% endif %}
+															</span>
+														</span>
+													</div>
+													<div class="headerRight">
+														<div class="reviewInfo">
+															<span class="user"> {{dto.user_id}}</span>
+															<br>
+															<span class="date">
+																{{dto.reviewregdate|date:"Y-m-d"}}</span>
+														</div>
+													</div>
+													<div class="headerOption">{{dto.prodoption}} </div>
+													<ul class="userImgList">
+															<li>
+																<img src="{{dto.reviewimg.url}}" style="width:100px; height:100px;"
+																	onerror="javascript:this.src='https://openimage.interpark.com/.ui/product/noimage.jpg'">
+															</li>
+														</ul>
+												</div> <!-- // reviewHeader --> <!-- reviewBody -->
+												<div class="reviewBody" role="button">
+													<p class="reviewContent"><pre style="white-space: pre-wrap">{{dto.reviewcontent}}</pre> </p>
+														<br><br>
+											    </div>
+											    {% if memid == dto.user_id %}
+											     	
+															<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+						                                        리뷰수정
+						                                    </button>
+						                                    <input class="btn btn-primary" type="button" value="리뷰 삭제"
+															onclick="location='../shopreview/shopreviewdelete?prodnum={{dto.prodnum}}&reviewnum={{dto.reviewnum}}'">
+															<br><br>
+															<!-- 리뷰 수정창 -->
+															<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+						                                        <form method="post" name="reviewmodifyform" action="../shopreview/shopreviewmodifypro" enctype="multipart/form-data" onsubmit="return reviewmodifycheck()">
+						                                        	<input type="hidden" name="reviewnum" value="{{dto.reviewnum}}">
+						                                        	<input type="hidden" name="prodnum" value="{{dto.prodnum}}">
+						                                            <div class="modal-dialog">
+						                                                <div class="modal-content">
+						                                                    <div class="modal-header">
+						                                                        <h5 class="modal-title" id="exampleModalLabel">리뷰 수정</h5>
+						                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						                                                    </div>
+						                                                    <div class="modal-body">
+						                                                        <div class="row">
+						                                                            <div class="form-group">
+						                                                                <label for="review-name">아이디</label>
+						                                                                <input class="form-control" name="user_id" value="{{memid}}" type="text" id="review-name" readonly required>
+						                                                            </div>  
+						                                                        </div>
+						                                                        <div class="row">
+						                                                            <div class="form-group">
+						                                                                <br>
+						                                                                <label for="review-subject">리뷰제목</label>
+						                                                                <input class="form-control" name="reviewtitle" type="text" id="review-subject" value="{{dto.reviewtitle}}" autofocus required>
+						                                                            </div>
+						                                                            <div class="form-group">
+						                                                                <br>
+						                                                                <label for="review-rating">별점</label>
+						                                                                <div class="rating">
+						                                                                    <!-- 해당 별점을 클릭하면 해당 별과 그 왼쪽의 모든 별의 체크박스에 checked 적용 -->
+						                                                                    <input type="hidden" name="rate" id="rate" value="0"/>
+						                                                                    <input type="checkbox" name="reviewrating" id="rating1" value="1" class="rate_radio" title="1점">
+						                                                                    <label for="rating1"></label>
+						                                                                    <input type="checkbox" name="reviewrating" id="rating2" value="2" class="rate_radio" title="2점">
+						                                                                    <label for="rating2"></label>
+						                                                                    <input type="checkbox" name="reviewrating" id="rating3" value="3" class="rate_radio" title="3점">
+						                                                                    <label for="rating3"></label>
+						                                                                    <input type="checkbox" name="reviewrating" id="rating4" value="4" class="rate_radio" title="4점">
+						                                                                    <label for="rating4"></label>
+						                                                                    <input type="checkbox" name="reviewrating" id="rating5" value="5" class="rate_radio" title="5점">
+						                                                                    <label for="rating5"></label>
+						                                                                </div>
+						                                                            </div>
+						                                                        </div>
+						                                                        <div class="form-group">
+						                                                            <br>
+						                                                            <label for="review-message">사진첨부</label>
+						                                                            <input class="form-control" name="reviewimg" type="file">
+						                                                        <div class="form-group">
+						                                                            <br>
+						                                                            <label for="review-message">리뷰 글작성</label>
+						                                                            <textarea class="form-control" name="reviewcontent" id="review-message" rows="8" cols="20" wrap=on style="resize: none;" required>{{dto.reviewcontent}}</textarea>
+						                                                        </div>
+						                                                    </div>
+						                                                    <div class="modal-footer button">
+						                                                        <input type="submit" class="btn" value="리뷰 수정">
+						                                                    </div>
+						                                                </div>
+						                                            </div>
+						                                       </form>
+						                                    </div>			
+															<br>
+															<br>
+												{% else %}
+												{% endif %}
+											   	</li>
+											   		{% endfor %}
+											   		<!-- 여기까지 -->
+											</ul>
+										</div>
+												{% else %}
+											   	상품 구매후 리뷰 작성이 가능합니다
+											   	{% endif %}
+										<!-- class는 그냥 css고..type는 type고.. -->	
+                                    <!-- 리뷰창 -->
+                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <form method="post" name="reviewform" action="../shopreview/shopreview" enctype="multipart/form-data" onsubmit="return reviewcheck()">
+                                        	<input type="hidden" name="reviewnum" value="{{dto.reviewnum}}">
+                                        	<input type="hidden" name="prodnum" value="{{dto.prodnum}}">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLabel">리뷰 작성하기</h5>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="row">
+                                                            <div class="form-group">
+                                                                <label for="review-name">아이디</label>
+                                                                <input class="form-control" name="user_id" value="{{memid}}" type="text" id="review-name" readonly required>
+                                                            </div>  
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="form-group">
+                                                                <br>
+                                                                <label for="review-subject">리뷰제목</label>
+                                                                <input class="form-control" name="reviewtitle" type="text" id="review-subject" autofocus required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <br>
+                                                                <label for="review-rating">별점</label>
+                                                                <div class="rating">
+                                                                    <!-- 해당 별점을 클릭하면 해당 별과 그 왼쪽의 모든 별의 체크박스에 checked 적용 -->
+                                                                    <input type="hidden" name="rate" id="rate" value="0"/>
+                                                                    <input type="checkbox" name="reviewrating" id="rating1" value="1" class="rate_radio" title="1점">
+                                                                    <label for="rating1"></label>
+                                                                    <input type="checkbox" name="reviewrating" id="rating2" value="2" class="rate_radio" title="2점">
+                                                                    <label for="rating2"></label>
+                                                                    <input type="checkbox" name="reviewrating" id="rating3" value="3" class="rate_radio" title="3점">
+                                                                    <label for="rating3"></label>
+                                                                    <input type="checkbox" name="reviewrating" id="rating4" value="4" class="rate_radio" title="4점">
+                                                                    <label for="rating4"></label>
+                                                                    <input type="checkbox" name="reviewrating" id="rating5" value="5" class="rate_radio" title="5점">
+                                                                    <label for="rating5"></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <br>
+                                                            <label for="review-message">사진첨부</label>
+                                                            <input class="form-control" name="reviewimg" type="file">
+                                                        <div class="form-group">
+                                                            <br>
+                                                            <label for="review-message">리뷰 글작성</label>
+                                                            <textarea class="form-control" name="reviewcontent" id="review-message" rows="8" cols="20" wrap=on style="resize: none;" required></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer button">
+                                                        <input type="submit" class="btn" value="리뷰 작성">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                       </form>
+                                    </div>
+                                    <!-- 여기부터 리뷰 출력 -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Item Details -->
+    {% endblock %}

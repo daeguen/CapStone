@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}{% endblock %}
+{% block header %} {% endblock %}
+{% block contents %}
+{% csrf_token %}
+<script>
+	// 자동으로 창이 닫히게 하는 함수
+	function popupClose(form) {
+		// target은 부모로 설정
+		form.target = opener.name;
+		
+		form.submit();
+		
+		if(opener != null) {
+			opener.qnadeleteForm = null;
+			
+			self.close();
+		}
+	}
+</script>
+<header class="header navbar-area" style="position:absolute;">
+    <section class="hero-area">
+        <div class="container">
+            <div class="col-12">
+                <div class="section-title">
+                    <div class="main-menu-search" style="margin-left:200px;">
+                        <form method="post" name="modifyform" action="qnadelete" target="{% url 'qnaboard:qnalist' %}">
+                        	<input type="hidden" name="qnanum" value="{{qnanum}}">
+							<input type="hidden" name="pagenum" value="{{pagenum}}">
+                            <table>
+                                <tr>
+                                    <div>
+                                        <th><h3>삭제하시겠습니까?<br><br></h3></th>
+                                    </div>
+                                </tr>
+                                <br>
+                                <tr>
+                                    <td>
+                                        <br>
+                                        <div class="search-input" style="display:flex" style="width:1400px;">
+                                            <input type="submit" value="삭제하기" style="background-color:lightblue" onclick="window.close()">
+                                            <input type="button" value="취소" style="background-color:lightblue" onclick="window.close()">
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</header>
+{% endblock %}
+{% block footer %}
+{% endblock %}

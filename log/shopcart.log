@@ -1,0 +1,218 @@
+[2022-10-05 19:21:09,395] INFO [shopcart:80] addcart user_id:aaaprodnum:402 prodname:고밍도 크톤 롱셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-05 19:21:09
+[2022-10-05 20:25:58,406] INFO [shopcart:80] addcart user_id:aaaprodnum:400 prodname:옥스포드 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-05 20:25:58
+[2022-10-06 15:47:49,610] INFO [shopcart:80] addcart user_id:aaaprodnum:408 prodname:코벤트2009 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-06 15:47:49
+[2022-10-06 15:47:53,021] INFO [shopcart:80] addcart user_id:aaaprodnum:350 prodname:구름이 구르미 LV1 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-06 15:47:53
+[2022-10-06 15:47:56,330] INFO [shopcart:80] addcart user_id:aaaprodnum:595 prodname:하이츠 숏팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-06 15:47:56
+[2022-10-06 16:42:19,633] INFO [shopcart:80] addcart user_id:aaaprodnum:356 prodname:사탄들렸어 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-06 16:42:19
+[2022-10-06 17:11:27,658] INFO [shopcart:82] addcart user_id:aaaprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-06 17:11:27
+[2022-10-06 17:11:28,936] INFO [shopcart:82] addcart user_id:aaaprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-06 17:11:28
+[2022-10-06 17:15:35,305] INFO [shopcart:82] addcart user_id:aaaprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-06 17:15:35
+[2022-10-06 17:16:10,587] INFO [shopcart:82] addcart user_id:aaaprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-06 17:16:10
+[2022-10-12 17:33:32,027] INFO [shopcart:112] addcart user_id:hamprodnum:23 prodname:루브 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-12 17:33:32
+[2022-10-12 17:33:36,565] INFO [shopcart:112] addcart user_id:hamprodnum:356 prodname:사탄들렸어 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-12 17:33:36
+[2022-10-12 17:33:41,239] INFO [shopcart:112] addcart user_id:hamprodnum:912 prodname:나이키 맨투맨 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-12 17:33:41
+[2022-10-19 09:06:33,502] INFO [shopcart:127] addcart user_id:aaaprodnum:807 prodname:그레이 셔츠 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:06:33
+[2022-10-19 09:06:44,805] INFO [shopcart:127] addcart user_id:aaaprodnum:197 prodname:폴 레빗 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:06:44
+[2022-10-19 09:06:51,793] INFO [shopcart:127] addcart user_id:aaaprodnum:912 prodname:나이키 맨투맨 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:06:51
+[2022-10-19 09:10:26,685] INFO [shopcart:127] addcart user_id:hamprodnum:146 prodname:그린라 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:10:26
+[2022-10-19 09:10:33,210] INFO [shopcart:127] addcart user_id:hamprodnum:914 prodname:나이키 히트텍 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:10:33
+[2022-10-19 09:10:49,540] INFO [shopcart:127] addcart user_id:hamprodnum:92 prodname:아디다스 맨인블랙티2 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:10:49
+[2022-10-19 09:10:59,266] INFO [shopcart:127] addcart user_id:hamprodnum:474 prodname:IU PICK OUTER 청첨 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:10:59
+[2022-10-19 09:11:10,970] INFO [shopcart:127] addcart user_id:hamprodnum:701 prodname:테크 플리스 후드 집업 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:11:10
+[2022-10-19 09:11:22,530] INFO [shopcart:127] addcart user_id:bbbprodnum:584 prodname:퍼플 맨투맨 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:11:22
+[2022-10-19 09:11:39,633] INFO [shopcart:127] addcart user_id:bbbprodnum:503 prodname:바이더 헤이즈 100A prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:11:39
+[2022-10-19 09:11:50,802] INFO [shopcart:127] addcart user_id:bbbprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:L prodcount:3 date:2022-10-19 09:11:50
+[2022-10-19 09:12:04,208] INFO [shopcart:127] addcart user_id:bbbprodnum:327 prodname:호그와트 기숙사 잠옷 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:12:04
+[2022-10-19 09:12:16,570] INFO [shopcart:127] addcart user_id:bbbprodnum:800 prodname:화이트 리본 아우터 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:12:16
+[2022-10-19 09:12:49,533] INFO [shopcart:127] addcart user_id:jkprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:12:49
+[2022-10-19 09:13:39,495] INFO [shopcart:127] addcart user_id:jkprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:13:39
+[2022-10-19 09:13:43,940] INFO [shopcart:127] addcart user_id:jkprodnum:915 prodname:나이키 기모티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:13:43
+[2022-10-19 09:13:47,398] INFO [shopcart:127] addcart user_id:jkprodnum:358 prodname:골든 할렘 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:13:47
+[2022-10-19 09:13:50,954] INFO [shopcart:127] addcart user_id:jkprodnum:846 prodname:콘벤츠 티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:13:50
+[2022-10-19 09:13:57,507] INFO [shopcart:127] addcart user_id:jkprodnum:394 prodname:루즈핏 시어 서커 스트라이프 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:13:57
+[2022-10-19 09:16:48,142] INFO [shopcart:127] addcart user_id:cccprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:16:48
+[2022-10-19 09:16:56,379] INFO [shopcart:127] addcart user_id:cccprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:16:56
+[2022-10-19 09:17:02,302] INFO [shopcart:127] addcart user_id:cccprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:17:02
+[2022-10-19 09:17:19,627] INFO [shopcart:127] addcart user_id:cccprodnum:627 prodname:엉클 캔버스 prodcolor:아이보리 prodsize:270 prodcount:1 date:2022-10-19 09:17:19
+[2022-10-19 09:17:36,622] INFO [shopcart:127] addcart user_id:cccprodnum:503 prodname:바이더 헤이즈 100A prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:17:36
+[2022-10-19 09:17:44,768] INFO [shopcart:127] addcart user_id:cccprodnum:329 prodname:와이드 데님 팬츠 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:17:44
+[2022-10-19 09:18:46,388] INFO [shopcart:127] addcart user_id:kprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:18:46
+[2022-10-19 09:18:54,992] INFO [shopcart:127] addcart user_id:kprodnum:233 prodname:브라운 롱 스커트 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:18:54
+[2022-10-19 09:18:58,576] INFO [shopcart:127] addcart user_id:kprodnum:848 prodname:백색 무지 쿨티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:18:58
+[2022-10-19 09:19:02,312] INFO [shopcart:127] addcart user_id:kprodnum:798 prodname:푸른색 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:19:02
+[2022-10-19 09:19:05,492] INFO [shopcart:127] addcart user_id:kprodnum:394 prodname:루즈핏 시어 서커 스트라이프 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:19:05
+[2022-10-19 09:19:08,288] INFO [shopcart:127] addcart user_id:kprodnum:389 prodname:이지 스웨트 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:19:08
+[2022-10-19 09:19:12,687] INFO [shopcart:127] addcart user_id:kprodnum:593 prodname:아리 핫팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:19:12
+[2022-10-19 09:19:44,367] INFO [shopcart:127] addcart user_id:ruruprodnum:528 prodname:하남자 에디션 10X prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:19:44
+[2022-10-19 09:20:01,047] INFO [shopcart:127] addcart user_id:ruruprodnum:221 prodname:화이트 메이플스토리 한정 슈퍼스타 콜라보 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:20:01
+[2022-10-19 09:20:07,329] INFO [shopcart:127] addcart user_id:ruruprodnum:848 prodname:백색 무지 쿨티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:20:07
+[2022-10-19 09:20:13,014] INFO [shopcart:127] addcart user_id:ruruprodnum:589 prodname:호가든 숏팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:20:13
+[2022-10-19 09:20:32,902] INFO [shopcart:127] addcart user_id:ruruprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:20:32
+[2022-10-19 09:23:53,156] INFO [shopcart:127] addcart user_id:dddprodnum:214 prodname:다운 ㅣㅇ너 베스트 prodcolor:아이보리 prodsize:XL prodcount:1 date:2022-10-19 09:23:53
+[2022-10-19 09:24:00,225] INFO [shopcart:127] addcart user_id:dddprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XL prodcount:1 date:2022-10-19 09:24:00
+[2022-10-19 09:24:16,494] INFO [shopcart:127] addcart user_id:dddprodnum:340 prodname:유틸리티 슬림 카고 조거팬츠 prodcolor:아이보리 prodsize:XL prodcount:1 date:2022-10-19 09:24:16
+[2022-10-19 09:24:40,025] INFO [shopcart:127] addcart user_id:dddprodnum:846 prodname:콘벤츠 티 prodcolor:아이보리 prodsize:XL prodcount:1 date:2022-10-19 09:24:40
+[2022-10-19 09:24:47,021] INFO [shopcart:127] addcart user_id:dddprodnum:408 prodname:코벤트2009 prodcolor:아이보리 prodsize:270 prodcount:1 date:2022-10-19 09:24:47
+[2022-10-19 09:25:47,396] INFO [shopcart:127] addcart user_id:wwwprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:25:47
+[2022-10-19 09:25:52,124] INFO [shopcart:127] addcart user_id:wwwprodnum:393 prodname:트래블러 스웨트 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:25:52
+[2022-10-19 09:25:56,796] INFO [shopcart:127] addcart user_id:wwwprodnum:224 prodname:그린다크그레이 슈퍼스타 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:25:56
+[2022-10-19 09:26:00,806] INFO [shopcart:127] addcart user_id:wwwprodnum:378 prodname:심볼 스웨트 쇼츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:26:00
+[2022-10-19 09:26:06,350] INFO [shopcart:127] addcart user_id:wwwprodnum:219 prodname:슈퍼스타 no.98 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:26:06
+[2022-10-19 09:26:15,294] INFO [shopcart:127] addcart user_id:wwwprodnum:843 prodname:검은고양이티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:26:15
+[2022-10-19 09:26:25,994] INFO [shopcart:127] addcart user_id:wwwprodnum:843 prodname:검은고양이티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:26:25
+[2022-10-19 09:26:34,775] INFO [shopcart:127] addcart user_id:dodoprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:26:34
+[2022-10-19 09:26:40,319] INFO [shopcart:127] addcart user_id:dodoprodnum:913 prodname:나이키 언더아머 no.8 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:26:40
+[2022-10-19 09:26:46,542] INFO [shopcart:127] addcart user_id:dodoprodnum:196 prodname:화이트 입는 저지 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:26:46
+[2022-10-19 09:26:55,750] INFO [shopcart:127] addcart user_id:dodoprodnum:436 prodname:스킷진 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:26:55
+[2022-10-19 09:27:00,617] INFO [shopcart:127] addcart user_id:dodoprodnum:407 prodname:브라이튼 II prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:27:00
+[2022-10-19 09:29:58,752] INFO [shopcart:127] addcart user_id:dodoprodnum:913 prodname:나이키 언더아머 no.8 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:29:58
+[2022-10-19 09:30:14,980] INFO [shopcart:127] addcart user_id:wo1prodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:30:14
+[2022-10-19 09:30:19,900] INFO [shopcart:127] addcart user_id:wo1prodnum:389 prodname:이지 스웨트 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:30:19
+[2022-10-19 09:30:23,333] INFO [shopcart:127] addcart user_id:wo1prodnum:406 prodname:브라이튼HI prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:30:23
+[2022-10-19 09:30:26,650] INFO [shopcart:127] addcart user_id:wo1prodnum:229 prodname:고등학교 핏 롱스커트 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:30:26
+[2022-10-19 09:30:29,887] INFO [shopcart:127] addcart user_id:wo1prodnum:835 prodname:에일 반팔 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:30:29
+[2022-10-19 09:30:47,464] INFO [shopcart:127] addcart user_id:wo1prodnum:290 prodname:블랙 심플 원피스 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:30:47
+[2022-10-19 09:33:01,782] INFO [shopcart:127] addcart user_id:eeeprodnum:411 prodname:어? 금지티 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:33:01
+[2022-10-19 09:33:06,842] INFO [shopcart:127] addcart user_id:byeprodnum:411 prodname:어? 금지티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:33:06
+[2022-10-19 09:33:14,407] INFO [shopcart:127] addcart user_id:eeeprodnum:581 prodname:블랙 로고 맨투맨 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:33:14
+[2022-10-19 09:33:19,986] INFO [shopcart:127] addcart user_id:byeprodnum:108 prodname:메이플 형광티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:33:19
+[2022-10-19 09:33:33,716] INFO [shopcart:127] addcart user_id:byeprodnum:155 prodname:리다 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:33:33
+[2022-10-19 09:33:38,863] INFO [shopcart:127] addcart user_id:eeeprodnum:201 prodname:폴 유키 아이즈 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:33:38
+[2022-10-19 09:33:55,588] INFO [shopcart:127] addcart user_id:eeeprodnum:659 prodname:크록스 시리즈.no10 prodcolor:아이보리 prodsize:260 prodcount:1 date:2022-10-19 09:33:55
+[2022-10-19 09:34:04,814] INFO [shopcart:127] addcart user_id:eeeprodnum:213 prodname:케니 네이드 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:34:04
+[2022-10-19 09:34:10,695] INFO [shopcart:127] addcart user_id:byeprodnum:885 prodname:인피니티1 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:34:10
+[2022-10-19 09:34:57,975] INFO [shopcart:127] addcart user_id:byeprodnum:5 prodname:커버낫 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:34:57
+[2022-10-19 09:35:06,753] INFO [shopcart:127] addcart user_id:wo1prodnum:411 prodname:어? 금지티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:35:06
+[2022-10-19 09:39:18,116] INFO [shopcart:127] addcart user_id:fffprodnum:411 prodname:어? 금지티 prodcolor:아이보리 prodsize:XL prodcount:1 date:2022-10-19 09:39:18
+[2022-10-19 09:39:56,549] INFO [shopcart:127] addcart user_id:fffprodnum:203 prodname:usa  다크 블루 저지 prodcolor:아이보리 prodsize:XL prodcount:1 date:2022-10-19 09:39:56
+[2022-10-19 09:40:07,064] INFO [shopcart:127] addcart user_id:fffprodnum:805 prodname:화이트 오버핏 셔츠 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:40:07
+[2022-10-19 09:40:15,328] INFO [shopcart:127] addcart user_id:fffprodnum:659 prodname:크록스 시리즈.no10 prodcolor:아이보리 prodsize:280 prodcount:1 date:2022-10-19 09:40:15
+[2022-10-19 09:40:26,750] INFO [shopcart:127] addcart user_id:fffprodnum:355 prodname:구름이 구르미 LV2 prodcolor:블랙 prodsize:XL prodcount:1 date:2022-10-19 09:40:26
+[2022-10-19 09:40:34,194] INFO [shopcart:127] addcart user_id:qprodnum:411 prodname:어? 금지티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:40:34
+[2022-10-19 09:40:40,145] INFO [shopcart:127] addcart user_id:qprodnum:324 prodname:새근새근 치크 잠옷 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:40:40
+[2022-10-19 09:40:46,643] INFO [shopcart:127] addcart user_id:qprodnum:836 prodname:2pacek 반팔 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:40:46
+[2022-10-19 09:40:50,959] INFO [shopcart:127] addcart user_id:qprodnum:389 prodname:이지 스웨트 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:40:50
+[2022-10-19 09:40:54,669] INFO [shopcart:127] addcart user_id:gionprodnum:411 prodname:어? 금지티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:40:54
+[2022-10-19 09:40:57,726] INFO [shopcart:127] addcart user_id:qprodnum:784 prodname:베이지 노로고 아우터 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:40:57
+[2022-10-19 09:41:02,724] INFO [shopcart:127] addcart user_id:qprodnum:891 prodname:사카이 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:41:02
+[2022-10-19 09:41:38,445] INFO [shopcart:127] addcart user_id:gionprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:41:38
+[2022-10-19 09:41:48,875] INFO [shopcart:127] addcart user_id:gionprodnum:70 prodname:뉴레인스 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:41:48
+[2022-10-19 09:41:58,900] INFO [shopcart:127] addcart user_id:gionprodnum:70 prodname:뉴레인스 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:41:58
+[2022-10-19 09:42:10,531] INFO [shopcart:127] addcart user_id:gionprodnum:148 prodname:민트색 아우터 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:42:10
+[2022-10-19 09:42:42,914] INFO [shopcart:127] addcart user_id:gionprodnum:913 prodname:나이키 언더아머 no.8 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:42:42
+[2022-10-19 09:46:04,569] INFO [shopcart:127] addcart user_id:qwprodnum:200 prodname:트리플 블랙 저지 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:46:04
+[2022-10-19 09:46:09,905] INFO [shopcart:127] addcart user_id:qwprodnum:537 prodname:숏블랙 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:46:09
+[2022-10-19 09:46:12,987] INFO [shopcart:127] addcart user_id:qwprodnum:401 prodname:베이직 우먼스 스커트 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:46:12
+[2022-10-19 09:46:18,638] INFO [shopcart:127] addcart user_id:qwprodnum:513 prodname:실크 블랙 조거 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:46:18
+[2022-10-19 09:46:23,716] INFO [shopcart:127] addcart user_id:qwprodnum:212 prodname:라잇진 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:46:23
+[2022-10-19 09:46:26,915] INFO [shopcart:127] addcart user_id:qwprodnum:570 prodname:후잉 린넨 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:46:26
+[2022-10-19 09:46:54,046] INFO [shopcart:127] addcart user_id:gggprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:46:54
+[2022-10-19 09:47:08,714] INFO [shopcart:127] addcart user_id:gggprodnum:411 prodname:어? 금지티 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:47:08
+[2022-10-19 09:47:15,330] INFO [shopcart:127] addcart user_id:gggprodnum:302 prodname:사파리 티셔츠 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:47:15
+[2022-10-19 09:47:18,803] INFO [shopcart:127] addcart user_id:qwprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:47:18
+[2022-10-19 09:47:26,508] INFO [shopcart:127] addcart user_id:gggprodnum:33 prodname:청축 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:47:26
+[2022-10-19 09:47:35,924] INFO [shopcart:127] addcart user_id:gggprodnum:735 prodname:클럼 후드티 그레이 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:47:35
+[2022-10-19 09:49:46,866] INFO [shopcart:127] addcart user_id:ondoprodnum:411 prodname:어? 금지티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:49:46
+[2022-10-19 09:50:00,479] INFO [shopcart:127] addcart user_id:ondoprodnum:469 prodname:ZEBRA 119 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:50:00
+[2022-10-19 09:50:05,104] INFO [shopcart:127] addcart user_id:ondoprodnum:74 prodname:샤이 레인보우 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:50:05
+[2022-10-19 09:50:11,104] INFO [shopcart:127] addcart user_id:ondoprodnum:300 prodname:걸스 트레이닝 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:50:11
+[2022-10-19 09:50:28,336] INFO [shopcart:127] addcart user_id:ondoprodnum:140 prodname:블랙슬라인 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:50:28
+[2022-10-19 09:50:42,552] INFO [shopcart:127] addcart user_id:ondoprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:50:42
+[2022-10-19 09:54:22,999] INFO [shopcart:127] addcart user_id:hhhprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:54:22
+[2022-10-19 09:54:32,681] INFO [shopcart:127] addcart user_id:hhhprodnum:411 prodname:어? 금지티 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:54:32
+[2022-10-19 09:54:38,530] INFO [shopcart:127] addcart user_id:hhhprodnum:406 prodname:브라이튼HI prodcolor:아이보리 prodsize:270 prodcount:1 date:2022-10-19 09:54:38
+[2022-10-19 09:54:44,450] INFO [shopcart:127] addcart user_id:hhhprodnum:688 prodname:365저스트두잇 후드 집업 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:54:44
+[2022-10-19 09:54:50,726] INFO [shopcart:127] addcart user_id:hhhprodnum:257 prodname:더블 포켓 코듀로이 셔츠 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 09:54:50
+[2022-10-19 09:54:57,193] INFO [shopcart:127] addcart user_id:qwerprodnum:354 prodname:와이드 스트라이프 티셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:54:57
+[2022-10-19 09:55:00,878] INFO [shopcart:127] addcart user_id:qwerprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:55:00
+[2022-10-19 09:55:07,478] INFO [shopcart:127] addcart user_id:qwerprodnum:910 prodname:에어 윈플로 9 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:55:07
+[2022-10-19 09:55:07,692] INFO [shopcart:127] addcart user_id:qwerprodnum:910 prodname:에어 윈플로 9 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:55:07
+[2022-10-19 09:55:15,076] INFO [shopcart:127] addcart user_id:qwerprodnum:509 prodname:에어헤븐 슈즈 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:55:15
+[2022-10-19 09:55:20,909] INFO [shopcart:127] addcart user_id:qwerprodnum:665 prodname:스위스 힐 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:55:20
+[2022-10-19 09:55:25,325] INFO [shopcart:127] addcart user_id:qwerprodnum:659 prodname:크록스 시리즈.no10 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:55:25
+[2022-10-19 09:55:58,731] INFO [shopcart:127] addcart user_id:totoprodnum:54 prodname:핑크올 후드 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:55:58
+[2022-10-19 09:56:03,777] INFO [shopcart:127] addcart user_id:totoprodnum:555 prodname:블랙* 화이트 면티셋 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:56:03
+[2022-10-19 09:56:30,379] INFO [shopcart:127] addcart user_id:totoprodnum:649 prodname:크록스 시리즈.no4 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-19 09:56:30
+[2022-10-19 09:57:36,664] INFO [shopcart:127] addcart user_id:totoprodnum:411 prodname:어? 금지티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:57:36
+[2022-10-19 09:57:48,905] INFO [shopcart:127] addcart user_id:totoprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 09:57:48
+[2022-10-19 10:00:06,011] INFO [shopcart:127] addcart user_id:qweprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:00:06
+[2022-10-19 10:00:09,701] INFO [shopcart:127] addcart user_id:iiiprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 10:00:09
+[2022-10-19 10:00:16,818] INFO [shopcart:127] addcart user_id:qweprodnum:864 prodname:나이키 2022 신상 화이트 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:00:16
+[2022-10-19 10:00:17,214] INFO [shopcart:127] addcart user_id:iiiprodnum:411 prodname:어? 금지티 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 10:00:17
+[2022-10-19 10:00:20,314] INFO [shopcart:127] addcart user_id:qweprodnum:459 prodname:기능성 루디 반팔티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:00:20
+[2022-10-19 10:00:25,891] INFO [shopcart:127] addcart user_id:qweprodnum:41 prodname:샤이워크 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:00:25
+[2022-10-19 10:00:29,161] INFO [shopcart:127] addcart user_id:qweprodnum:146 prodname:그린라 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:00:29
+[2022-10-19 10:00:34,412] INFO [shopcart:127] addcart user_id:qweprodnum:469 prodname:ZEBRA 119 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:00:34
+[2022-10-19 10:00:37,973] INFO [shopcart:127] addcart user_id:qweprodnum:202 prodname:아이언 다운 베스트 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:00:37
+[2022-10-19 10:00:52,876] INFO [shopcart:127] addcart user_id:iiiprodnum:192 prodname:메이드 코이비 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 10:00:52
+[2022-10-19 10:01:04,650] INFO [shopcart:127] addcart user_id:iiiprodnum:301 prodname:화셤롱스커트 prodcolor:아이보리 prodsize:L prodcount:1 date:2022-10-19 10:01:04
+[2022-10-19 10:01:33,010] INFO [shopcart:127] addcart user_id:iiiprodnum:673 prodname:블랙 쉐도우 힐 prodcolor:아이보리 prodsize:250 prodcount:1 date:2022-10-19 10:01:33
+[2022-10-19 10:01:43,173] INFO [shopcart:127] addcart user_id:iiiprodnum:669 prodname:스코틀랜드 힐 prodcolor:아이보리 prodsize:250 prodcount:1 date:2022-10-19 10:01:43
+[2022-10-19 10:05:31,540] INFO [shopcart:127] addcart user_id:werprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:05:31
+[2022-10-19 10:05:43,735] INFO [shopcart:127] addcart user_id:werprodnum:11 prodname:어빗트 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:05:43
+[2022-10-19 10:05:46,766] INFO [shopcart:127] addcart user_id:werprodnum:598 prodname:미니잡 핫팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:05:46
+[2022-10-19 10:05:50,040] INFO [shopcart:127] addcart user_id:werprodnum:389 prodname:이지 스웨트 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:05:50
+[2022-10-19 10:05:55,064] INFO [shopcart:127] addcart user_id:werprodnum:848 prodname:백색 무지 쿨티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:05:55
+[2022-10-19 10:06:04,643] INFO [shopcart:127] addcart user_id:werprodnum:414 prodname:기도문티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 10:06:04
+[2022-10-19 11:13:57,925] INFO [shopcart:127] addcart user_id:aaaaprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:13:57
+[2022-10-19 11:14:03,415] INFO [shopcart:127] addcart user_id:aaaaprodnum:170 prodname:no.9 한정판 바람막이 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:14:03
+[2022-10-19 11:14:07,169] INFO [shopcart:127] addcart user_id:aaaaprodnum:292 prodname:이지 와이드 데님 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:14:07
+[2022-10-19 11:14:11,751] INFO [shopcart:127] addcart user_id:aaaaprodnum:902 prodname:나이키 더블팩 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:14:11
+[2022-10-19 11:14:15,535] INFO [shopcart:127] addcart user_id:aaaaprodnum:386 prodname:우븐 패치 스웨트 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:14:15
+[2022-10-19 11:14:21,508] INFO [shopcart:127] addcart user_id:aaaaprodnum:768 prodname:나이키 시리즈no.16 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:14:21
+[2022-10-19 11:17:31,471] INFO [shopcart:127] addcart user_id:asdprodnum:105 prodname:브라운치니 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:17:31
+[2022-10-19 11:17:34,005] INFO [shopcart:127] addcart user_id:asdprodnum:310 prodname:코튼미니스커트 E prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:17:34
+[2022-10-19 11:17:36,911] INFO [shopcart:127] addcart user_id:asdprodnum:276 prodname:폴리츠미디 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:17:36
+[2022-10-19 11:17:40,575] INFO [shopcart:127] addcart user_id:asdprodnum:418 prodname:코튼 롱 스커트 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:17:40
+[2022-10-19 11:17:43,394] INFO [shopcart:127] addcart user_id:asdprodnum:557 prodname:하이테크 스커트 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:17:43
+[2022-10-19 11:17:46,576] INFO [shopcart:127] addcart user_id:asdprodnum:225 prodname:테니스 스커트 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:17:46
+[2022-10-19 11:28:15,485] INFO [shopcart:127] addcart user_id:zxcprodnum:412 prodname:404에러티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:28:15
+[2022-10-19 11:28:22,337] INFO [shopcart:127] addcart user_id:zxcprodnum:60 prodname:올썸화이트 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:28:22
+[2022-10-19 11:28:25,020] INFO [shopcart:127] addcart user_id:zxcprodnum:150 prodname:레바볼 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:28:25
+[2022-10-19 11:28:28,039] INFO [shopcart:127] addcart user_id:zxcprodnum:129 prodname:css tee prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:28:28
+[2022-10-19 11:28:31,133] INFO [shopcart:127] addcart user_id:zxcprodnum:66 prodname:기븐 티셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:28:31
+[2022-10-19 11:28:34,252] INFO [shopcart:127] addcart user_id:zxcprodnum:502 prodname:블랙싯 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:28:34
+[2022-10-19 11:28:38,367] INFO [shopcart:127] addcart user_id:zxcprodnum:507 prodname:할야드 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:28:38
+[2022-10-19 11:34:44,594] INFO [shopcart:127] addcart user_id:dsdprodnum:712 prodname:베이스 집업 후드 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:34:44
+[2022-10-19 11:34:47,471] INFO [shopcart:127] addcart user_id:dsdprodnum:160 prodname:클래식 데님 트레커 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:34:47
+[2022-10-19 11:34:50,865] INFO [shopcart:127] addcart user_id:dsdprodnum:715 prodname:나이키 집업 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:34:50
+[2022-10-19 11:34:54,084] INFO [shopcart:127] addcart user_id:dsdprodnum:448 prodname:피스메이커 윈브XA prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:34:54
+[2022-10-19 11:34:56,855] INFO [shopcart:127] addcart user_id:dsdprodnum:88 prodname:패디드 자켓 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:34:56
+[2022-10-19 11:35:00,335] INFO [shopcart:127] addcart user_id:dsdprodnum:786 prodname:그린피스 아우터 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:35:00
+[2022-10-19 11:44:50,184] INFO [shopcart:127] addcart user_id:poiprodnum:755 prodname:언더 스텍 집업 후드 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:44:50
+[2022-10-19 11:44:53,829] INFO [shopcart:127] addcart user_id:poiprodnum:687 prodname:화이트 집업 후드 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:44:53
+[2022-10-19 11:44:57,643] INFO [shopcart:127] addcart user_id:poiprodnum:741 prodname:터틀 러너 집업 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:44:57
+[2022-10-19 11:45:00,763] INFO [shopcart:127] addcart user_id:poiprodnum:474 prodname:IU PICK OUTER 청첨 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:45:00
+[2022-10-19 11:45:06,457] INFO [shopcart:127] addcart user_id:poiprodnum:84 prodname:윈드브레이크 빈후 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:45:06
+[2022-10-19 11:45:10,612] INFO [shopcart:127] addcart user_id:poiprodnum:725 prodname:윈드러너 커빙 자켓 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-19 11:45:10
+[2022-10-27 09:21:56,585] INFO [shopcart:127] addcart user_id:asdfgh1094prodnum:406 prodname:브라이튼HI prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-27 09:21:56
+[2022-10-27 09:22:07,945] INFO [shopcart:127] addcart user_id:asdfgh1094prodnum:350 prodname:구름이 구르미 LV1 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 09:22:07
+[2022-10-27 09:22:11,449] INFO [shopcart:127] addcart user_id:asdfgh1094prodnum:406 prodname:브라이튼HI prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-27 09:22:11
+[2022-10-27 09:24:28,427] INFO [shopcart:127] addcart user_id:yahamprodnum:844 prodname:페가수스22 prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-27 09:24:28
+[2022-10-27 09:25:00,266] INFO [shopcart:127] addcart user_id:yahamprodnum:109 prodname:스냅 셔켓 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 09:25:00
+[2022-10-27 09:25:11,929] INFO [shopcart:127] addcart user_id:yahamprodnum:651 prodname:우먼 에션셜 세르파 자켓 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 09:25:11
+[2022-10-27 09:27:26,965] INFO [shopcart:127] addcart user_id:yahamprodnum:369 prodname:파자마 style.no6 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 09:27:26
+[2022-10-27 09:31:41,333] INFO [shopcart:127] addcart user_id:seeprodnum:232 prodname:화이트&베이식 무릅치마 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 09:31:41
+[2022-10-27 09:31:44,217] INFO [shopcart:127] addcart user_id:seeprodnum:230 prodname:화이트 숏 스커트 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 09:31:44
+[2022-10-27 09:31:47,496] INFO [shopcart:127] addcart user_id:seeprodnum:845 prodname:convent 반팔티 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 09:31:47
+[2022-10-27 09:31:51,402] INFO [shopcart:127] addcart user_id:seeprodnum:406 prodname:브라이튼HI prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-27 09:31:51
+[2022-10-27 09:31:54,657] INFO [shopcart:127] addcart user_id:seeprodnum:394 prodname:루즈핏 시어 서커 스트라이프 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 09:31:54
+[2022-10-27 09:32:47,676] INFO [shopcart:127] addcart user_id:asdfgh1094prodnum:407 prodname:브라이튼 II prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-27 09:32:47
+[2022-10-27 09:32:53,884] INFO [shopcart:127] addcart user_id:asdfgh1094prodnum:546 prodname:블랙 자켓 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 09:32:53
+[2022-10-27 09:55:22,538] INFO [shopcart:127] addcart user_id:hamprodnum:809 prodname:화이트 무직 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 09:55:22
+[2022-10-27 09:55:34,776] INFO [shopcart:127] addcart user_id:hamprodnum:201 prodname:폴 유키 아이즈 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 09:55:34
+[2022-10-27 10:32:15,574] INFO [shopcart:127] addcart user_id:hamprodnum:189 prodname:화이트 바람막이 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 10:32:15
+[2022-10-27 10:32:20,100] INFO [shopcart:127] addcart user_id:sixmanprodnum:405 prodname:우디 오버핏 자수 옥스포드 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 10:32:20
+[2022-10-27 10:32:27,060] INFO [shopcart:127] addcart user_id:sixmanprodnum:400 prodname:옥스포드 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 10:32:27
+[2022-10-27 10:32:38,578] INFO [shopcart:127] addcart user_id:hamprodnum:686 prodname:민트 집업 후드 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 10:32:38
+[2022-10-27 10:32:38,811] INFO [shopcart:127] addcart user_id:sixmanprodnum:575 prodname:세르니아 립 팬츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-10-27 10:32:38
+[2022-10-27 10:33:42,479] INFO [shopcart:127] addcart user_id:sixmanprodnum:406 prodname:브라이튼HI prodcolor:아이보리 prodsize:240 prodcount:1 date:2022-10-27 10:33:42
+[2022-10-27 10:34:04,448] INFO [shopcart:127] addcart user_id:sixmanprodnum:380 prodname:심볼 쇼츠 prodcolor:그레이 prodsize:M prodcount:2 date:2022-10-27 10:34:04
+[2022-11-22 15:36:31,703] INFO [shopcart:127] addcart user_id:eormsprodnum:149 prodname:다운 점퍼 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-11-22 15:36:31
+[2022-11-22 15:49:33,429] INFO [shopcart:127] addcart user_id:eormsprodnum:208 prodname:다크 쓰레드 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-11-22 15:49:33
+[2022-11-22 15:49:49,467] INFO [shopcart:127] addcart user_id:eormsprodnum:208 prodname:다크 쓰레드 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-11-22 15:49:49
+[2022-11-23 03:21:52,537] INFO [shopcart:127] addcart user_id:dbtnghd1234prodnum:391 prodname:우디 자수 데님 셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-11-23 03:21:52
+[2022-11-23 03:35:09,418] INFO [shopcart:127] addcart user_id:dbtnghd12prodnum:317 prodname:서프 심볼 티셔츠 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-11-23 03:35:09
+[2022-11-23 03:35:14,115] INFO [shopcart:127] addcart user_id:dbtnghd12prodnum:458 prodname:SIMPLE T hate 11 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-11-23 03:35:14
+[2022-11-23 04:05:52,451] INFO [shopcart:127] addcart user_id:dbtnghd1234prodnum:37 prodname:아디다스 긴팔 검정 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-11-23 04:05:52
+[2022-11-23 04:05:57,030] INFO [shopcart:127] addcart user_id:dbtnghd1234prodnum:23 prodname:루브 prodcolor:아이보리 prodsize:XS prodcount:1 date:2022-11-23 04:05:57

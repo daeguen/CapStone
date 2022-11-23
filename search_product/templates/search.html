@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load humanize %}
+{% load mathfilters %}
+{% block contents %}
+<div>
+    <header class="header navbar-area" style="z-index: 2;">
+        <section class="hero-area">
+            <div class="container" style="width: 1700px;">
+                <div>
+					<p class="text-center my_search_text"> 검색어 : <b>"{{ query }}"</b></p>
+					{% if productcount %}
+					<p class="text-center my_search_text"> <b>{{ productcount }}</b> 개의 상품을 찾았습니다. </p>
+					{% else %}
+					{% endif %}
+				</div>
+                <div class="row">
+					{% for product in products %}
+                    <!-- 상품 정렬 시작 -->
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <a href="../shopproduct/prodcontent?prodnum={{product.prodnum}}&pagenum={{pagenum}}">
+                        <div class="single-product">
+                            <div class="product-image">
+                                <!-- 상품 이미지-->
+                                <img class="card-img-top my_image" src="{{product.prodmainimg.url}}" alt="{{product.prodname}}">
+                                <div class="button">
+                                    <!-- 상품 해당 페이지로 -->
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <span class="category">{{product.prodbrand}} / {{product.proditems}}</span>
+                                <h4 class="title">
+                                    <!-- 위의 부분과 링크를 동일하게 -->
+                                    <a href="../shopproduct/prodcontent?prodnum={{product.prodnum}}&pagenum={{pagenum}}">{{product.prodname}}</a>
+                                </h4>
+                                <ul class="review">
+
+                                </ul>
+                                <div class="price">
+                                    <span>{{product.prodprice|intcomma}}원</span>
+                                </div>
+                            </div>
+                        </div> 
+                        </a>
+                    </div>
+                    {% empty %}
+						<div class="row mx-auto">
+							<p class="text-center my_search_text">찾으시는 상품을 찾지 못했습니다.</p>
+						</div>
+                    <!-- 상품 정렬 끝 -->
+                    {% endfor %}
+
+                </div>
+            </div>
+            <br><br>
+            <div class="page_wrap">
+                <div class="page_nation">
+	                {% if startpage > pageblock %}
+	                    <a class="arrow prev" href="kang?pagenum={{startpage|sub:pageblock}}"></a>
+	                {% endif %}
+	                {% for page in pages %}
+	                	{% if pagenum == page %}
+	           		   		<a class="active">{{page}}</a>
+	           		   	{% else %}
+	           		   		<a href="kang?pagenum={{page}}">{{page}}</a>
+	           		   	{% endif %}
+	           		{% endfor %}
+	                {% if endpage < pagecount %}
+	                    <a class="arrow next" href="kang?pagenum={{startpage|add:pageblock}}"></a>
+	                {% endif %}
+                </div>
+            </div>
+        </section>
+    </header>
+</div>
+{% endblock %}
+	
+

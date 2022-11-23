@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+{% block locationbar %}
+{% endblock %}
+{% block contents %}
+<br>
+<div>
+<script>
+		 function qnamodifyForm() {
+	window.name = "{% url 'qnaboard:qnalist' %}";
+	
+	// window.open("자식창 이름", "자식창의 닉네임", "팝업창 옵션")
+	window.open("qnamodify?qnanum={{dto.qnanum}}&pagenum={{pagenum}}", "qnamodifyForm", "width=800, height=300, top=100, left=200, status=no,scrollbars=no, menubar=no"); 
+	 }
+</script>
+
+<script>
+		 function qnadeleteForm() {
+	window.name = "{% url 'qnaboard:qnalist' %}";
+	
+	// window.open("자식창 이름", "자식창의 닉네임", "팝업창 옵션")
+	window.open("qnadelete?qnanum={{dto.qnanum}}&pagenum={{pagenum}}", "qnamodifyForm", "width=800, height=300, top=100, left=200, status=no,scrollbars=no, menubar=no"); 
+	 }
+</script>
+    <header class="header navbar-area" style="z-index: 2;">
+        <section class="hero-area">
+            <div class="container" style="border: 1px solid lightgray; padding: 30px; border-radius: 8px; width: 1000px;">
+                <div>
+                    <h4><span>Q&A 게시판</span></h4>
+                    <hr>
+                    <div class="col-12">
+                        <div class="main-menu-search">
+                            <div class="newsletter-form-head">
+                                <div class="search-input">
+                                    <table>
+                                        <colgroup>
+                                            <col style="width: 200px;">
+                                            <col style="width: 300px;">
+                                            <col style="width: 200px;">
+                                            <col style="width: 300px;">
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th colspan="4">
+                                                    <div class="input_field">
+                                                        <span style="font-size: 30px;">{{dto.qnatitle}}</span>
+                                                    </div>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">글번호</th>
+                                                <td class="input_field" style="border:1px solid #2c59b4; text-align:center;">{{number}}</td>
+                                                <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">작성자</th>
+                                                <td class="input_field" style="border:1px solid #2c59b4; text-align:center;">{{dto.user_id}}</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">작성 일</th>
+                                                <td class="input_field" style="border:1px solid #2c59b4; text-align:center;">{{dto.qnaregdate|date:"Y-m-d H:i"}}</td>
+                                                <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">조회수</th>
+                                                <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">{{dto.qnareadcount}}</th>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="4">
+                                                    <br>
+                                                    <div class="board_text" style="height:600px; border:1px solid #2c59b4; border-radius: 4px;">
+                                                        <div style="margin:5px; overflow:hidden; font-size: 20px;">
+                                                            <pre>{{dto.qnacontent}}</pre>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <br>
+                                    <div class="search-input" style="display:flex;">
+                                    {% if memid == dto.user_id %}
+                                    	{% if dto.repleadmin %}
+                                    		<input type="button" value="글목록" onclick="location='qnalist?pagenum={{pagenum}}'" style="width:150px; background-color:lightblue">
+                                    	{% else %}
+                                    		<input type="button" value="글수정" onclick="qnamodifyForm()" style="width:150px; background-color:lightblue">
+	                                        <input type="button" value="글삭제" onclick="qnadeleteForm()"style="width:150px; background-color:lightblue">
+	                                        <input type="button" value="글목록" onclick="location='qnalist?pagenum={{pagenum}}'" style="width:150px; background-color:lightblue">
+                                    	{% endif %}
+                                        
+                                    {% else %}
+                                    	<input type="button" value="글목록" onclick="location='qnalist?pagenum={{pagenum}}'" style="width:150px; background-color:lightblue">
+                                    {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                {% if dto.repleadmin %}
+                <div>
+                    <table>
+                        <colgroup>
+                            <col style="width: 200px;">
+                            <col style="width: 300px;">
+                            <col style="width: 200px;">
+                            <col style="width: 300px;">
+                        </colgroup>
+                        <tr>
+                            <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">어드민</th>
+                            <td class="input_field" style="border:1px solid #2c59b4; text-align:center;">{{dto.repleadmin}}</td>
+                            <th class="input_field" style="border:1px solid #2c59b4; text-align:center;">작성 일</th>
+                            <td class="input_field" style="border:1px solid #2c59b4; text-align:center;">{{dto.repleregdate|date:"Y-m-d H:i"}}</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <br>
+                                <div class="board_text" style="height:200px; border:1px solid #2c59b4; border-radius: 4px;">
+                                    <div style="margin:5px; overflow:hidden; font-size: 20px;">
+                                        <pre>{{dto.replecontent}}</pre>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                {% else %}
+                <div>
+                    <span>작성된 답변이 없습니다</span>
+                </div>
+                {% endif %}
+            </div>
+            <br><br><br><br>
+        </section>
+    </header>
+</div>
+{% endblock %}
+

@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+
+{% block title %}{% endblock %}
+{% block header %} {% endblock %}
+
+{% block contents %}
+{% csrf_token %}
+    <div>
+        <header class="header navbar-area" style="margin-top:50px">
+            <section class="hero-area">
+                <div class="container" style="width:1000px;">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <div>
+                                <h2><span>회원정보수정</span></h2>
+                            </div>
+                            <br>
+                            <div class="main-menu-search">
+                                    <form method="post" action="modifypro" name="modifyform" onsubmit="return modifycheck()">
+                                        <div class="navbar-search search-style-5">
+                                            <div class="search-input">
+                                                <h6 style="text-align:left"><span>&nbsp;아이디</h6></span>
+                                                <div style="display:flex;">
+                                                    <input type="text" name="user_id" readonly value="{{dto.user_id}}" > <!-- name 추가 할것 -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <div class="search-input">
+                                            <h6 style="text-align:left"><span>&nbsp;비밀번호<em style="color:red;">*</em></h6></span>
+                                            <input type="password" name="user_passwd" placeholder="비밀번호 입력" value="{{dto.user_passwd}}"> <!-- name 추가 할것 -->
+                                        </div>
+                                        <div class="search-input">
+                                            <input type="password" name="user_repasswd" placeholder="비밀번호 재입력" value="{{dto.user_passwd}}"> <!-- name 추가 할것 -->
+                                        </div>
+                                    <br>
+                                    <br>
+                                        <div class="search-input">
+                                            <h6 style="text-align:left"><span>&nbsp;이름</h6></span>
+                                            <input type="text" name="user_name" readonly value="{{dto.user_name}}"> <!-- name 추가 할것 -->
+                                        </div>
+                                    
+                                    <br>
+                                    <br>               
+                                        <h6 style="text-align:left"><span>&nbsp;전화번호<em style="color:red;">*</em></h6></span>
+                                        <div class="search-input" style="display:flex;">
+                                            <input type="text" name="user_tel1" maxlength="3" style="width:100px;" value="{{t.0}}" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"> <!-- name 추가 할것 -->
+                                            <input type="text" name="user_tel2" maxlength="4" value="{{t.1}}" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                                            <input type="text" name="user_tel3" maxlength="4" value="{{t.2}}" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                                        </div>
+                                    <br>
+                                    <br>
+                                    	<h6 style="text-align:left"><span>&nbsp;이메일<em style="color:red;">*</em></h6></span>
+                                        <div class="search-input" style="display:flex;">
+                                            <input type="text" name="user_email1" value="{{e.0}}">@
+                                            <input type="text" name="user_email2" value="{{e.1}}">
+                                        </div>
+                                    <br>          
+                                        <div class="search-input">
+                                            <h6 style="text-align:left"><span>&nbsp;성별</h6></span>
+                                        </div>
+                                        <div class="search-input">
+                                           <input type="text" readonly value="{{dto.user_gender}}">
+                                        </div>              
+                                    <br>
+                                        <h6 style="text-align:left"><span>&nbsp;주소<em style="color:red;">*</em></h6></span>
+                                        <div class="search-input" style="display:flex;">
+                                            <input type="text" id="address" style="width:1400px;" name="user_addr" placeholder="주소" readonly value="{{dto.user_addr}}"> <!-- name 추가 할것 -->
+                                            <input type="button" value="주소찾기" onclick="kakaoaddress()" style="background-color:lightblue">
+                                        </div>                                                                     
+                                        <div class="search-input">
+                                            <input type="text" name="user_addrt" value="{{dto.user_addrt}}"> <!-- name 추가 할것 -->
+                                        </div>
+                                    <br>
+                                        <h6 style="text-align:left"><span>&nbsp;선호 브랜드 (선택)</span></h6>
+                                    <div class="brandcontainer">
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest1" name="user_brand[]" style="display: none;" value="아디다스">
+                                            <label for="cbtest1" class="cb1"></label>아디다스
+                                        </label>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest2" name="user_brand[]" style="display: none;" value="뉴발란스">
+                                            <label for="cbtest2" class="cb1"></label>뉴발란스
+                                        </lable>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest3" name="user_brand[]" style="display: none;" value="나이키">
+                                            <label for="cbtest3" class="cb1"></label>나이키
+                                        </label>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest4" name="user_brand[]" style="display: none;" value="노스페이스">
+                                            <label for="cbtest4" class="cb1"></label>노스페이스
+                                        </label>
+                                    </div>
+                                    <div class="brandcontainer">
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest5" name="user_brand[]" style="display: none;" value="스파오">
+                                            <label for="cbtest5" class="cb1"></label>스파오
+                                        </label>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest6" name="user_brand[]" style="display: none;" value="H&M">
+                                            <label for="cbtest6" class="cb1"></label>H&M
+                                        </lable>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest7" name="user_brand[]" style="display: none;" value="캉골">
+                                            <label for="cbtest7" class="cb1"></label>캉골
+                                        </label>
+                                        <label class="brandlable">
+                                            <input type="checkbox" id="cbtest8" name="user_brand[]" style="display: none;" value="무지">
+                                            <label for="cbtest8" class="cb1"></label>무지
+                                        </label>
+                                    </div>
+                                <br>
+	                               <div class="search-input" style="display:flex">
+	                                   <input type="submit" value="수정" style="background-color:lightblue">
+	                                   <input type="button" value="수정취소"
+	                                       onclick="location='index'" style="background-color:lightblue">
+	                               </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+    </div>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

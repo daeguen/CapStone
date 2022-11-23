@@ -1,0 +1,188 @@
+{% extends "base.html" %}
+{% load static %}
+{% load humanize %}
+{% block locationbar %}{% endblock %}
+{% block contents %}
+<script>
+		 function usermodifyForm() {
+	window.name = "{% url 'member:mypage' %}";
+	
+	// window.open("자식창 이름", "자식창의 닉네임", "팝업창 옵션")
+	window.open("{% url 'member:modify' %}", "usermodifyForm", "width=800, height=300, top=100, left=200, status=no,scrollbars=no, menubar=no"); 
+	 }
+</script>
+
+<script>
+		 function userdeleteForm() {
+	window.name = "{% url 'member:mypage' %}";
+	
+	// window.open("자식창 이름", "자식창의 닉네임", "팝업창 옵션")
+	window.open("{% url 'member:delete' %}", "userdeleteForm", "width=800, height=300, top=100, left=200, status=no,scrollbars=no, menubar=no"); 
+	 }
+</script>
+<div>
+<br>
+    <header class="header navbar-area" style="z-index: 2;">
+        <section class="hero-area">
+            <div class="container" style="border: 1px solid lightgray; padding: 30px; border-radius: 8px; width: 1400px;">
+                <div class="newsletter-form-head" style="font-size:30px;">
+                    <span><a href="mypage.html">My Page</a></span>
+                </div>
+                <hr>
+                <br>
+                <div style="display:flex;">
+                    <div style="background-color: lightgray; border-radius: 50%; width: 100px; height: 102px;">
+                        <img src="{% static 'images\mypage.png' %}" style="width: 100px; height: 100px;  border-radius: 50%;">
+                    </div>
+                    <div style="padding-left:1%;">
+                        <span style="font-size:40px">&nbsp;&nbsp;{{memberdto.user_name}}</span><span style="font-size:20px">님</span>
+                    </div>
+
+                    <div style="padding-left: 25%;">
+                        <span style="font-size:40px">구매완료</span>
+                        <div style="text-align: center;">
+                            <span style="font-size:20px">{{paycount}}</span>
+                        </div>
+                    </div>
+
+                    <div style="padding-left: 25%;">
+                        <span style="font-size:40px">내 리뷰</span>
+                        <div style="text-align: center;">
+                            <span style="font-size:20px">{{reviewcount}}</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div style="display:flex;">
+                    <div style="width:20%; text-align: center;">
+                        <div style="font-size: 20px;">
+                            <span>내 정보 관리</span>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="#" onclick="userdeleteForm()">회원 탈퇴</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#" onclick="usermodifyForm()">회원 정보 수정</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <il>
+                                	<a href="{% url 'qnaboard:myqna' %}">내가 작성한 qna</a>
+                                </il>
+                            </ul>
+                            <hr>
+                        </div>
+                        <div style="font-size: 20px;">
+                            <span>상품관련</span>
+                        </div>
+                        <div>
+                            <ul>
+                                <il>
+                                	<a href="{% url 'prodcart:prodcart' %}">장바구니</a>
+                                </il>
+                            </ul>
+                            <ul>
+                                <il>
+                                	<a href="{% url 'return:returnlist' %}">내 반품글</a>
+                                </il>
+                            </ul>
+                            <ul>
+                                <il>
+                                	<a href="{% url 'member:myreview' %}">내 리뷰</a>
+								</il>
+                            </ul>
+                            <hr>
+                        </div>
+                        
+                        <div style="font-size: 20px;">
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size:20px">
+                            <span>내 구매 목록</span>
+                        </div>
+                        <hr>
+                        <div style="padding:0%">
+                            <table>
+                                <colgroup>
+                                    <col style="width: 100px;">
+                                    <col style="width: 200px;">
+                                    <col style="width: 400px;">
+                                    <col style="width: 100px;">
+                                    <col style="width: 100px;">
+                                    <col style="width: 100px;">
+                                    <col style="width: 195px;">
+                                </colgroup>
+                                <tbody>
+                                    <!-- 이 쪽이 상품 출력부분 -->
+                                    <div> 
+                                        {% if paycount == 0 %}
+                                           <tr>
+                                              <td></td>
+                                              <td></td>
+                                              <td>구매 이력이 없습니다.</td>
+                                              <td></td>
+                                              <td></td>
+                                              <td></td>
+                                              <td></td>
+                                           </tr>
+                                        {% else %}
+                                        
+                                        {% for pay in paylist %}
+                                        <tr>
+                                        	<td>구매일자</td>
+                                        	<td>{{pay.payreg_date|date:'Y.m.d'}}</td>
+                                        	<td></td>
+                                        	<td></td>
+                                        	<td></td>
+                                        	<td>배송상태</td>
+                                        	<td>{{pay.delively_status}}</td>
+                                        </tr>
+                                        <tr>
+                                        	<input type="hidden" value="{{pay.prodnum}}" name="prodnum">
+                                            <td>{{pay.paydetailnum}}</td>
+                                            <td><img src="/media/{{pay.prodmainimg}}"></td>
+                                            <td><a href="../shopproduct/prodcontent?prodnum={{pay.prodnum}}">{{pay.prodname}}</a></td>
+                                            <td>{{pay.prodoption}}</td>
+                                            <td>{{pay.prodprice|intcomma}}원</td>
+                                            <td>{{pay.prodcount}}개</td>
+                                            <div class="search-input">
+                                                <td style="flex-wrap:wrap;">
+                                                	{% if pay.delively_status == "결제완료" %}
+                                                	<input class="btn" type="button" value="주문 수정" style="width:200px; margin:5px; background-color:lightblue" onclick="location='../shoppay/ordermodify?paydetailnum={{pay.paydetailnum}}'">        		
+                                                	{% elif pay.delively_status == "배송완료" %}
+                                                	<input class="btn" type="button" value="리뷰 작성하러가기" style="width:200px; margin:5px; background-color:lightblue" onclick="location='../shopproduct/prodcontent?prodnum={{pay.prodnum}}'">
+	                                                <input class="btn" type="button" value="반품/환불신청" style="border: 1px solid; margin:5px; width:200px; background-color:white"
+	                                                   onclick="location='../shopreturn/returnwrite?paydetailnum={{pay.paydetailnum}}&prodnum={{pay.prodnum}}&prodname={{pay.prodname}}'">
+	                                                {% elif pay.delively_status == "반품완료" %}
+	                                                	<input class="btn" type="button" value="반품완료" style="border: 1px solid; margin:5px; width:200px; background-color:white">
+                                                	{% else %}
+	                                                    <input class="btn" type="button" value="상품이 배송중 입니다." style="border: 1px solid; margin:5px; width:200px; background-color:white">
+	                                                    
+                                                    {% endif %}
+                                                </td>
+                                            </div>
+                                        </tr>
+                                        {% endfor %}
+                                        {% endif %}  
+                                    </div>
+                                    <!-- 여기 까지 -->
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </section>
+    </header>
+</div>
+{% endblock %}
+<br>

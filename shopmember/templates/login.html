@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %} {% endblock %}
+{% block header %} {% endblock %}
+
+{% block contents %}
+{% csrf_token %}
+<body>
+        <header class="header navbar-area" style="margin-top:300px;">
+            <section class="hero-area">
+                <div class="container" style="width:1000px;">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <div>
+                                <h2><span>로 그 인</span></h2>
+                            </div>
+                            <div class="main-menu-search">
+                            
+                                    <form method="post" action="login" name="loginform" onsubmit="return logincheck()">
+                                        <div class="navbar-search search-style-5">
+                                            <div class="search-input">
+                                                <input type="text" placeholder="아이디" name="user_id" oninput="this.value = this.value.replace(/[^a-zA-Z0-9]/g, '').replace(/(\..*)\./g, '$1');" autofocus> <!-- name 추가 할것 -->
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="navbar-search search-style-5">
+                                            <div class="search-input">
+                                                <input type="password" name="user_passwd" placeholder="비밀번호"> <!-- name 추가 할것 -->
+                                                {% if message %}
+                                                	<span style="color:red">{{message}}</span>
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="navbar-search search-style-5">
+                                            <div class="search-input">
+                                                <input class="btn" type="submit" value="로그인" style="background-color:lightblue">
+                                            </div>
+                                        </div>
+                                    </form>
+                                    
+                                <br>
+                            </div>
+                            <div>
+                                <ul style="display:flex; margin-left:120px;">
+                                    <li><a href="signup">회원가입</a></li>
+                                    <li style="margin-left:20px;"><a href="index">홈페이지</a></li>        
+                                </ul>
+                            </div>                
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+{% endblock %}
+
+{% block footer %}
+{% endblock %}

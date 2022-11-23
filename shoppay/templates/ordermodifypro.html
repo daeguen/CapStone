@@ -1,0 +1,307 @@
+{% extends "base.html" %}
+{% load static %}
+{% load humanize %}
+{% block title %}{% endblock %}
+{% block header %}{% endblock %}
+{% block contents %}
+{% csrf_token %}
+<br><br>
+<form method="post" action="ordermodifypro" name="ordermodifypro" enctype="multipart/form-data" onsubmit="return ordermodifypro()">
+<input type="hidden" name="prodnum" value="{{paylist.prodnum}}">
+<input type="hidden" name="paydetailnum" value="{{paydetailnum}}">
+<input type="hidden" name="user_id" value="{{memid}}">
+    <header class="header navbar-area" style="z-index: 2;">
+        <section class="hero-area">
+            <div class="container" style="border: 1px solid lightgray; padding: 30px; width: 1400px;">
+                <div style="text-align: center;">
+                    <div style="font-size: 40px;">
+                        <span>주문 / 결제 확인</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h4>회원정보 확인</h4>
+                    <table class="ordertable">
+                        <thead>
+                            <colgroup>
+                                <col style="width: 15%;">
+                                <col style="width: 30%;">
+                                <col style="width: 100px;">
+                                <col style="width: 100px;">
+                                <col style="width: 100px;">
+                            </colgroup>
+                        </thead>
+                        <tbody>
+
+                            <!-- 이부분 줄 넣을라고 넣어둔거임 입력 ㄴㄴ -->
+                            <tr>
+                                <th></th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <th>이름<em style="color:red;">*</em></th>
+                                <td><input name="user_name" type="text" value="{{paylist.user_name}}" style="width:230px;" readonly></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>전화번호<em style="color:red;">*</em></th>
+                                <td><input name="user_tel" type="text" value="{{paylist.user_tel}}" style="width:230px;" readonly></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+				<div>
+                    <span style="margin-bottom:100px;"></span>
+                </div>
+                <div>
+                    <h4>수취인정보 확인</h4>
+                    <table class="ordertable">
+                        <thead>
+                            <colgroup>
+                                <col style="width: 15%;">
+                                <col style="width: 25%;">
+                                <col style="width: 100px;">
+                                <col style="width: 100px;">
+                                <col style="width: 100px;">
+                            </colgroup>
+                        </thead>
+                        <tbody>
+
+                            <!-- 이부분 줄 넣을라고 넣어둔거임 입력 ㄴㄴ -->
+                            <tr>
+                                <th></th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>수취인 이름<em style="color:red;">*</em></th>
+                                <td>
+                                	<input name="addressee" type="text" style="width:230px;" value="{{paylist.addressee}}"> 
+								</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                            	<th>수취인 전화번호<em style="color:red;">*</em></th>
+                            	<td><input name="addressee_tel" type="text" value="{{paylist.addressee_tel}}" style="width:230px;"></td>
+                            	<td></td>
+                            	<td></td>
+                            	<td></td>
+                            </tr>
+               				<tr>
+                                <th>배송 주소<em style="color:red;">*</em></th>
+                                <td>
+                                	<input name="user_addr" id="address" type="text" style="width:170px;" value="{{paylist.user_addr}}" readonly> 
+                                	<input type="button" value="주소찾기"  onclick="kakaoaddress()">
+								</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                            	<th>배송 상세주소<em style="color:red;">*</em></th>
+                            	<td><input name="user_addrt" type="text" value="{{paylist.user_addrt}}" style="width:230px;"></td>
+                            	<td></td>
+                            	<td></td>
+                            	<td></td>
+                            </tr>
+                            <tr>
+                                <th>배송 요청사항</th>
+                                <td>
+                                	<select class="search-input" name="paycommant" value="{{paylist.payconnant}}"> <!-- name 추가 할것 -->
+                                		<option value="요청사항 없음">요청사항 없음</option>
+                                   		<option value="문 앞에 보관해주세요.">문 앞에 보관해주세요.</option>
+                                        <option value="경비실에 맡겨주세요.">경비실에 맡겨주세요.</option>
+                                        <option value="던지지 말아주세요!">던지지 말아주세요!</option>
+                                        <option value="초인종 누르지 말아주세요">초인종 누르지 말아주세요</option>
+                                        <option value="당사자 대면 전달 부탁드립니다">당사자 대면 전달 부탁드립니다</option>
+                                   </select>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+							<tr>
+								<th>공동현관 비밀번호</th>
+								<td><input type="text" name="common_door" style="width:230px;" value="{{paylist.common_door}}"></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <span style="margin-bottom:100px;"></span>
+                </div>
+
+                <div>
+                    <h4>상품정보</h4>
+                    <table class="ordertable">
+                        <thead>
+                            <colgroup>
+                                <col style="width: 10%;">
+                                <col style="width: 100px;">
+                                <col style="width: 100px;">
+                                <col style="width: 10px;">
+                                <col style="width: 100px;">
+                            </colgroup>
+                        </thead>
+                        <tbody>
+                            <!-- 이부분 줄 넣을라고 넣어둔거임 입력 ㄴㄴ -->
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <!-- 상품 정보는 이부분부터 반복문 -->
+                            <tr>
+                                <td>상품</td>
+                                <td>상품이름</td>
+                                <td>상품가격</td>
+                                <td>상품옵션</td>
+                                <td>개수</td>
+                            </tr>
+                            <tr>
+                            	<td><img src="/media/{{paylist.prodmainimg}}" name="prodmainimg" border="0" width="50" height="50"></td>
+                            	<td><input style="border: None; text-align: center"  type="text" name="prodname" value="{{paylist.prodname}}" readonly="readonly"></td>
+                            	<td>{{paylist.prodprice|intcomma}}원<input style="border: None; text-align: center"  type="hidden" name="prodprice" value="{{paylist.prodnum.prodprice}}" readonly="readonly"></td>
+                            	<td><input style="border: None; text-align: center"  type="text" name="prodsize" value="{{paylist.prodoption}}"></td>
+                            	<td><input style="border: None; text-align: center"  type="text" name="prodcount" value="{{paylist.prodcount}}" readonly="readonly"></td>
+                            </tr>
+                            <!-- 여기까지 -->
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div>
+                    <span style="margin-bottom:100px;"></span>
+                </div>
+
+                <div>
+                    <h4>결제 정보</h4>
+                    <table class="ordertable">
+                        <colgroup>
+                            <col style="width: 10%;">
+                            <col style="width: 100px;">
+                            <col style="width: 100px;">
+                            <col style="width: 100px;">
+                            <col style="width: 100px;">
+                            <col style="width: 100px;">
+                        </colgroup>
+                        <tbody>
+                            <!-- 이부분 줄 넣을라고 넣어둔거임 입력 ㄴㄴ -->
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <!-- 상품 정보는 이부분부터 반복문 -->
+                          
+                            <tr>
+                                <th>총 상품 가격</th>
+                                <td><input style="border: None" type="text" value="{{prodpay|intcomma}}원" readonly="readonly"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>배송비</th>
+                                <td><input style="border: None"  type="text" value="{{dale|intcomma}}원" readonly="readonly"></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>총 결제 금액</th>
+                                <td><input style="border: None" value = "{{total_pay|intcomma}}원" readonly="readonly"><input style="border: None" name="total_pay"  type="hidden" value="{{total_pay}}" readonly="readonly"></td> <!-- 이건 변경 가능하게 해야할까? -->
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th>결제방법</th>
+                                <td>
+                                <section class="doctor_section">
+		                            <label>
+			                        	<input type="radio" name="paytype" value="네이버페이" checked="checked">
+			                            	<img style="width:100px; height:50px;"src="{% static 'images/naverpaylogo.jpg' %}">
+		                            </label>
+                                </section>
+                                </td>
+                                <td>
+                                <section class="doctor_section">
+		                            <label>
+			                        	<input type="radio" name="paytype" value="카카오페이">
+			                            	<img style="width:100px; height:50px;"src="{% static 'images/kakaologo.jpg' %}">
+		                            </label>
+                                </section>
+                                </td>
+                                <td>
+                                <section class="doctor_section">
+		                            <label>
+			                        	<input type="radio" name="paytype" value="무통장">
+			                            	<img style="width:100px; height:50px;"src="{% static 'images/무통장.jpg' %}">
+		                            </label>
+                                </section>
+                                </td>
+                                <td>
+                                <section class="doctor_section">
+		                            <label>
+			                        	<input type="radio" name="paytype" value="계좌거래">
+			                            	<img style="width:100px; height:50px;"src="{% static 'images/계좌입금.jpg' %}">
+		                            </label>
+                                </section>
+                                </td>
+                                <td>
+                                <section class="doctor_section">
+		                            <label>
+			                        	<input type="radio" name="paytype" value="페이코">
+			                            	<img style="width:100px; height:50px;"src="{% static 'images/paycologo.jpg' %}">
+		                            </label>
+                                </section>
+                                </td>
+                            </tr>
+							
+                        </tbody>
+                    </table>
+                </div>
+                <div style="text-align:center; margin-top: 50px;">
+                    <div class="search-input">
+                        <td style="flex-wrap:wrap;">
+                            <input class="btn" type="submit" value="결제 수정하기" style="width:300px; margin:5px; background-color:lightblue">
+                            <input class="btn" type="button" value="수정 취소하기" onclick="location='../shopmember/mypage'" style="margin:5px; width:300px; background-color:lightblue">
+                        </td>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    
+</form>
+<br><br><br><br>
+{% endblock %}
+{% block footer %} {% endblock %}
