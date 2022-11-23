@@ -6,18 +6,18 @@
 <description>기상청 날씨 웹서비스</description>
 <language>ko</language>
 <generator>기상청</generator>
-<pubDate>2022년 11월 22일 (화)요일 18:00</pubDate>
+<pubDate>2022년 11월 23일 (수)요일 06:00</pubDate>
  <item>
 <author>기상청</author>
 <category>육상중기예보</category>
-<title>서울,경기도 육상 중기예보 - 2022년 11월 22일 (화)요일 18:00 발표</title>
+<title>서울,경기도 육상 중기예보 - 2022년 11월 23일 (수)요일 06:00 발표</title>
 <link>http://www.kma.go.kr/weather/forecast/mid-term_02.jsp</link>
 <guid>http://www.kma.go.kr/weather/forecast/mid-term_02.jsp</guid>
 <description>
 	<header>
 		<title>서울,경기도 육상중기예보</title>
-		<tm>202211221800</tm>
-		<wf><![CDATA[○ (강수) 28일(월)~29일(화) 오전에는 비가 내리는 곳이 있겠습니다.<br />○ (기온) 26일(토)~29일(화) 아침 기온은 2~9도, 낮 기온은 10~16도로 오늘(22일, 최저기온 3~8도, 최고기온 12~15도)보다 비슷하겠습니다.<br />          30일(수)~12월 2일(금) 아침 기온은 -5~1도, 낮 기온은 2~6도로 평년기온(최저기온 -4~1도, 최고기온 7~9도)과 비슷하거나 낮겠습니다.<br />○ (해상) 서해중부해상의 물결은 29일(화)~12월 1일(목)은 1.0~4.0m로 높게 일겠고, 그 밖의 날은 1.0~2.5m로 일겠습니다.<br />○ (주말전망) 26일(토)~27일(일)은 구름많겠습니다. 아침 기온은 3~8도, 낮 기온은 10~15도가 되겠습니다.]]></wf>
+		<tm>202211230600</tm>
+		<wf><![CDATA[○ (강수) 28일(월)~29일(화) 오전에는 비가 내리는 곳이 있겠습니다.<br />○ (기온) 26일(토)~29일(화) 아침 기온은 0~9도, 낮 기온은 9~17도로 어제(22일, 최저기온 3~8도, 최고기온 12~15도)와 비슷하겠습니다.<br />          30일(수)~12월 3일(토) 아침 기온은 -8~1도, 낮 기온은 0~6도로 어제보다 낮겠습니다.<br />○ (해상) 서해중부해상의 물결은 29일(화)~12월 1일(목)은 1.0~4.0m로 높게 일겠고, 그 밖의 날은 1.0~2.0m로 일겠습니다.<br />○ (주말전망) 26일(토)은 대체로 맑겠고 27일(일)은 구름많겠습니다. 아침 기온은 0~8도, 낮 기온은 9~13도가 되겠습니다.]]></wf>
 	</header>
 	<body>
 				
@@ -28,34 +28,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>8</tmn>
-					<tmx>12</tmx>
+					<tmx>11</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -64,7 +42,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>8</tmn>
-					<tmx>12</tmx>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -110,7 +88,7 @@
 					<tmn>8</tmn>
 					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -121,476 +99,40 @@
 					<tmn>5</tmn>
 					<tmx>11</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
+					<wf>구름많음</wf>
 					<tmn>5</tmn>
 					<tmx>11</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>1</tmn>
 					<tmx>4</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>3</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>서울ㆍ인천ㆍ경기도</province>
-				<city>인천</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>8</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>8</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>8</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>0</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-27 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-27 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-28 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-28 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-29 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>6</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
 					<tmn>1</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>3</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-2</tmn>
-					<tmx>3</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>서울ㆍ인천ㆍ경기도</province>
-				<city>수원</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>5</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>0</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-27 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-27 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-28 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-28 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-29 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>5</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
 					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>서울ㆍ인천ㆍ경기도</province>
-				<city>파주</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>0</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-27 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-27 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-28 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-28 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-29 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>2</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-3</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
 				</data>
 
 				
@@ -608,8 +150,466 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>서울ㆍ인천ㆍ경기도</province>
+				<city>인천</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-26 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>8</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-26 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>8</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>0</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>12</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-27 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>12</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-28 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-28 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
+					<reliability></reliability>
+					<rnSt>70</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-29 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>6</tmn>
+					<tmx>11</tmx>
+					<reliability></reliability>
+					<rnSt>70</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-29 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
+					<tmx>11</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>1</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>1</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-01 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-4</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-2</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>서울ㆍ인천ㆍ경기도</province>
+				<city>수원</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-26 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>6</tmn>
+					<tmx>12</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-26 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>6</tmn>
+					<tmx>12</tmx>
+					<reliability></reliability>
+					<rnSt>0</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>13</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-27 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>3</tmn>
+					<tmx>13</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-28 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>7</tmn>
+					<tmx>16</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-28 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>7</tmn>
+					<tmx>16</tmx>
+					<reliability></reliability>
+					<rnSt>70</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-29 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>5</tmn>
+					<tmx>14</tmx>
+					<reliability></reliability>
+					<rnSt>70</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-29 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>14</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>1</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>1</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-5</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-5</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>서울ㆍ인천ㆍ경기도</province>
+				<city>파주</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-26 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>4</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-26 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>4</tmn>
+					<tmx>9</tmx>
+					<reliability></reliability>
+					<rnSt>0</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-27 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>0</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-28 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>4</tmn>
+					<tmx>14</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-28 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>4</tmn>
+					<tmx>14</tmx>
+					<reliability></reliability>
+					<rnSt>70</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-29 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>5</tmn>
+					<tmx>12</tmx>
+					<reliability></reliability>
+					<rnSt>70</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-29 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>5</tmn>
+					<tmx>12</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-3</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-3</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-01 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-8</tmn>
+					<tmx>0</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>1</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
 					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -624,34 +624,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>1</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>13</tmx>
+					<wf>맑음</wf>
+					<tmn>4</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -659,8 +637,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>13</tmx>
+					<tmn>4</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -670,8 +648,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>13</tmx>
+					<tmn>0</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -681,8 +659,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>13</tmx>
+					<tmn>0</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -692,8 +670,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>14</tmx>
+					<tmn>3</tmn>
+					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -703,10 +681,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>14</tmx>
+					<tmn>3</tmn>
+					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -714,32 +692,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>3</tmn>
-					<tmx>12</tmx>
+					<tmn>6</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>3</tmn>
-					<tmx>12</tmx>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
 					<tmx>4</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -747,8 +736,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>3</tmx>
+					<tmn>-6</tmn>
+					<tmx>1</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -757,9 +746,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-4</tmn>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
 					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-8</tmn>
+					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -773,34 +773,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>17</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>3</tmn>
-					<tmx>17</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>15</tmx>
+					<wf>맑음</wf>
+					<tmn>6</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -808,8 +786,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>8</tmn>
-					<tmx>15</tmx>
+					<tmn>6</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -819,8 +797,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
+					<tmn>2</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -830,8 +808,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
+					<tmn>2</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -841,8 +819,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
+					<tmn>7</tmn>
+					<tmx>17</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -852,10 +830,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
+					<tmn>7</tmn>
+					<tmx>17</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -863,32 +841,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>13</tmx>
+					<tmn>8</tmn>
+					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>6</tmn>
-					<tmx>13</tmx>
+					<wf>구름많음</wf>
+					<tmn>8</tmn>
+					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>1</tmn>
-					<tmx>6</tmx>
+					<tmx>4</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>1</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -896,8 +885,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>3</tmx>
+					<tmn>-5</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -906,9 +895,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
+					<wf>구름많음</wf>
+					<tmn>-5</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-3</tmn>
-					<tmx>3</tmx>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -922,34 +922,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>11</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>11</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>9</tmn>
-					<tmx>10</tmx>
+					<wf>맑음</wf>
+					<tmn>7</tmn>
+					<tmx>7</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -957,8 +935,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>9</tmn>
-					<tmx>10</tmx>
+					<tmn>7</tmn>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -968,7 +946,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>5</tmn>
+					<tmn>3</tmn>
 					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -979,7 +957,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>5</tmn>
+					<tmn>3</tmn>
 					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
@@ -990,8 +968,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>12</tmx>
+					<tmn>10</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -1001,10 +979,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>12</tmx>
+					<tmn>10</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -1012,32 +990,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
+					<tmn>8</tmn>
 					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>7</tmn>
+					<wf>구름많음</wf>
+					<tmn>8</tmn>
 					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>5</tmx>
+					<wf>맑음</wf>
+					<tmn>2</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>2</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -1045,8 +1034,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>4</tmx>
+					<tmn>-1</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -1055,9 +1044,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>2</tmx>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>1</tmn>
+					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1071,34 +1071,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>4</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>11</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -1107,7 +1085,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>11</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -1117,8 +1095,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>12</tmx>
+					<tmn>-2</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1128,8 +1106,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>12</tmx>
+					<tmn>-2</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -1139,7 +1117,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
+					<tmn>4</tmn>
 					<tmx>17</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -1150,10 +1128,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
+					<tmn>4</tmn>
 					<tmx>17</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -1164,29 +1142,40 @@
 					<tmn>8</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
+					<wf>구름많음</wf>
 					<tmn>8</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>5</tmx>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>3</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -1194,8 +1183,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
-					<tmx>5</tmx>
+					<tmn>-7</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -1204,9 +1193,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-4</tmn>
-					<tmx>8</tmx>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1220,34 +1220,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>8</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>8</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>8</tmn>
 					<tmx>10</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -1267,7 +1245,7 @@
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>2</tmn>
-					<tmx>12</tmx>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1278,7 +1256,7 @@
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>2</tmn>
-					<tmx>12</tmx>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -1288,7 +1266,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
+					<tmn>8</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -1299,10 +1277,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
+					<tmn>8</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -1310,40 +1288,40 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>15</tmx>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>11</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>5</tmx>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-4</tmn>
+					<tmn>1</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>1</tmn>
 					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -1352,10 +1330,32 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
+					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>1</tmx>
+					<tmn>-5</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
+					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1369,34 +1369,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>9</tmx>
+					<tmx>8</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -1405,7 +1383,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>9</tmx>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -1416,7 +1394,7 @@
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>-1</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1427,7 +1405,7 @@
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>-1</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -1438,7 +1416,7 @@
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
 					<tmn>6</tmn>
-					<tmx>14</tmx>
+					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -1449,9 +1427,9 @@
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
 					<tmn>6</tmn>
-					<tmx>14</tmx>
+					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -1460,39 +1438,39 @@
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
 					<tmn>7</tmn>
-					<tmx>14</tmx>
+					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>7</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>3</tmx>
+					<tmn>7</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-7</tmn>
+					<tmn>-2</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
 					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -1501,10 +1479,32 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
+					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>-8</tmn>
+					<tmx>0</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-8</tmn>
 					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1518,34 +1518,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
+					<wf>맑음</wf>
+					<tmn>5</tmn>
 					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -1553,7 +1531,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>6</tmn>
+					<tmn>5</tmn>
 					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
@@ -1564,8 +1542,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>11</tmx>
+					<tmn>-1</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1575,8 +1553,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>11</tmx>
+					<tmn>-1</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -1586,8 +1564,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>15</tmx>
+					<tmn>6</tmn>
+					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -1597,10 +1575,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>15</tmx>
+					<tmn>6</tmn>
+					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -1608,32 +1586,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
+					<tmn>8</tmn>
 					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>9</tmn>
+					<wf>구름많음</wf>
+					<tmn>8</tmn>
 					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>-1</tmn>
-					<tmx>5</tmx>
+					<tmx>2</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -1641,8 +1630,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-7</tmn>
-					<tmx>1</tmx>
+					<tmn>-8</tmn>
+					<tmx>-1</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -1651,9 +1640,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-3</tmn>
-					<tmx>4</tmx>
+					<wf>구름많음</wf>
+					<tmn>-8</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1667,34 +1667,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>6</tmn>
-					<tmx>10</tmx>
+					<wf>맑음</wf>
+					<tmn>4</tmn>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -1702,8 +1680,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>10</tmx>
+					<tmn>4</tmn>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -1713,8 +1691,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>12</tmx>
+					<tmn>-2</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1724,8 +1702,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>12</tmx>
+					<tmn>-2</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -1735,7 +1713,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
+					<tmn>5</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -1746,10 +1724,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
+					<tmn>5</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -1757,40 +1735,40 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
-					<tmx>15</tmx>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>10</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>4</tmx>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>-2</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
 					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -1799,10 +1777,32 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
+					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
+					<tmn>-7</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-4</tmn>
-					<tmx>5</tmx>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1816,34 +1816,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
+					<tmEf>2022-11-26 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>16</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>5</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -1851,8 +1829,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>7</tmn>
-					<tmx>10</tmx>
+					<tmn>5</tmn>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -1863,7 +1841,7 @@
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>0</tmn>
-					<tmx>11</tmx>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1874,7 +1852,7 @@
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>0</tmn>
-					<tmx>11</tmx>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -1884,7 +1862,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
+					<tmn>6</tmn>
 					<tmx>17</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -1895,10 +1873,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
+					<tmn>6</tmn>
 					<tmx>17</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -1906,32 +1884,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>16</tmx>
+					<tmn>8</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>11</tmn>
-					<tmx>16</tmx>
+					<wf>구름많음</wf>
+					<tmn>8</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>5</tmx>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>4</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -1939,8 +1928,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
-					<tmx>3</tmx>
+					<tmn>-7</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -1949,9 +1938,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-4</tmn>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
 					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -1965,34 +1965,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>7</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>7</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>7</tmn>
-					<tmx>10</tmx>
+					<wf>맑음</wf>
+					<tmn>6</tmn>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -2000,8 +1978,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>7</tmn>
-					<tmx>10</tmx>
+					<tmn>6</tmn>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -2012,7 +1990,7 @@
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>2</tmn>
-					<tmx>12</tmx>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -2023,7 +2001,7 @@
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>2</tmn>
-					<tmx>12</tmx>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -2034,7 +2012,7 @@
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
 					<tmn>8</tmn>
-					<tmx>16</tmx>
+					<tmx>17</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -2045,9 +2023,9 @@
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
 					<tmn>8</tmn>
-					<tmx>16</tmx>
+					<tmx>17</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -2058,29 +2036,40 @@
 					<tmn>9</tmn>
 					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
+					<wf>구름많음</wf>
 					<tmn>9</tmn>
 					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>5</tmx>
+					<wf>맑음</wf>
+					<tmn>2</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>2</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -2089,7 +2078,7 @@
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-4</tmn>
-					<tmx>5</tmx>
+					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -2098,9 +2087,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-1</tmn>
-					<tmx>8</tmx>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -2114,34 +2114,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
+					<tmEf>2022-11-26 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>4</tmn>
-					<tmx>14</tmx>
+					<tmx>8</tmx>
 					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>4</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>4</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -2150,7 +2128,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>4</tmn>
-					<tmx>10</tmx>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -2160,8 +2138,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
+					<tmn>-4</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -2171,8 +2149,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
+					<tmn>-4</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -2182,7 +2160,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
+					<tmn>3</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -2193,10 +2171,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
+					<tmn>3</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -2204,32 +2182,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
+					<tmn>8</tmn>
 					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>7</tmn>
+					<wf>구름많음</wf>
+					<tmn>8</tmn>
 					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
+					<wf>맑음</wf>
+					<tmn>-3</tmn>
 					<tmx>3</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-3</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -2247,9 +2236,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-4</tmn>
-					<tmx>7</tmx>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -2263,34 +2263,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>5</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
+					<wf>맑음</wf>
+					<tmn>4</tmn>
 					<tmx>10</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -2298,7 +2276,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>5</tmn>
+					<tmn>4</tmn>
 					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
@@ -2309,8 +2287,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>12</tmx>
+					<tmn>-1</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -2320,8 +2298,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>12</tmx>
+					<tmn>-1</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -2331,7 +2309,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
+					<tmn>4</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -2342,10 +2320,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
+					<tmn>4</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -2353,32 +2331,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
-					<tmx>15</tmx>
+					<tmn>8</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>10</tmn>
-					<tmx>15</tmx>
+					<wf>구름많음</wf>
+					<tmn>8</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>-2</tmn>
-					<tmx>5</tmx>
+					<tmx>3</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -2386,8 +2375,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
-					<tmx>4</tmx>
+					<tmn>-8</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -2396,9 +2385,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
+					<wf>구름많음</wf>
+					<tmn>-8</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-4</tmn>
-					<tmx>8</tmx>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -2412,34 +2412,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
+					<tmEf>2022-11-26 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>3</tmn>
-					<tmx>14</tmx>
+					<tmx>7</tmx>
 					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>9</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -2448,7 +2426,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>3</tmn>
-					<tmx>9</tmx>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -2458,8 +2436,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-4</tmn>
-					<tmx>12</tmx>
+					<tmn>-5</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -2469,8 +2447,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-4</tmn>
-					<tmx>12</tmx>
+					<tmn>-5</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -2480,8 +2458,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
+					<tmn>3</tmn>
+					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -2491,10 +2469,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
+					<tmn>3</tmn>
+					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -2505,29 +2483,40 @@
 					<tmn>8</tmn>
 					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
+					<wf>구름많음</wf>
 					<tmn>8</tmn>
 					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>-3</tmn>
-					<tmx>5</tmx>
+					<tmx>3</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-3</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -2535,7 +2524,7 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-9</tmn>
+					<tmn>-10</tmn>
 					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -2545,8 +2534,19 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
+					<wf>구름많음</wf>
+					<tmn>-9</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
 					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -2561,34 +2561,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>4</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>5</tmn>
 					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -2629,8 +2607,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
+					<tmn>4</tmn>
+					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -2640,159 +2618,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-29 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>7</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>5</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-8</tmn>
-					<tmx>2</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-7</tmn>
-					<tmx>4</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>서울ㆍ인천ㆍ경기도</province>
-				<city>연천</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
 					<tmn>4</tmn>
-					<tmx>13</tmx>
+					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>4</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>7</tmx>
-					<reliability></reliability>
-					<rnSt>0</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-27 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-6</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-27 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-6</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-28 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>2</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-28 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>2</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -2803,178 +2632,40 @@
 					<tmn>8</tmn>
 					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
+					<wf>구름많음</wf>
 					<tmn>8</tmn>
 					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-7</tmn>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
 					<tmx>3</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-10</tmn>
-					<tmx>0</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-7</tmn>
-					<tmx>0</tmx>
-					<reliability></reliability>
-					<rnSt>20</rnSt>
-				</data>
-
-
-		</location>
-
-		<location wl_ver="3">
-				<province>서울ㆍ인천ㆍ경기도</province>
-				<city>포천</city>
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>3</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 12:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>10</tmx>
-					<reliability></reliability>
-					<rnSt>0</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-27 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-5</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-27 12:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-5</tmn>
-					<tmx>11</tmx>
-					<reliability></reliability>
-					<rnSt>30</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-28 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-28 12:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-29 00:00</tmEf>
-					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>60</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>9</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
 					<tmn>-2</tmn>
-					<tmx>4</tmx>
+					<tmx>3</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -2992,8 +2683,317 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-8</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>서울ㆍ인천ㆍ경기도</province>
+				<city>연천</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-26 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>2</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-26 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>2</tmn>
+					<tmx>7</tmx>
+					<reliability></reliability>
+					<rnSt>0</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-27 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>10</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-28 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>1</tmn>
+					<tmx>15</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-28 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>1</tmn>
+					<tmx>15</tmx>
+					<reliability></reliability>
+					<rnSt>70</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-29 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>6</tmn>
+					<tmx>12</tmx>
+					<reliability></reliability>
+					<rnSt>70</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-29 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>6</tmn>
+					<tmx>12</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-6</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-6</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-01 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-12</tmn>
+					<tmx>-1</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-11</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+
+		</location>
+
+		<location wl_ver="3">
+				<province>서울ㆍ인천ㆍ경기도</province>
+				<city>포천</city>
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-26 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>2</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-26 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>2</tmn>
+					<tmx>8</tmx>
+					<reliability></reliability>
+					<rnSt>0</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-27 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-5</tmn>
+					<tmx>11</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-27 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-5</tmn>
+					<tmx>11</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-28 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>3</tmn>
+					<tmx>16</tmx>
+					<reliability></reliability>
+					<rnSt>60</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-28 12:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>3</tmn>
+					<tmx>16</tmx>
+					<reliability></reliability>
+					<rnSt>70</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-29 00:00</tmEf>
+					<wf>흐리고 비</wf>
+					<tmn>8</tmn>
+					<tmx>13</tmx>
+					<reliability></reliability>
+					<rnSt>70</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-29 12:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>8</tmn>
+					<tmx>13</tmx>
+					<reliability></reliability>
+					<rnSt>30</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-01 00:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-8</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-9</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
 					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -3008,34 +3008,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>0</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>0</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>9</tmx>
+					<wf>맑음</wf>
+					<tmn>2</tmn>
+					<tmx>8</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -3043,8 +3021,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>1</tmn>
-					<tmx>9</tmx>
+					<tmn>2</tmn>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -3090,7 +3068,7 @@
 					<tmn>2</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -3099,31 +3077,42 @@
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
 					<tmn>7</tmn>
-					<tmx>15</tmx>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
+					<wf>구름많음</wf>
 					<tmn>7</tmn>
-					<tmx>15</tmx>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
 					<tmx>6</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -3131,8 +3120,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-9</tmn>
-					<tmx>3</tmx>
+					<tmn>-10</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -3141,9 +3130,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-8</tmn>
-					<tmx>6</tmx>
+					<wf>구름많음</wf>
+					<tmn>-10</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -3157,34 +3157,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>4</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>6</tmn>
 					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -3203,8 +3181,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>11</tmx>
+					<tmn>-1</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -3214,8 +3192,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>11</tmx>
+					<tmn>-1</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -3225,7 +3203,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
+					<tmn>5</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -3236,10 +3214,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
+					<tmn>5</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -3247,40 +3225,40 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
-					<tmx>15</tmx>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>10</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>4</tmx>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>1</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>1</tmn>
 					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -3289,9 +3267,31 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
+					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-4</tmn>
+					<tmn>-7</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-5</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-3</tmn>
 					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -3306,34 +3306,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>3</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>4</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -3342,7 +3320,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>4</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -3374,8 +3352,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
+					<tmn>3</tmn>
+					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -3385,10 +3363,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>15</tmx>
+					<tmn>3</tmn>
+					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -3396,32 +3374,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
+					<tmn>9</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>10</tmn>
+					<wf>구름많음</wf>
+					<tmn>9</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>-2</tmn>
-					<tmx>3</tmx>
+					<tmx>4</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -3430,7 +3419,7 @@
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-8</tmn>
-					<tmx>3</tmx>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -3439,9 +3428,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<wf>구름많음</wf>
+					<tmn>-8</tmn>
 					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -3455,34 +3455,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>2</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>12</tmx>
+					<tmx>10</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -3491,7 +3469,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>12</tmx>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -3501,8 +3479,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>11</tmx>
+					<tmn>-2</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -3512,8 +3490,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>11</tmx>
+					<tmn>-2</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -3523,7 +3501,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
+					<tmn>5</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -3534,10 +3512,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>4</tmn>
+					<tmn>5</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -3548,29 +3526,40 @@
 					<tmn>9</tmn>
 					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
+					<wf>구름많음</wf>
 					<tmn>9</tmn>
 					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>2</tmn>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
 					<tmx>4</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -3579,7 +3568,7 @@
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-7</tmn>
-					<tmx>3</tmx>
+					<tmx>1</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -3588,9 +3577,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
+					<wf>구름많음</wf>
+					<tmn>-8</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-6</tmn>
-					<tmx>4</tmx>
+					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -3604,34 +3604,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>5</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>6</tmn>
-					<tmx>11</tmx>
+					<tmx>10</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -3640,7 +3618,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>6</tmn>
-					<tmx>11</tmx>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -3650,8 +3628,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>13</tmx>
+					<tmn>-1</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -3661,8 +3639,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>13</tmx>
+					<tmn>-1</tmn>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -3686,7 +3664,7 @@
 					<tmn>6</tmn>
 					<tmx>17</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -3694,32 +3672,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
-					<tmx>16</tmx>
+					<tmn>9</tmn>
+					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>10</tmn>
-					<tmx>16</tmx>
+					<wf>구름많음</wf>
+					<tmn>9</tmn>
+					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>0</tmn>
 					<tmx>5</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -3728,7 +3717,7 @@
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-6</tmn>
-					<tmx>4</tmx>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -3737,7 +3726,18 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-4</tmn>
 					<tmx>7</tmx>
 					<reliability></reliability>
@@ -3753,34 +3753,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>11</tmx>
+					<wf>맑음</wf>
+					<tmn>7</tmn>
+					<tmx>8</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -3788,8 +3766,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>8</tmn>
-					<tmx>11</tmx>
+					<tmn>7</tmn>
+					<tmx>8</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -3799,8 +3777,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>12</tmx>
+					<tmn>1</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -3810,8 +3788,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>3</tmn>
-					<tmx>12</tmx>
+					<tmn>1</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -3821,7 +3799,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
+					<tmn>9</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -3832,10 +3810,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
+					<tmn>9</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -3844,39 +3822,39 @@
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
 					<tmn>10</tmn>
-					<tmx>14</tmx>
+					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>10</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>4</tmx>
+					<tmn>10</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>0</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
 					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -3885,10 +3863,32 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
+					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-4</tmn>
+					<tmn>-7</tmn>
 					<tmx>1</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-5</tmn>
+					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -3902,34 +3902,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>17</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>3</tmn>
-					<tmx>17</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>5</tmn>
 					<tmx>12</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -3948,8 +3926,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
+					<tmn>1</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -3959,8 +3937,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
+					<tmn>1</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -3970,7 +3948,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
+					<tmn>5</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -3981,10 +3959,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
+					<tmn>5</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -3992,40 +3970,40 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
+					<tmn>6</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>4</tmx>
+					<tmn>6</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-2</tmn>
+					<tmn>0</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
 					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -4034,10 +4012,32 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
+					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>1</tmx>
+					<tmn>-6</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
+					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -4051,34 +4051,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>7</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -4087,7 +4065,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>7</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -4097,7 +4075,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
+					<tmn>0</tmn>
 					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -4108,7 +4086,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
+					<tmn>0</tmn>
 					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
@@ -4119,7 +4097,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
+					<tmn>7</tmn>
 					<tmx>17</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -4130,10 +4108,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
+					<tmn>7</tmn>
 					<tmx>17</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -4141,32 +4119,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>15</tmx>
+					<tmn>10</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>11</tmn>
-					<tmx>15</tmx>
+					<wf>구름많음</wf>
+					<tmn>10</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>6</tmx>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>4</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -4174,8 +4163,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>5</tmx>
+					<tmn>-5</tmn>
+					<tmx>1</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -4184,9 +4173,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
+					<wf>구름많음</wf>
+					<tmn>-5</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-3</tmn>
-					<tmx>7</tmx>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -4200,34 +4200,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>4</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>6</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -4236,7 +4214,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>6</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -4246,8 +4224,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>11</tmx>
+					<tmn>-1</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -4257,8 +4235,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>11</tmx>
+					<tmn>-1</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -4268,7 +4246,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
+					<tmn>6</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -4279,10 +4257,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
+					<tmn>6</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -4290,32 +4268,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
+					<tmn>10</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>9</tmn>
-					<tmx>16</tmx>
+					<wf>구름많음</wf>
+					<tmn>10</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>4</tmx>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -4324,7 +4313,7 @@
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>-7</tmn>
-					<tmx>4</tmx>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -4333,9 +4322,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>7</tmx>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
+					<tmx>6</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -4349,34 +4349,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>4</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>4</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -4385,7 +4363,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -4395,7 +4373,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
+					<tmn>-1</tmn>
 					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -4406,7 +4384,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
+					<tmn>-1</tmn>
 					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
@@ -4417,8 +4395,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>16</tmx>
+					<tmn>5</tmn>
+					<tmx>17</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -4428,10 +4406,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>16</tmx>
+					<tmn>5</tmn>
+					<tmx>17</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -4439,32 +4417,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>9</tmn>
+					<tmn>7</tmn>
 					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>9</tmn>
+					<wf>구름많음</wf>
+					<tmn>7</tmn>
 					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>-2</tmn>
 					<tmx>4</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-2</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -4472,8 +4461,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
-					<tmx>2</tmx>
+					<tmn>-7</tmn>
+					<tmx>1</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -4482,9 +4471,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
+					<wf>구름많음</wf>
+					<tmn>-8</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-5</tmn>
-					<tmx>1</tmx>
+					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -4498,34 +4498,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>6</tmn>
-					<tmx>16</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>8</tmn>
-					<tmx>11</tmx>
+					<wf>맑음</wf>
+					<tmn>7</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -4533,8 +4511,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>8</tmn>
-					<tmx>11</tmx>
+					<tmn>7</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -4544,8 +4522,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
+					<tmn>1</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -4555,8 +4533,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>2</tmn>
-					<tmx>12</tmx>
+					<tmn>1</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -4566,7 +4544,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
+					<tmn>8</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -4577,10 +4555,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
+					<tmn>8</tmn>
 					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -4588,40 +4566,40 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>15</tmx>
+					<tmn>8</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>11</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>1</tmx>
+					<tmn>8</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-5</tmn>
+					<tmn>0</tmn>
+					<tmx>3</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
 					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -4630,10 +4608,32 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
+					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-4</tmn>
-					<tmx>1</tmx>
+					<tmn>-7</tmn>
+					<tmx>0</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-5</tmn>
+					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -4647,34 +4647,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
+					<tmEf>2022-11-26 00:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>4</tmn>
-					<tmx>17</tmx>
+					<tmx>10</tmx>
 					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>4</tmn>
-					<tmx>17</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>12</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -4682,8 +4660,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>12</tmx>
+					<tmn>4</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -4694,7 +4672,7 @@
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>-2</tmn>
-					<tmx>13</tmx>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -4705,7 +4683,7 @@
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
 					<tmn>-2</tmn>
-					<tmx>13</tmx>
+					<tmx>12</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -4715,8 +4693,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>16</tmx>
+					<tmn>5</tmn>
+					<tmx>17</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -4726,10 +4704,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>8</tmn>
-					<tmx>16</tmx>
+					<tmn>5</tmn>
+					<tmx>17</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -4737,40 +4715,40 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>10</tmn>
+					<tmn>11</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>10</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>0</tmn>
-					<tmx>6</tmx>
+					<tmn>11</tmn>
+					<tmx>15</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-5</tmn>
+					<tmn>0</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
 					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -4779,10 +4757,32 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
+					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-5</tmn>
-					<tmx>6</tmx>
+					<tmn>-7</tmn>
+					<tmx>2</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>5</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-4</tmn>
+					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -4796,34 +4796,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>2</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>5</tmn>
-					<tmx>11</tmx>
+					<wf>맑음</wf>
+					<tmn>4</tmn>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -4831,8 +4809,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>5</tmn>
-					<tmx>11</tmx>
+					<tmn>4</tmn>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -4842,7 +4820,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
+					<tmn>-2</tmn>
 					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -4853,7 +4831,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
+					<tmn>-2</tmn>
 					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
@@ -4864,8 +4842,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
+					<tmn>5</tmn>
+					<tmx>16</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -4875,10 +4853,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
-					<tmx>15</tmx>
+					<tmn>5</tmn>
+					<tmx>16</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -4886,32 +4864,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
-					<tmx>15</tmx>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>7</tmn>
-					<tmx>15</tmx>
+					<wf>구름많음</wf>
+					<tmn>9</tmn>
+					<tmx>14</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>5</tmx>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>4</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>0</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -4919,8 +4908,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
-					<tmx>5</tmx>
+					<tmn>-8</tmn>
+					<tmx>3</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -4929,8 +4918,19 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>-5</tmn>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>6</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-6</tmn>
 					<tmx>7</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
@@ -4945,34 +4945,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>3</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>3</tmn>
-					<tmx>15</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>4</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -4981,7 +4959,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>4</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -4991,8 +4969,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>10</tmx>
+					<tmn>-3</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -5002,8 +4980,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-2</tmn>
-					<tmx>10</tmx>
+					<tmn>-3</tmn>
+					<tmx>11</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -5013,7 +4991,7 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
+					<tmn>4</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
@@ -5024,10 +5002,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>6</tmn>
+					<tmn>4</tmn>
 					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -5035,32 +5013,43 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>11</tmn>
-					<tmx>15</tmx>
+					<tmn>9</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>11</tmn>
-					<tmx>15</tmx>
+					<wf>구름많음</wf>
+					<tmn>9</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
+					<mode>A02</mode>
 					<tmEf>2022-11-30 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>-1</tmn>
-					<tmx>5</tmx>
+					<tmx>4</tmx>
 					<reliability></reliability>
-					<rnSt>30</rnSt>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>-1</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
 				</data>
 
 				
@@ -5068,8 +5057,8 @@
 					<mode>A01</mode>
 					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-7</tmn>
-					<tmx>3</tmx>
+					<tmn>-8</tmn>
+					<tmx>2</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
 				</data>
@@ -5078,9 +5067,20 @@
 				<data>
 					<mode>A01</mode>
 					<tmEf>2022-12-02 00:00</tmEf>
-					<wf>맑음</wf>
+					<wf>구름많음</wf>
+					<tmn>-8</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-6</tmn>
-					<tmx>7</tmx>
+					<tmx>5</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -5094,34 +5094,12 @@
 				
 				<data>
 					<mode>A02</mode>
-					<tmEf>2022-11-25 00:00</tmEf>
-					<wf>맑음</wf>
-					<tmn>2</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>10</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
-					<tmEf>2022-11-25 12:00</tmEf>
-					<wf>구름많고 비</wf>
-					<tmn>2</tmn>
-					<tmx>14</tmx>
-					<reliability></reliability>
-					<rnSt>80</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A02</mode>
 					<tmEf>2022-11-26 00:00</tmEf>
-					<wf>구름많음</wf>
+					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
-					<rnSt>40</rnSt>
+					<rnSt>20</rnSt>
 				</data>
 
 				
@@ -5130,7 +5108,7 @@
 					<tmEf>2022-11-26 12:00</tmEf>
 					<wf>맑음</wf>
 					<tmn>5</tmn>
-					<tmx>10</tmx>
+					<tmx>9</tmx>
 					<reliability></reliability>
 					<rnSt>0</rnSt>
 				</data>
@@ -5140,8 +5118,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
+					<tmn>-2</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>20</rnSt>
 				</data>
@@ -5151,8 +5129,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-27 12:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>-1</tmn>
-					<tmx>11</tmx>
+					<tmn>-2</tmn>
+					<tmx>10</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
@@ -5162,8 +5140,8 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>13</tmx>
+					<tmn>3</tmn>
+					<tmx>15</tmx>
 					<reliability></reliability>
 					<rnSt>60</rnSt>
 				</data>
@@ -5173,10 +5151,10 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-28 12:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>5</tmn>
-					<tmx>13</tmx>
+					<tmn>3</tmn>
+					<tmx>15</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
@@ -5184,40 +5162,40 @@
 					<mode>A02</mode>
 					<tmEf>2022-11-29 00:00</tmEf>
 					<wf>흐리고 비</wf>
-					<tmn>7</tmn>
+					<tmn>9</tmn>
 					<tmx>13</tmx>
 					<reliability></reliability>
-					<rnSt>60</rnSt>
+					<rnSt>70</rnSt>
 				</data>
 
 				
 				<data>
 					<mode>A02</mode>
 					<tmEf>2022-11-29 12:00</tmEf>
-					<wf>흐림</wf>
-					<tmn>7</tmn>
-					<tmx>13</tmx>
-					<reliability></reliability>
-					<rnSt>40</rnSt>
-				</data>
-
-				
-				<data>
-					<mode>A01</mode>
-					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>구름많음</wf>
-					<tmn>1</tmn>
-					<tmx>4</tmx>
+					<tmn>9</tmn>
+					<tmx>13</tmx>
 					<reliability></reliability>
 					<rnSt>30</rnSt>
 				</data>
 
 				
 				<data>
-					<mode>A01</mode>
-					<tmEf>2022-12-01 00:00</tmEf>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 00:00</tmEf>
 					<wf>맑음</wf>
-					<tmn>-6</tmn>
+					<tmn>1</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A02</mode>
+					<tmEf>2022-11-30 12:00</tmEf>
+					<wf>맑음</wf>
+					<tmn>1</tmn>
 					<tmx>4</tmx>
 					<reliability></reliability>
 					<rnSt>10</rnSt>
@@ -5226,8 +5204,30 @@
 				
 				<data>
 					<mode>A01</mode>
-					<tmEf>2022-12-02 00:00</tmEf>
+					<tmEf>2022-12-01 00:00</tmEf>
 					<wf>맑음</wf>
+					<tmn>-6</tmn>
+					<tmx>1</tmx>
+					<reliability></reliability>
+					<rnSt>10</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-02 00:00</tmEf>
+					<wf>구름많음</wf>
+					<tmn>-7</tmn>
+					<tmx>4</tmx>
+					<reliability></reliability>
+					<rnSt>20</rnSt>
+				</data>
+
+				
+				<data>
+					<mode>A01</mode>
+					<tmEf>2022-12-03 00:00</tmEf>
+					<wf>구름많음</wf>
 					<tmn>-6</tmn>
 					<tmx>5</tmx>
 					<reliability></reliability>
